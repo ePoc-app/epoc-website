@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="ePoc (Electronic Pocket Open Course) est une application de formation numérique pour mobile. Elle a été développée au sein du Learning Lab Inria." />
+        <meta name="author" content="Inria Learning Lab" />
+
+        <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+        <meta property="og:site_name" content="ePoc Mobile learning" /> <!-- website name -->
+        <meta property="og:site" content="https://epoc.inria.fr/" /> <!-- website link -->
+        <meta property="og:title" content="ePoc Mobile learning" /> <!-- title shown in the actual shared post -->
+        <meta property="og:description" content="ePoc (Electronic Pocket Open Course) est une application de formation numérique pour mobile. Elle a été développée au sein du Learning Lab Inria." /> <!-- description shown in the actual shared post -->
+        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+        <meta property="og:url" content="https://epoc.inria.fr/" /> <!-- where do you want your post to link to -->
+        <meta name="twitter:card" content="summary_large_image" /> <!-- to have large image post format in Twitter -->
+
+        <!-- Webpage Title -->
+        <title>ePoc Mobile learning</title>
+
+        <!-- Styles -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+        <link href="css/fontawesome-all.css" rel="stylesheet" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+        <link href="css/swiper.css" rel="stylesheet" />
+        <link href="css/magnific-popup.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <!-- Favicon  -->
+        <link rel="icon" href="images/favicon.png" />
+    </head>
+    <body data-spy="scroll" data-target=".fixed-top">
+
+        <!-- Navigation -->
+        <nav class="navbar fixed-top">
+            <div class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
+
+                <!-- Text Logo - Use this if you don't have a graphic logo -->
+                <!-- <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="index.html">Pavo</a> -->
+
+                <!-- Image Logo -->
+                <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
+                    <img src="images/logo.svg" alt="alternative" class="h-8" />
+                </a>
+
+                <button class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400" type="button" data-toggle="offcanvas">
+                    <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
+                    <ul class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
+                        <li>
+                            <a class="nav-link page-scroll active" href="#header">Accueil <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll" href="#features">Fonctionnalités</a>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll" href="#details">En savoir plus</a>
+                        </li>
+                        <!--<li class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item page-scroll" href="article.html">Article Details</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
+                            </div>
+                        </li>-->
+                        <li>
+                            <a class="nav-link page-scroll" href="#Télécharger">Télécharger</a>
+                        </li>
+                    </ul>
+                    <span class="block lg:ml-3.5">
+                        <a class="no-underline" href="https://apps.apple.com/us/app/epoc/id1596317383">
+                            <i class="fab fa-apple text-xl transition-all duration-200 mr-1.5"></i>
+                        </a>
+                        <a class="no-underline" href="https://play.google.com/store/apps/details?id=fr.inria.epoc">
+                            <i class="fab fa-android text-xl transition-all duration-200"></i>
+                        </a>
+                    </span>
+                </div> <!-- end of navbar-collapse -->
+            </div> <!-- end of container -->
+        </nav> <!-- end of navbar -->
+        <!-- end of navigation -->
+
+
+        <!-- Header -->
+        <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
+                <div class="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
+                    <h1 class="h1-large mb-5">Application de mobile learning</h1>
+                    <p class="p-large mb-8">Des formations gratuites et ludiques accessibles hors ligne.</p>
+                    <a class="btn-solid-lg" href="https://apps.apple.com/us/app/epoc/id1596317383"><i class="fab fa-apple"></i>Télécharger</a>
+                    <a class="btn-solid-lg" href="https://play.google.com/store/apps/details?id=fr.inria.epoc"><i class="fab fa-google-play"></i>Télécharger</a>
+                </div>
+                <div class="xl:text-right">
+                    <img class="inline" src="images/accueil.png" alt="alternative" />
+                </div>
+            </div> <!-- end of container -->
+        </header> <!-- end of header -->
+        <!-- end of header -->
+
+        <!-- Features -->
+        <div id="features" class="cards-1">
+            <div class="container px-4 sm:px-8 xl:px-4">
+
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/automated.svg" alt="alternative" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Toujours avec vous</h5>
+                        <p class="mb-4">Vos cours dans la poche pour une consultation hors ligne partout et tout le temps.</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/science.svg" alt="alternative" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">L'excellence scientifique</h5>
+                        <p class="mb-4">Des contenus élaborés par des chercheurs Inria spécialistes du domaine.</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/securite.svg" alt="alternative" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Respect de la vie privée</h5>
+                        <p class="mb-4">Aucune collecte de données personnelles n'est effectuée.</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+            </div> <!-- end of container -->
+        </div> <!-- end of cards-1 -->
+        <!-- end of features -->
+
+
+        <!-- Details 1 -->
+        <div id="details" class="pt-12 pb-16 lg:pt-16">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+                <div class="lg:col-span-7">
+                    <div class="xl:mr-14">
+                        <img class="inline" src="images/video.png" alt="alternative" />
+                    </div>
+                </div> <!-- end of col -->
+                <div class="lg:col-span-5">
+                    <div class="mt-16 lg:mt-0 xl:mt-24">
+                        <h2 class="mb-6">Des contenus riches et variés</h2>
+                        <ul class="list mb-7 space-y-2">
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Des modules courts et engageants.</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Des contenus vidéos et audios.</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Des fiches pour aller plus loin et récapitulatives en fin de module.</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Des quiz pour obtenir une attestation.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of container -->
+        </div>
+        <!-- end of details 1 -->
+
+
+        <!-- Details 2 -->
+        <div class="py-24">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+                <div class="lg:col-span-5">
+                    <div class="xl:mt-32">
+                        <h2 class="mb-6">Engagement actif</h2>
+                        <p class="mb-4">Une alternance entre apprentissage et activités au sein d'un parcours pédagogique engageant et spécialement conçu pour le mobile..</p>
+                        <p class="mb-4">Profitez d'exercices variés et ludiques comme des glisser-déposer, des swipes, qcm et plein d'autres.</p>
+                        <!--<a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Lightbox</a>
+                        <a class="btn-outline-reg" href="article.html">Details</a>-->
+                    </div>
+                </div> <!-- end of col -->
+                <div class="lg:col-span-7">
+                    <div class="mb-12 lg:mb-0 xl:mr-14">
+                        <img class="inline" src="images/quiz.png" alt="alternative" />
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of container -->
+        </div>
+        <!-- end of details 2 -->
+
+
+        <!-- Details Lightbox -->
+        <!-- Lightbox -->
+        <!--<div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-x-8">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="lg:col-span-8">
+                    <div class="mb-12 text-center lg:mb-0 lg:text-left xl:mr-6">
+                        <img class="inline rounded-lg" src="images/details-lightbox.jpg" alt="alternative" />
+                    </div>
+                </div> &lt;!&ndash; end of col &ndash;&gt;
+                <div class="lg:col-span-4">
+                    <h3 class="mb-2">Goals Setting</h3>
+                    <hr class="w-11 h-0.5 mt-0.5 mb-4 ml-0 border-none bg-indigo-600" />
+                    <p>The app can easily help you track your personal development evolution if you take the time to set it up.</p>
+                    <h4 class="mt-7 mb-2.5">User Feedback</h4>
+                    <p class="mb-4">This is a great app which can help you save time and make your live easier. And it will help improve your productivity.</p>
+                    <ul class="list mb-6 space-y-2">
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Splash screen panel</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Statistics graph report</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Events calendar layout</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Location details screen</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Onboarding steps interface</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close page-scroll" href="#Télécharger">Télécharger</a>
+                    <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
+                </div> &lt;!&ndash; end of col &ndash;&gt;
+            </div> &lt;!&ndash; end of row &ndash;&gt;
+        </div>--> <!-- end of lightbox-basic -->
+        <!-- end of lightbox -->
+        <!-- end of details lightbox -->
+
+
+        <!-- Details 3 -->
+        <div class="pt-16 pb-12">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+                <div class="lg:col-span-7">
+                    <div class="ml-14">
+                        <img class="inline" src="images/progression.png" alt="alternative" />
+                    </div>
+                </div> <!-- end of col -->
+                <div class="lg:col-span-5">
+                    <div class="mb-16 lg:mb-0 xl:mt-16">
+                        <h2 class="mb-6">Apprendre à son rythme</h2>
+                        <p class="mb-4">Les formations spécialement conçues pour un usage nomade sont découpées en modules courts et ludiques pour une progression pas à pas.</p>
+                        <p class="mb-4">Répétez les activités autant de fois que nécessaire pour obtenir l'attestation.</p>
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of container -->
+        </div>
+        <!-- end of details 3 -->
+
+
+        <!-- Statistics -->
+        <!--<div class="counter">
+            <div class="container px-4 sm:px-8">
+
+                &lt;!&ndash; Counter &ndash;&gt;
+                <div id="counter">
+                    <div class="cell">
+                        <div class="counter-value number-count" data-count="231">1</div>
+                        <p class="counter-info">Happy Users</p>
+                    </div>
+                    <div class="cell">
+                        <div class="counter-value number-count" data-count="385">1</div>
+                        <p class="counter-info">Issues Solved</p>
+                    </div>
+                    <div class="cell">
+                        <div class="counter-value number-count" data-count="159">1</div>
+                        <p class="counter-info">Good Reviews</p>
+                    </div>
+                    <div class="cell">
+                        <div class="counter-value number-count" data-count="127">1</div>
+                        <p class="counter-info">Case Studies</p>
+                    </div>
+                    <div class="cell">
+                        <div class="counter-value number-count" data-count="211">1</div>
+                        <p class="counter-info">Orders Received</p>
+                    </div>
+                </div>
+                &lt;!&ndash; end of counter &ndash;&gt;
+
+            </div> &lt;!&ndash; end of container &ndash;&gt;
+        </div>--> <!-- end of counter -->
+        <!-- end of statistics -->
+
+
+        <!-- Testimonials -->
+        <div class="slider-1 py-32 bg-gray">
+            <div class="container px-4 sm:px-8">
+                <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">L'équipe derrière ePoc</h2>
+
+                <!-- Card Slider -->
+                <div class="slider-container">
+                    <div class="swiper-container card-slider">
+                        <div class="swiper-wrapper">
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/jean-marc.jpg" alt="alternative" />
+                                    <div class="card-body">
+                                        <p class="testimonial-author">Jean-Marc Hasenfratz</p>
+                                        <p class="italic mb-3">Responsable Inria Learning Lab</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/benoit.jpg" alt="alternative" />
+                                    <div class="card-body">
+                                        <p class="testimonial-author">Benoit Rospars</p>
+                                        <p class="italic mb-3">Développeur</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/tatiana.jpg" alt="alternative" />
+                                    <div class="card-body">
+                                        <p class="testimonial-author">Tatiana Khomenko</p>
+                                        <p class="italic mb-3">Ingénieure pédagogique</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/phuong.jpg" alt="alternative" />
+                                    <div class="card-body">
+                                        <p class="testimonial-author">Minh Phuong DOAN</p>
+                                        <p class="italic mb-3">Ingénieure pédagogique</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/gerome.jpg" alt="alternative" />
+                                    <div class="card-body">
+                                        <p class="testimonial-author">Gérome Perrin</p>
+                                        <p class="italic mb-3">Développeur</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                        </div> <!-- end of swiper-wrapper -->
+
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- end of add arrows -->
+
+                    </div> <!-- end of swiper-container -->
+                </div> <!-- end of slider-container -->
+                <!-- end of card slider -->
+
+            </div> <!-- end of container -->
+        </div> <!-- end of slider-1 -->
+        <!-- end of testimonials -->
+
+
+        <!-- Pricing -->
+        <!--<div id="pricing" class="cards-2">
+            <div class="absolute bottom-0 h-40 w-full bg-white"></div>
+            <div class="container px-4 pb-px sm:px-8">
+                <h2 class="mb-2.5 text-white lg:max-w-xl lg:mx-auto">Pricing options for all budgets</h2>
+                <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto"> Our pricing plans are setup in such a way that any user can start enjoying Pavo without worrying so much about costs. They are flexible and work for any type of industry </p>
+
+                &lt;!&ndash; Card&ndash;&gt;
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">STANDARD</div>
+                        <div class="price"><span class="currency">$</span><span class="value">29</span></div>
+                        <div class="frequency">monthly</div>
+                        <p>This basic package covers the marketing needs of small startups</p>
+                        <ul class="list mb-7 space-y-2 text-left">
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>List building and relations</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Seamless platform integration</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Great performance on devices</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Community support and videos</div>
+                            </li>
+                        </ul>
+                        <div class="button-wrapper">
+                            <a class="btn-solid-reg page-scroll" href="#Télécharger">Télécharger</a>
+                        </div>
+                    </div>
+                </div> &lt;!&ndash; end of card &ndash;&gt;
+                &lt;!&ndash; end of card &ndash;&gt;
+
+                &lt;!&ndash; Card&ndash;&gt;
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">ADVANCED</div>
+                        <div class="price"><span class="currency">$</span><span class="value">39</span></div>
+                        <div class="frequency">monthly</div>
+                        <p>This is a more advanced package suited for medium companies</p>
+                        <ul class="list mb-7 space-y-2 text-left">
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>List building and relations</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Seamless platform integration</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Great performance on devices</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Community support and videos</div>
+                            </li>
+                        </ul>
+                        <div class="button-wrapper">
+                            <a class="btn-solid-reg page-scroll" href="#Télécharger">Télécharger</a>
+                        </div>
+                    </div>
+                </div> &lt;!&ndash; end of card &ndash;&gt;
+                &lt;!&ndash; end of card &ndash;&gt;
+
+                &lt;!&ndash; Card&ndash;&gt;
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">COMPLETE</div>
+                        <div class="price"><span class="currency">$</span><span class="value">49</span></div>
+                        <div class="frequency">monthly</div>
+                        <p>This is a comprehensive package designed for big organizations</p>
+                        <ul class="list mb-7 text-left space-y-2">
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>List building and relations</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Seamless platform integration</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Great performance on devices</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Community support and videos</div>
+                            </li>
+                        </ul>
+                        <div class="button-wrapper">
+                            <a class="btn-solid-reg page-scroll" href="#Télécharger">Télécharger</a>
+                        </div>
+                    </div>
+                </div> &lt;!&ndash; end of card &ndash;&gt;
+                &lt;!&ndash; end of card &ndash;&gt;
+
+            </div> &lt;!&ndash; end of container &ndash;&gt;
+        </div>--> <!-- end of cards-2 -->
+        <!-- end of pricing -->
+
+
+        <!-- Conclusion -->
+        <div id="Télécharger" class="basic-5">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
+                <div class="mb-16 lg:mb-0">
+                    <img src="images/swipe.png" alt="alternative" />
+                </div>
+                <div class="lg:mt-24 xl:mt-44 xl:ml-12">
+                    <p class="mb-9 text-gray-800 text-3xl leading-10">Télécharger la maintenant sur iOS ou Android.</p>
+                    <a class="btn-solid-lg" href="https://apps.apple.com/us/app/epoc/id1596317383"><i class="fab fa-apple"></i>Télécharger</a>
+                    <a class="btn-solid-lg" href="https://play.google.com/store/apps/details?id=fr.inria.epoc"><i class="fab fa-google-play"></i>Télécharger</a>
+                </div>
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-5 -->
+        <!-- end of conclusion -->
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container px-4 sm:px-8">
+                <h5 class="mb-8 lg:max-w-3xl lg:mx-auto">ePoc est une application mobile de e-learning gratuite et open source. Vous pouvez contacter notre équipe à l'adresse : <a class="underline" href="mailto:ill-ePoc-contact@inria.fr">ill-ePoc-contact@inria.fr</a></h5>
+                <div class="social-container">
+                    <span class="fa-stack">
+                        <a href="https://www.facebook.com/Inria-Learning-Lab-269656773437569/">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="https://twitter.com/InriaLearnLab">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="https://www.youtube.com/playlist?list=PLJ1qHZpFsMsR7wceUpWOVTjJhI4gBC0wk">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-youtube fa-stack-1x"></i>
+                        </a>
+                    </span>
+                </div> <!-- end of social-container -->
+            </div> <!-- end of container -->
+        </div> <!-- end of footer -->
+        <!-- end of footer -->
+
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
+                <ul class="mb-4 list-unstyled p-small">
+                    <li class="mb-2"><a href="terms.html">Conditions d'utilisation</a></li>
+                    <li class="mb-2"><a href="privacy.html">Vie privée</a></li>
+                </ul>
+                <p class="pb-4 p-small statement">Copyright © <a href="https://twitter.com/InriaLearnLab" class="no-underline">Inria Learning Lab</a></p>
+            </div> <!-- end of container -->
+        </div> <!-- end of copyright -->
+        <!-- end of copyright -->
+
+
+        <!-- Scripts -->
+        <script src="js/jquery.min.js"></script> <!-- jQuery for JavaScript plugins -->
+        <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+        <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+        <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    </body>
+</html>
