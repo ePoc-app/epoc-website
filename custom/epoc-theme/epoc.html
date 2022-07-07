@@ -1,0 +1,18 @@
+{% extends "epoc-theme/base.html" %}
+
+{% block content %}
+<!-- Header -->
+<header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+    <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
+        <div class="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
+            <h1 class="h1-large mb-5">{{ page.meta.title }}</h1>
+            {{ super() }}
+        </div>
+        <div class="xl:text-right">
+            <img class="inline" src="{{ page.meta.img }}" alt="Screenshot {{ page.meta.title }}" />
+        </div>
+    </div> <!-- end of container -->
+</header> <!-- end of header -->
+<!-- end of header -->
+
+{% endblock %}

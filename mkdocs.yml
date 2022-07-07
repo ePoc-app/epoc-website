@@ -1,0 +1,8 @@
+site_name: ePoc Mobile Learning
+theme:
+  name: material
+  custom_dir: custom/
+
+plugins:
+  - awesome-pages
+
