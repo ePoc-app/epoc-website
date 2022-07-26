@@ -38,10 +38,10 @@
                 {% endfor %}
             </ul>
             <span class="block lg:ml-3.5">
-                        <a class="no-underline" href="https://testflight.apple.com/join/Qm1AvfH6">
+                        <a class="no-underline" href="{{ page.meta.apple_link if page.meta.apple_link else config.extra.apple_link }}">
                             <i class="fab fa-apple text-xl transition-all duration-200 mr-1.5"></i>
                         </a>
-                        <a class="no-underline" href="https://play.google.com/store/apps/details?id=fr.inria.epoc">
+                        <a class="no-underline" href="{{ page.meta.google_link if page.meta.apple_link else config.extra.google_link }}">
                             <i class="fab fa-android text-xl transition-all duration-200"></i>
                         </a>
                     </span>

@@ -6,7 +6,18 @@
     <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
         <div class="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
             <h1 class="h1-large mb-5">{{ page.meta.title }}</h1>
-            {{ super() }}
+            <p class="p-large mb-8">{{ page.meta.description }}</p>
+            {% if page.meta.private %}
+                <p class="p-large mb-8 p-small">
+                    <i class="fa fa-lock"></i></a> Cette formation est réservée au personnel Inria.
+                </p>
+            {% endif %}
+            <a class="btn-solid-lg" href="{{ page.meta.apple_link if page.meta.apple_link else config.extra.apple_link }}">
+                <i class="fab fa-apple"></i>Télécharger
+            </a>
+            <a class="btn-solid-lg" href="{{ page.meta.google_link if page.meta.apple_link else config.extra.google_link }}">
+                <i class="fab fa-google-play"></i>Télécharger
+            </a>
         </div>
         <div class="xl:text-right">
             <img class="inline" src="{{ page.meta.img }}" alt="Screenshot {{ page.meta.title }}" />
@@ -14,5 +25,11 @@
     </div> <!-- end of container -->
 </header> <!-- end of header -->
 <!-- end of header -->
+<div class="container px-4 sm:px-8">
+    <article class="prose lg:prose-xl" style="max-width:max-content;">
+        {{ super() }}
+    </article>
+</div>
+
 
 {% endblock %}

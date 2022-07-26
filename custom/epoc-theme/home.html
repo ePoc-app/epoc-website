@@ -7,8 +7,8 @@
         <div class="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
             <h1 class="h1-large mb-5">Application de mobile learning</h1>
             <p class="p-large mb-8">Des formations gratuites et ludiques proposées par des experts scientifiques.</p>
-            <a class="btn-solid-lg" href="https://testflight.apple.com/join/Qm1AvfH6"><i class="fab fa-apple"></i>Télécharger</a>
-            <a class="btn-solid-lg" href="https://play.google.com/store/apps/details?id=fr.inria.epoc"><i class="fab fa-google-play"></i>Télécharger</a>
+            <a class="btn-solid-lg" href="{{ page.meta.apple_link if page.meta.apple_link else config.extra.apple_link }}"><i class="fab fa-apple"></i>Télécharger</a>
+            <a class="btn-solid-lg" href="{{ page.meta.google_link if page.meta.apple_link else config.extra.google_link }}"><i class="fab fa-google-play"></i>Télécharger</a>
         </div>
         <div class="xl:text-right">
             <img class="inline" src="images/accueil.png" alt="alternative" />
@@ -149,7 +149,7 @@
                     <!-- Slide -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img class="card-image" src="images/jean-marc.jpg" alt="alternative" />
+                            <img class="card-image" src="images/jean-marc.jpg" alt="Jean-Marc Hasenfratz" />
                             <div class="card-body">
                                 <p class="testimonial-author">Jean-Marc Hasenfratz</p>
                                 <p class="italic mb-3">Responsable Inria Learning Lab</p>
@@ -161,10 +161,10 @@
                     <!-- Slide -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img class="card-image" src="images/benoit.jpg" alt="alternative" />
+                            <img class="card-image" src="images/benoit.jpg" alt="Benoit Rospars" />
                             <div class="card-body">
                                 <p class="testimonial-author">Benoit Rospars</p>
-                                <p class="italic mb-3">Développeur</p>
+                                <p class="italic mb-3">Ingénieur Informatique</p>
                             </div>
                         </div>
                     </div> <!-- end of swiper-slide -->
@@ -173,34 +173,10 @@
                     <!-- Slide -->
                     <div class="swiper-slide">
                         <div class="card">
-                            <img class="card-image" src="images/tatiana.jpg" alt="alternative" />
+                            <img class="card-image" src="images/aurelie.jpg" alt="Aurélie Laguarrigue" />
                             <div class="card-body">
-                                <p class="testimonial-author">Tatiana Khomenko</p>
+                                <p class="testimonial-author">Aurélie Laguarrigue</p>
                                 <p class="italic mb-3">Ingénieure pédagogique</p>
-                            </div>
-                        </div>
-                    </div> <!-- end of swiper-slide -->
-                    <!-- end of slide -->
-
-                    <!-- Slide -->
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img class="card-image" src="images/phuong.jpg" alt="alternative" />
-                            <div class="card-body">
-                                <p class="testimonial-author">Minh Phuong DOAN</p>
-                                <p class="italic mb-3">Ingénieure pédagogique</p>
-                            </div>
-                        </div>
-                    </div> <!-- end of swiper-slide -->
-                    <!-- end of slide -->
-
-                    <!-- Slide -->
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img class="card-image" src="images/gerome.jpg" alt="alternative" />
-                            <div class="card-body">
-                                <p class="testimonial-author">Gérome Perrin</p>
-                                <p class="italic mb-3">Développeur</p>
                             </div>
                         </div>
                     </div> <!-- end of swiper-slide -->
@@ -230,8 +206,8 @@
         </div>
         <div class="lg:mt-24 xl:mt-44 xl:ml-12">
             <p class="mb-9 text-gray-800 text-3xl leading-10">Télécharger la maintenant sur iOS ou Android.</p>
-            <a class="btn-solid-lg" href="https://testflight.apple.com/join/Qm1AvfH6"><i class="fab fa-apple"></i>Télécharger</a>
-            <a class="btn-solid-lg" href="https://play.google.com/store/apps/details?id=fr.inria.epoc"><i class="fab fa-google-play"></i>Télécharger</a>
+            <a class="btn-solid-lg" href="{{ page.meta.apple_link if page.meta.apple_link else config.extra.apple_link }}"><i class="fab fa-apple"></i>Télécharger</a>
+            <a class="btn-solid-lg" href="{{ page.meta.google_link if page.meta.apple_link else config.extra.google_link }}"><i class="fab fa-google-play"></i>Télécharger</a>
         </div>
     </div> <!-- end of container -->
 </div> <!-- end of basic-5 -->
