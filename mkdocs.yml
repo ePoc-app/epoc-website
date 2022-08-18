@@ -5,7 +5,7 @@ theme:
   custom_dir: custom/
 extra:
   description: ePoc (Electronic Pocket Open Course) est une application de formation numérique pour mobile. Elle a été développée au sein du Learning Lab Inria.
-  apple_link: https://testflight.apple.com/join/Qm1AvfH6
+  apple_link: https://apps.apple.com/app/epoc/id1596317383
   google_link: https://play.google.com/store/apps/details?id=fr.inria.epoc
 
 plugins:
