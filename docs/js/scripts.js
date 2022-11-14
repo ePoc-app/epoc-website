@@ -190,5 +190,27 @@
 		});
 	}
 
+	/* Newsletter */
+	$('#newsletter').submit(function(event) {
+		event.preventDefault();
+		var email = $('#newsletter_email').val();
+		var prevEmails = JSON.parse(localStorage.getItem('newsltterEmails')) || [];
+		if (!email && !_paq) return;
+		if (prevEmails.indexOf(email) === -1) {
+			_paq.push(['trackEvent', 'Newsletter', 'Subscribe', email]);
+			prevEmails.push(email)
+			localStorage.setItem('newsletterEmails', JSON.stringify(prevEmails))
+		}
+		Toastify({
+			text: "Inscription réussie",
+			duration: 3000,
+			gravity: "bottom",
+			position: "center",
+			style: {
+				background: "#4bb543",
+			}
+		}).showToast();
+	})
+
 })(jQuery);
 
