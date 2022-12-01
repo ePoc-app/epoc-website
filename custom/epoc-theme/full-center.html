@@ -13,4 +13,17 @@
         {{ super() }}
     </article>
 </div>
+
+
+<!-- Conclusion -->
+<div id="Télécharger" class="pt-32">
+    <div class="container px-4 sm:px-8 text-center">
+        <div class="">
+            <p class="mb-9 text-gray-800 text-3xl leading-10">Télécharger notre app maintenant sur iOS ou Android.</p>
+            <a class="btn-solid-lg" href="{{ page.meta.apple_link if page.meta.apple_link else config.extra.apple_link }}"><i class="fab fa-apple"></i>Télécharger</a>
+            <a class="btn-solid-lg" href="{{ page.meta.google_link if page.meta.apple_link else config.extra.google_link }}"><i class="fab fa-google-play"></i>Télécharger</a>
+        </div>
+    </div> <!-- end of container -->
+</div> <!-- end of basic-5 -->
+<!-- end of conclusion -->
 {% endblock %}
