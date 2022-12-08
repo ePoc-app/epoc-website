@@ -137,40 +137,47 @@
 </div>
 <!-- end of details 3 -->
 
+<!--
+{% set epocs = [] %}
+{% for nav_item in nav %}
+    {% if nav_item.children %}
+        {% for nav_item_child in nav_item.children %}
+            {% if 'E001DB' not in nav_item_child.url %}
+                {{ epocs.append(nav_item_child) }}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+-->
 
 <!-- Testimonials -->
 <div class="slider-1 py-32 bg-gray">
     <div class="container px-4 sm:px-8">
-        <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">Développée par</h2>
+        <h2 id="nos-epocs" class="mb-12 text-center lg:max-w-xl lg:mx-auto">Découvrez nos ePocs</h2>
 
         <!-- Card Slider -->
         <div class="slider-container">
             <div class="swiper-container card-slider">
                 <div class="swiper-wrapper">
-
-                    <!-- Slide -->
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img class="card-image" src="images/logo-inria.png" alt="Logo Inria" />
-                        </div>
-                    </div> <!-- end of swiper-slide -->
-                    <!-- end of slide -->
-
-                    <!-- Slide -->
-                    <div class="swiper-slide">
-                        <div class="card">
-                            <img class="card-image" src="images/logo-ill.png" alt="Logo Inria Learning Lab" />
-                        </div>
-                    </div> <!-- end of swiper-slide -->
-                    <!-- end of slide -->
-                    <!-- end of slide -->
-
+                    {% for epoc in epocs %}
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <a class="card" href="{{ epoc.url | url }}">
+                                <img class="card-image" src="{{ epoc.meta.thumb | url }}" alt="Image ePoc {{ epoc.title }}" />
+                                <div class="card-body">
+                                    <p class="testimonial-author">{{ epoc.title }}</p>
+                                    <p class="italic mt-3">{{epoc.meta.short}}</p>
+                                </div>
+                            </a>
+                        </div> <!-- end of swiper-slide -->
+                        <!-- end of slide -->
+                    {% endfor %}
                 </div> <!-- end of swiper-wrapper -->
 
-                <!-- Add Arrows
+                <!-- Add Arrows-->
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
-                end of add arrows -->
+                <!-- end of add arrows -->
 
             </div> <!-- end of swiper-container -->
         </div> <!-- end of slider-container -->

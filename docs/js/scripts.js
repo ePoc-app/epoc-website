@@ -67,12 +67,12 @@
             delay: 4000,
             disableOnInteraction: false
 		},
-        loop: false,
+        loop: true,
         navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev'
 		},
-		slidesPerView: 2,
+		slidesPerView: 3,
 		spaceBetween: 70,
         breakpoints: {
             // when window is <= 767px
