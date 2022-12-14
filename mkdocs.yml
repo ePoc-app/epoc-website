@@ -1,8 +1,12 @@
 site_name: ePoc Mobile Learning
 site_url: https://epoc.inria.fr/
+repo_url: https://gitlab.inria.fr/learninglab/epoc/epoc-mobile
 theme:
   name: material
   custom_dir: custom/
+  palette:
+    primary: white
+    accent: red
 extra:
   description: ePoc (Electronic Pocket Open Course) est une application de formation numérique pour mobile. Elle a été développée au sein du Learning Lab Inria.
   apple_link: https://apps.apple.com/app/epoc/id1596317383
