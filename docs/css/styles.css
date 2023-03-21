@@ -30,10 +30,31 @@ Colors:
 /*     General Styles     */
 /**************************/
 
+:root {
+
+    --md-primary-fg-color: #384258;
+    --md-primary-fg-color--light: rgb(107, 116, 123);
+    --md-primary-bg-color: #FFF;
+    --md-primary-bg-color--light: #FFF;
+
+    --md-accent-fg-color: #E63312;
+    --md-accent-fg-color--transparent: #E6331233;
+    --md-accent-bg-color: #FFF;
+    --md-accent-bg-color--light: #FFF;
+}
+
+html {
+    font-size: 16px;
+}
+
 body,
 p {
     color: #6b747b;
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
+}
+
+main{
+    padding-top: 80px;
 }
 
 h1 {
@@ -144,6 +165,10 @@ h6 {
     margin-left: 0.25rem;
 }
 
+.btn-solid-lg .fab {
+    font-weight: normal;
+}
+
 .btn-solid-lg:hover {
     border: 1px solid #384258;
     background-color: transparent;
@@ -151,7 +176,7 @@ h6 {
     text-decoration: none;
 }
 
-.btn-solid-lg .fab {
+.btn-solid-lg .fab, .btn-solid-lg .fa {
     margin-right: 0.5rem;
     font-size: 1.25rem;
     line-height: 0;
