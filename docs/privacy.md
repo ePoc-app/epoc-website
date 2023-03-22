@@ -1,6 +1,9 @@
 ---
 title: Vie Privée
 template: epoc-theme/full.html
+hide:
+- navigation
+- toc
 ---
 
 

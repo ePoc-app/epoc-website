@@ -28,7 +28,7 @@
 
     // close menu on click in small viewport
     $('[data-toggle="offcanvas"], .nav-link:not(.dropdown-toggle').on('click', function () {
-        $('.offcanvas-collapse').toggleClass('open')
+        $('.md-sidebar--primary').toggleClass('open')
     })
 
     // hover in desktop mode

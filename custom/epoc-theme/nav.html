@@ -22,9 +22,15 @@
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ nav_item.title }}</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown02">
                             {% for nav_item_child in nav_item.children %}
+                                {% if nav_item_child.children %}
+                                <a class="dropdown-item" href="{{ nav_item_child.children[0].url | url }}">
+                                    {{ nav_item_child.title }}
+                                </a>
+                                {% else %}
                                 <a class="dropdown-item" href="{{ nav_item_child.url | url }}">
                                     {{ nav_item_child.title }}
                                 </a>
+                                {% endif %}
                             {% endfor %}
                         </div>
                     </li>

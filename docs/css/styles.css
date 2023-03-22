@@ -32,7 +32,7 @@ Colors:
 
 :root {
 
-    --md-primary-fg-color: #384258;
+    --md-primary-fg-color: #E63312;
     --md-primary-fg-color--light: rgb(107, 116, 123);
     --md-primary-bg-color: #FFF;
     --md-primary-bg-color--light: #FFF;
@@ -453,6 +453,19 @@ input[type="checkbox"] {
     font-size: 0.875rem;
     line-height: 0.75rem;
     transition: all 0.2s ease;
+    background-color: #fff;
+    box-shadow: 0 6px 14px 0 rgba(218,222,234,0.51);
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: none;
+    }
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: none;
+    }
 }
 
 .fixed-top {
@@ -596,6 +609,27 @@ input[type="checkbox"] {
     background-color: #d4dce2;
 }
 /* end of dropdown menu */
+
+.md-nav__title{
+}
+
+@media screen and (max-width: 76.1875em) {
+    [dir="ltr"] .md-sidebar--primary {
+        right:0;
+        left:auto;
+        top: 60px;
+        z-index: 1031;
+        box-shadow: 0 6px 14px 0 rgba(218,222,234,0.51);
+        transform: translateX(100%);
+        transition: transform .3s ease-in-out;
+    }
+    [dir="ltr"] .md-sidebar--primary.open {
+        transform: translateX(0);
+    }
+    .md-nav--primary .md-nav__title[for="__drawer"] {
+        display: none;
+    }
+}
 
 /*****************/
 /*    Header     */
@@ -1034,12 +1068,10 @@ a:hover.back-to-top {
 
     /* Navigation */
     .navbar {
-        background-color: #fff;
         flex-wrap: nowrap;
         justify-content: start;
         padding-left: 0;
         padding-right: 0;
-        box-shadow: 0 6px 14px 0 rgba(218,222,234,0.51);
     }
 
     .navbar-collapse {

@@ -1,6 +1,23 @@
-{% extends "epoc-theme/base.html" %}
+{% extends "main.html" %}
 
-{% block content %}
+{% block extrahead %}
+<style>
+    .md-main{
+        display: none;
+        padding: 0;
+        height:0;
+    }
+
+    @media screen and (max-width: 76.1875em) {
+        .md-main{
+            display: block;
+        }
+    }
+</style>
+{{ super() }}
+{% endblock %}
+
+{% block hero %}
 <!-- Header -->
 <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
     <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
@@ -191,4 +208,7 @@
 
 {{ super() }}
 
+{% endblock %}
+
+{% block content %}
 {% endblock %}

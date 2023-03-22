@@ -1,6 +1,9 @@
 ---
 title: Mentions Légales
 template: epoc-theme/full.html
+hide:
+- navigation
+- toc
 ---
 
 ## Informations légales

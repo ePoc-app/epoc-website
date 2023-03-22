@@ -3,6 +3,9 @@ title: Calendrier de l'avent
 template: epoc-theme/full-center.html
 description: "ePoc: des formations gratuites et ludiques proposées par des experts scientifiques."
 img: /images/accueil.png
+hide:
+- navigation
+- toc
 ---
 
 <div class="container-wrapper-genially" style="position: relative; min-height: 500px; max-width: 100%; width:100%;">
