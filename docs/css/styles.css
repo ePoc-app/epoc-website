@@ -61,6 +61,10 @@ main{
     padding-top: 80px;
 }
 
+.md-grid {
+    max-width: 80rem;
+}
+
 h1 {
     color: #252c38;
     font-weight: 700;
@@ -627,6 +631,9 @@ input[type="checkbox"] {
         transform: translateX(0);
     }
     .md-nav--primary .md-nav__title[for="__drawer"] {
+        display: none;
+    }
+    .md-nav__source{
         display: none;
     }
 }

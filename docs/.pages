@@ -1,5 +1,5 @@
 nav:
     - ... | index.*
-    - Editeur: editeur.md
     - Cours: epocs
+    - Editeur (beta) : editor.md
     - Guide: guide

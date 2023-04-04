@@ -1,6 +1,7 @@
 nav:
+    - Installation : install.md
     - Démarrage : getting-started.md
     - Paramètres ePoc : epoc.md
     - Chapitre : chapter.md
     - Contenus : content
-    - Questions : question
+    - Evaluation : question
