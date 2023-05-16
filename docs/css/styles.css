@@ -62,7 +62,11 @@ main{
 }
 
 .md-grid {
-    max-width: 80rem;
+    max-width: 90rem;
+}
+
+.md-sidebar {
+    width: 15rem;
 }
 
 h1 {
@@ -613,6 +617,10 @@ input[type="checkbox"] {
     background-color: #d4dce2;
 }
 /* end of dropdown menu */
+
+.md-nav {
+    font-size: 1rem;
+}
 
 .md-nav__title{
 }

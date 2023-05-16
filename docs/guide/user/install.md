@@ -2,7 +2,7 @@
 
 ## Téléchargement
 
-Pour télécharger la dernière version de l'éditeur, rendez-vous sur [https://epoc.inria.fr/editor](https://epoc.inria.fr/editor]) et cliquer sur la version
+Pour télécharger la dernière version de l'éditeur, rendez-vous sur [https://epoc.inria.fr/editor](https://epoc.inria.fr/editor) et cliquer sur la version
 correspondante à votre OS (Windows, MacOs, Linux).
 
 ## Installation
