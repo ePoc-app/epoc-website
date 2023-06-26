@@ -16,9 +16,9 @@ extra:
   apple_link: https://apps.apple.com/app/epoc/id1596317383
   google_link: https://play.google.com/store/apps/details?id=fr.inria.epoc
   editor_version: v0.1.4
-  editor_link_windows: https://gitlab.inria.fr/learninglab/epoc/epoc-editor/-/jobs/artifacts/v0.1.4/raw/dist_electron/epoc-editor_v0.1.4-beta.exe?job=build
-  editor_link_macos: https://gitlab.inria.fr/learninglab/epoc/epoc-editor/-/jobs/artifacts/v0.1.4/raw/dist_electron/epoc-editor_v0.1.4-beta.zip?job=build
-  editor_link_linux: https://gitlab.inria.fr/learninglab/epoc/epoc-editor/-/jobs/artifacts/v0.1.4/raw/dist_electron/epoc-editor_v0.1.4-beta.deb?job=build
+  editor_link_windows: https://gitlab.inria.fr/learninglab/epoc/epoc-editor/-/jobs/artifacts/${EDITOR_VERSION}/raw/dist_electron/epoc-editor_${EDITOR_VERSION}-beta.exe?job=build
+  editor_link_macos: https://gitlab.inria.fr/learninglab/epoc/epoc-editor/-/jobs/artifacts/${EDITOR_VERSION}/raw/dist_electron/epoc-editor_${EDITOR_VERSION}-beta.zip?job=build
+  editor_link_linux: https://gitlab.inria.fr/learninglab/epoc/epoc-editor/-/jobs/artifacts/${EDITOR_VERSION}/raw/dist_electron/epoc-editor_${EDITOR_VERSION}-beta.deb?job=build
 
 plugins:
   - awesome-pages

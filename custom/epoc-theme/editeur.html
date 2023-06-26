@@ -28,10 +28,18 @@
             </p>
             <p class="p-large mb-8">Gratuit et open <a href="{{ config.repo_url }}" target="_blank">source</a>. Développé par <a href="https://inria.fr/">Inria</a>.</p>
             <h5 class="mb-5">Téléchargement :</h5>
-            <a class="btn-solid-lg" href="{{ config.extra.editor_link_windows }}"><i class="fab fa-windows"></i>Windows ({{ config.extra.editor_version }})</a>
-            <a class="btn-solid-lg" href="{{ config.extra.editor_link_macos }}"><i class="fab fa-apple"></i>MacOS ({{ config.extra.editor_version }})</a>
-            <a class="btn-solid-lg" href="{{ config.extra.editor_link_linux }}"><i class="fab fa-linux"></i>Linux ({{ config.extra.editor_version }})</a>
-            <a class="btn-solid-lg" href="{{ config.repo_url }}" target="_blank"><i class="fa fa-code-branch"></i>Code source</a>
+            <a class="btn-solid-lg" href="{{ config.extra.editor_link_windows | replace('${EDITOR_VERSION}', config.extra.editor_version) }}">
+                <i class="fab fa-windows"></i>Windows ({{ config.extra.editor_version }})
+            </a>
+            <a class="btn-solid-lg" href="{{ config.extra.editor_link_macos | replace('${EDITOR_VERSION}', config.extra.editor_version)  }}">
+                <i class="fab fa-apple"></i>MacOS ({{ config.extra.editor_version }})
+            </a>
+            <a class="btn-solid-lg" href="{{ config.extra.editor_link_linux | replace('${EDITOR_VERSION}', config.extra.editor_version)  }}">
+                <i class="fab fa-linux"></i>Linux ({{ config.extra.editor_version }})
+            </a>
+            <a class="btn-solid-lg" href="{{ config.repo_url }}" target="_blank">
+                <i class="fa fa-code-branch"></i>Code source
+            </a>
         </div>
         <div class="xl:text-right">
             <img class="inline" src="/images/accueil-editeur.png" alt="alternative" />
