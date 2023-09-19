@@ -15,10 +15,10 @@ extra:
   description: ePoc (Electronic Pocket Open Course) est une application de formation numérique pour mobile. Elle a été développée au sein du Learning Lab Inria.
   apple_link: https://apps.apple.com/app/epoc/id1596317383
   google_link: https://play.google.com/store/apps/details?id=fr.inria.epoc
-  editor_version: v0.1.4
-  editor_link_windows: https://gitlab.inria.fr/learninglab/epoc/epoc-editor/-/jobs/artifacts/${EDITOR_VERSION}/raw/dist_electron/epoc-editor_${EDITOR_VERSION}-beta.exe?job=build
-  editor_link_macos: https://gitlab.inria.fr/learninglab/epoc/epoc-editor/-/jobs/artifacts/${EDITOR_VERSION}/raw/dist_electron/epoc-editor_${EDITOR_VERSION}-beta.zip?job=build
-  editor_link_linux: https://gitlab.inria.fr/learninglab/epoc/epoc-editor/-/jobs/artifacts/${EDITOR_VERSION}/raw/dist_electron/epoc-editor_${EDITOR_VERSION}-beta.deb?job=build
+  editor_version: v0.1.5
+  editor_link_windows: https://github.com/inrialearninglab/epoc-editor/releases/download/${EDITOR_VERSION}-beta/epoc-editor_${EDITOR_VERSION}-beta_win_x64.exe
+  editor_link_macos: https://github.com/inrialearninglab/epoc-editor/releases/download/${EDITOR_VERSION}-beta/epoc-editor_${EDITOR_VERSION}-beta_mac_x64.dmg
+  editor_link_linux: https://github.com/inrialearninglab/epoc-editor/releases/download/${EDITOR_VERSION}-beta/epoc-editor_${EDITOR_VERSION}-beta_linux_x86_64.AppImage
 
 plugins:
   - awesome-pages
