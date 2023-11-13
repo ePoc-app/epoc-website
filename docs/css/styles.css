@@ -1292,3 +1292,8 @@ a:hover.back-to-top {
     /* end of extra pages */
 }
 /* end of min-width 1200px */
+
+.small-image {
+    width: 50% !important;
+    margin: 1em 0 !important;
+}

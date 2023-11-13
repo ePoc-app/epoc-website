@@ -10,3 +10,5 @@ Les informations à renseigner pour la rubrique “audio“ sont :
 - Ajouter un audio : importer le fichier audio dans l'éditeur ePoc en utilisant le bouton "Ajouter une audio".
 - Résumé : brève description de l'audio pour aider les utilisateurs à comprendre son contenu.
 - Transcription : si l'audio contient un discours ou un dialogue important, vous pouvez fournir une transcription textuelle de l'audio pour aider les utilisateurs qui ne souhaite pas ou qui ne sont pas en capacité d'écouter l'audio.
+
+![Renseigner un contenu audio](../images/audio.png)
