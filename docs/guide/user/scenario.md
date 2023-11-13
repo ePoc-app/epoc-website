@@ -1,6 +1,6 @@
 # Former votre scénario
 
-La particularité de cet éditeur est que l’interface graphique proposée se veut très visuelle. L'ePoc est composé de chapitres qui sont eux-mêmes composés de pages qui contiennent différents types de contenus (vidéo, textes, quizz, etc).
+La particularité de cet éditeur est que l’interface graphique proposée se veut très visuelle. L'ePoc est composé de chapitres qui sont eux-mêmes composés de pages qui contiennent différents types de contenus (vidéo, textes, quiz, etc).
 
 ![Exemple de scenario](./images/scenario.png)
 
@@ -23,7 +23,7 @@ N'hésitez pas à explorer les fonctionnalités de cet outil pour créer des for
 - Supprimer un élément
     - Sélectionner un contenu ou une page et cliquer sur le bouton pour le supprimer.
     - Utiliser la touche “effacer” de votre clavier.
-- Déplacer un élément : cliquer en restant enfoncé et déplacer la souris pour le déplacer, puis relacher.
+- Déplacer un élément : cliquer en restant enfoncé et déplacer la souris pour le déplacer, puis relâcher.
 - Selection multiple :
     - Maintenir la touche “majuscule” de votre clavier pour créer un rectangle de sélection de plusieurs éléments
-    - Maintenir la touche "ctrl/cmd" de votre clavier puis cliquer sur les élements que vous souhaitez selectionner
+    - Maintenir la touche "ctrl/cmd" de votre clavier puis cliquer sur les élements que vous souhaitez sélectionner

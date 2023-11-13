@@ -1,12 +1,12 @@
 # Paramètres ePoc
 
-Créer un ePoc nécessite de renseigner quelques paramètres dans un formulaire (situé dans la partie droite de l’écran) afin de personnaliser certains aspects de la formation. Pour accéder à la fenêtre “A propos de l’ePoc”, il faut cliquer sur l’icône ePoc (situé en haut à gauche) de la partie centrale. Vous remarquerez que lorsque l’icône est sélectionnée, ses contours deviennent bleus.
+Créer un ePoc nécessite de renseigner quelques paramètres dans un formulaire (situé dans la partie droite de l’écran) afin de personnaliser certains aspects de la formation. Pour accéder à la fenêtre “À propos de l’ePoc”, il faut cliquer sur l’icône ePoc (située en haut à gauche) de la partie centrale. Vous remarquerez que lorsque l’icône est sélectionnée, ses contours deviennent bleus.
 
 ![Edition du noeud ePoc](./images/epoc.png)
 
 Dans le formulaire (la partie droite de l’écran) les paramètres sont classés dans différentes rubriques :
 
-## Metadonnées
+## Métadonnées
 
 - ID de l’ePoc : le numéro de référencement de l’ePoc.
 - Edition : l’année de publication de l’ePoc.
@@ -24,7 +24,7 @@ Dans le formulaire (la partie droite de l’écran) les paramètres sont classé
 
 Les informations à renseigner pour la rubrique “auteurs“ sont :
 
-- Le nom et prénom de l’auteur
+- Les nom et prénom de l’auteur
 - Une éventuelle photo ou un avatar de l’auteur
 - Titre : son identité professionnelle (enseignant, formateur, ingénieur pédagogique, spécialistes du contenu ou d'autres professionnels de l'éducation).
 - Description : préciser quel a été son rôle au cours de la création de l’ePoc (exemple : conception et scénarisation de la formation)

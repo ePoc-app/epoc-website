@@ -2,19 +2,18 @@
 
 ## Téléchargement
 
-Pour télécharger la dernière version de l'éditeur, rendez-vous sur [https://epoc.inria.fr/editor](https://epoc.inria.fr/editor) et cliquer sur la version
-correspondante à votre OS (Windows, MacOs, Linux).
+Pour télécharger la dernière version de l'éditeur, rendez-vous sur [https://epoc.inria.fr/editor](https://epoc.inria.fr/editor) et cliquez sur la version correspondante à votre OS (Windows, macOS, Linux).
 
 ## Installation
 
 ### Windows
 
-Double cliquer sur l'executable téléchargé precedemment et suivre les instructions. Ensuite démarrer l'application depuis le menu démarrer ou le raccourci de bureau.
+Double-cliquez sur l'exécutable téléchargé précédemment et suivez les instructions. Ensuite, démarrez l'application depuis le menu Démarrer ou le raccourci de bureau.
 
 ### MacOs
 
-Dézipper l'archive et déplacer l'application dans le dossier `Applications` de l'ordinateur.
+Décompressez l'archive et déplacez l'application dans le dossier `Applications` de l'ordinateur.
 
 ### Linux
 
-Se placer dans le dossier où se trouve le fichier `.deb` puis installer le pacquet avec la commande `sudo dpkg -i epoc-editor_vXXXX.deb`
+Accédez au dossier où se trouve le fichier `.deb` puis installez le paquet avec la commande `sudo dpkg -i epoc-editor_vXXXX.deb`
