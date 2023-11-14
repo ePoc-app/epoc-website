@@ -1297,3 +1297,11 @@ a:hover.back-to-top {
     width: 50% !important;
     margin: 1em 0 !important;
 }
+
+.home-video {
+    margin: auto;
+}
+
+.home-video iframe {
+    border-radius: 12px;
+}
