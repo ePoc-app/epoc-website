@@ -1313,3 +1313,13 @@ a:hover.back-to-top {
     left:0;
     border-radius: 12px;
 }
+
+.md-typeset ul{
+    font-size: 1rem;
+    list-style: disc;
+}
+
+.md-typeset ol{
+    font-size: 1rem;
+    list-style: decimal;
+}

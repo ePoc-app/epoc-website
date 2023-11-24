@@ -1,16 +1,19 @@
 {% extends "main.html" %}
 
-{% block hero %}
-<!-- Header -->
-<header id="header" class="header pt-28 text-center md:pt-36 xl:pt-44">
-    <div class="container px-4 sm:px-8">
-        <h1 class="h1-large mb-5">{{ page.title }}</h1>
-    </div> <!-- end of container -->
-</header> <!-- end of header -->
-<!-- end of header -->
-<div id="details" class="container px-4 sm:px-8">
-    <article>
-        {{ super() }}
-    </article>
+{% block extrahead %}
+<style>
+    .md-typeset h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color:black;
+    }
+</style>
+{{ super() }}
+{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto w-full">
+    {{ super() }}
 </div>
 {% endblock %}

@@ -15,6 +15,10 @@
 {% include "epoc-theme/nav.html" %}
 {% endblock %}
 
+{% block content %}
+{{ super() }}
+{% endblock %}
+
 {% block footer %}
 {% include "epoc-theme/footer.html" %}
 {% include "epoc-theme/copyright.html" %}
