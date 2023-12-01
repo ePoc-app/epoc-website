@@ -27,9 +27,19 @@
                                     {{ nav_item_child.title }}
                                 </a>
                                 {% else %}
-                                <a class="dropdown-item" href="{{ nav_item_child.url | url }}">
-                                    {{ nav_item_child.title }}
-                                </a>
+                                    {% if "SEPARATOR" == nav_item_child.url %}
+                                    <div class="dropdown-item">
+                                        <div class=" relative flex items-center">
+                                            <div class="flex-grow border-t border-gray-200"></div>
+                                            <span class="flex-shrink mx-1 text-gray-400">{{ nav_item_child.title }}</span>
+                                            <div class="flex-grow border-t border-gray-200"></div>
+                                        </div>
+                                    </div>
+                                    {% else %}
+                                    <a class="dropdown-item" href="{{ nav_item_child.url | url }}">
+                                        {{ nav_item_child.title }}
+                                    </a>
+                                    {% endif %}
                                 {% endif %}
                             {% endfor %}
                         </div>

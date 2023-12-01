@@ -1,3 +1,5 @@
 nav:
     - Guide Editeur : user
     # - Développeur : developer
+    # - Outils: SEPARATOR
+    - Générateur QR Code : ../../qr-code-generator

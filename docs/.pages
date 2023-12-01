@@ -3,7 +3,6 @@ nav:
     - Cours: epocs
     - Editeur (beta) : editor.md
     - Aide: guide
-    - Outils:
+    - Communauté:
         - Discord: https://discord.gg/xzSVeuPEtH
         - Tchap: https://www.tchap.gouv.fr/#/room/#epoc:agent.education.tchap.gouv.fr
-        - Générateur QR Code : ../qr-code-generator
