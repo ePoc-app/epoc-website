@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "45SMH7VLZR.fr.inria.learninglab.epoc",
+        "paths": ["/app-redirect"]
+      }
+    ]
+  }
+}
