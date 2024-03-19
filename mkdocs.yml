@@ -19,7 +19,8 @@ extra:
   editor_link_windows: https://github.com/inrialearninglab/epoc-editor/releases/download/${EDITOR_VERSION}-beta/epoc-editor_${EDITOR_VERSION}-beta_win_x64.exe
   editor_link_macos: https://github.com/inrialearninglab/epoc-editor/releases/download/${EDITOR_VERSION}-beta/epoc-editor_${EDITOR_VERSION}-beta_mac_x64.dmg
   editor_link_linux: https://github.com/inrialearninglab/epoc-editor/releases/download/${EDITOR_VERSION}-beta/epoc-editor_${EDITOR_VERSION}-beta_linux_x86_64.AppImage
-
+exclude_docs: |
+  !.well-known
 plugins:
   - awesome-pages
   - search
