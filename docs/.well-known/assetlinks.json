@@ -1,5 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target" : { "namespace": "android_app", "package_name": "fr.inria.epoc",
-    "sha256_cert_fingerprints": ["73:26:75:5E:A9:CE:5F:3B:84:43:54:53:3F:73:23:18:2A:C9:E4:FA:77:1A:53:BC:7A:51:26:8C:6E:34:94:7B"] }
-}]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "fr.inria.epoc",
+      "sha256_cert_fingerprints": [
+        "73:26:75:5E:A9:CE:5F:3B:84:43:54:53:3F:73:23:18:2A:C9:E4:FA:77:1A:53:BC:7A:51:26:8C:6E:34:94:7B",
+        "DD:94:40:0E:31:1D:6D:12:13:EC:78:E6:BF:E2:BD:18:8B:ED:D7:8F:0F:6A:D5:0A:F5:56:61:C2:E7:6B:DE:E8"
+      ]
+    }
+  }
+]
