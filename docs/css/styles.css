@@ -518,6 +518,10 @@ input[type="checkbox"] {
     transform: translateX(-100%);
 }
 
+.menu-button{
+    display:block;
+}
+
 .nav-link {
     display: block;
     padding-top: 0.625rem;
@@ -623,6 +627,12 @@ input[type="checkbox"] {
 }
 
 .md-nav__title{
+}
+
+@media screen and (min-width: 76.25em) {
+    .md-sidebar {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 76.1875em) {
@@ -1071,7 +1081,7 @@ a:hover.back-to-top {
 /* end of min-width 768px */
 
 /* Min-width 1024px */
-@media (min-width: 1024px) {
+@media (min-width: 76.1875em) {
     /* General Styles */
 
     .btn-solid-lg {
@@ -1114,6 +1124,10 @@ a:hover.back-to-top {
     .offcanvas-collapse.open {
         -webkit-transform: none;
         transform: none;
+    }
+
+    .menu-button{
+        display:none;
     }
 
     .nav-link {
