@@ -17,7 +17,7 @@ Pour cela rien de plus simple :
 Afin de pouvoir consulter votre nouvel ePoc dans l'application mobile, vous devez l'héberger sur un service accessible
 depuis internet (Nuage, Nextcloud, Google Drive, Dropbox, Github, etc).
 
-Une fois celui-ci déposer vous pouvez générer un QR Code avec [notre outil](../../../qr-code-generator) en ligne pour l'importer depuis votre application mobile.
+Une fois celui-ci déposer vous pouvez générer un QR Code avec [notre outil](../../qr-code-generator/index.md) en ligne pour l'importer depuis votre application mobile.
 
 
 ### Déposer sur Nextcloud/Nuage
@@ -29,7 +29,7 @@ fournisseur basé sur Nextcloud [ici](https://www.chatons.org/search/by-service?
 2. Récuperer le lien de partage et ajouter `/download` à la fin  
     Exemple : `https://demo1.nextcloud.com/s/5Xs6DX9HWKKrNpW`  
     Devient : `https://demo1.nextcloud.com/s/5Xs6DX9HWKKrNpW/download`
-3. Utiliser [notre outil](../../../qr-code-generator) pour convertir ce lien en QR Code
+3. Utiliser [notre outil](../../qr-code-generator/index.md) pour convertir ce lien en QR Code
 
 ![Copy share link Nextcloud](images/share-nextcloud.png)
 ![Get QR Code Nextcloud](images/share-qr-nextcloud.png)
@@ -39,7 +39,7 @@ fournisseur basé sur Nextcloud [ici](https://www.chatons.org/search/by-service?
 
 1. Déposer votre ePoc dans votre espace
 2. Récuperer le lien de partage
-3. Utiliser [notre outil](../../../qr-code-generator) pour convertir ce lien en QR Code
+3. Utiliser [notre outil](../../qr-code-generator/index.md) pour convertir ce lien en QR Code
 
 ![Copy share link Google Drive](images/share-googledrive.png)
 ![Get QR Code Google Drive](images/share-qr-googledrive.png)
@@ -48,7 +48,7 @@ fournisseur basé sur Nextcloud [ici](https://www.chatons.org/search/by-service?
 
 1. Déposer votre ePoc dans votre dépôt (25MB max, le dépôt doit être *public*)
 2. Copier le lien vers le fichier
-3. Utiliser [notre outil](../../../qr-code-generator) pour convertir ce lien en QR Code
+3. Utiliser [notre outil](../../qr-code-generator/index.md) pour convertir ce lien en QR Code
 
 ![Copy share link Github](images/share-github.png)
 ![Get QR Code Github](images/share-qr-github.png)
@@ -57,7 +57,7 @@ fournisseur basé sur Nextcloud [ici](https://www.chatons.org/search/by-service?
 
 1. Déposer votre ePoc dans votre espace
 2. Récupérer le lien de partage
-3. Utiliser [notre outil](../../../qr-code-generator) pour convertir ce lien en QR Code
+3. Utiliser [notre outil](../../qr-code-generator/index.md) pour convertir ce lien en QR Code
 
 ![Copy share link Dropbox](images/share-dropbox.png)
 ![Get QR Code Dropbox](images/share-qr-dropbox.png)

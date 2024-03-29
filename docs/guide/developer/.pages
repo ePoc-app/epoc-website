@@ -1,6 +1,6 @@
 nav:
-    - Démarrage : getting-started.md
-    - Spécifications ePoc: specs
-    - Application mobile : mobile-app
-    - Editeur : editor
+    - contributing.md
+    - file-format.md
+    - data-types.md
+    - plugins.md
     - ...

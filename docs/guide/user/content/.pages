@@ -1,4 +1,5 @@
 nav:
     - Texte : text.md
+    - Texte avancé : wysiwyg
     - Video : video.md
     - Audio : audio.md

@@ -23,11 +23,7 @@
                         <div class="dropdown-menu" aria-labelledby="dropdown02">
                             {% for nav_item_child in nav_item.children %}
                                 {% if nav_item_child.children %}
-                                <a class="dropdown-item" href="{{ nav_item_child.children[0].url | url }}">
-                                    {{ nav_item_child.title }}
-                                </a>
-                                {% else %}
-                                    {% if "SEPARATOR" == nav_item_child.url %}
+                                    {% if nav_item_child.children[0].url == 'guide/outils/' %}
                                     <div class="dropdown-item">
                                         <div class=" relative flex items-center">
                                             <div class="flex-grow border-t border-gray-200"></div>
@@ -36,10 +32,14 @@
                                         </div>
                                     </div>
                                     {% else %}
+                                        <a class="dropdown-item" href="{{ nav_item_child.children[0].url | url }}">
+                                            {{ nav_item_child.title }}
+                                        </a>
+                                    {% endif %}
+                                {% else %}
                                     <a class="dropdown-item" href="{{ nav_item_child.url | url }}">
                                         {{ nav_item_child.title }}
                                     </a>
-                                    {% endif %}
                                 {% endif %}
                             {% endfor %}
                         </div>

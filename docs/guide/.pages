@@ -1,5 +1,6 @@
 nav:
     - Guide Editeur : user
-    # - Développeur : developer
-    # - Outils: SEPARATOR
+    - Guide Développeur : developer
+    - Outils: outils
     - Générateur QR Code : ../../qr-code-generator
+    - Diagramme Mermaid : ../../mermaid-editor
