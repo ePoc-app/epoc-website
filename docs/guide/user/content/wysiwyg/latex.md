@@ -1,7 +1,7 @@
 # Intégration LaTex
 Dans l'éditeur WYSIWYG, vous pouvez rédiger du code LaTex. Pour l'instant l'aperçu du LaTex n'est pas disponible dans l'éditeur, mais vous pouvez visualiser le résultat sur l'application mobile. Pour obtenir un aperçu de votre cours tout en rédigeant vos expressions LaTex, vous pouvez lancer l'aperçu en simultané avec l'éditeur.
 
-![Démo Katex](../images/katex-demo.jpg)
+![Démo Katex](../../images/katex-demo.jpg)
 
 Vous pouvez également utiliser ce [bac à sable](https://katex.org/#demo)
 
@@ -18,11 +18,11 @@ En résumé, le mode "display" rend les symboles plus grands, adaptés à une li
 
 `$$ \sum_{p = 0}^{2n + 1} (-1)^p $$`
 
-![Katex en mode display](../images/katex-display.png)
+![Katex en mode display](../../images/katex-display.png)
 
 
 ### Mode "Inline"
 
 `$ \sum_{p = 0}^{2n + 1} (-1)^p $`
 
-![Katex en mode inline](../images/katex-inline.png)
+![Katex en mode inline](../../images/katex-inline.png)
