@@ -94,7 +94,7 @@ ePoc.receive = async (data) => {
 
 Les plugins peuvent déclarer un template html qui est aussi éxécuté dans une iframe distinct. La 
 différence est que l'iframe du template est intégré dans des pages de texte ou des exercices et est visible par
-l'apprenant.
+l'apprenant. La propriété `template` peut être une chaine de caractères inline ou un fichier HTML distinct.
 
 ### Exemple "Hello World"
 Voici comment déclarer un template de plugin en reprenant l'exemple précédent :
@@ -118,21 +118,10 @@ Et le template en question (affiche simplement un titre H1) :
 
 ```html
 <!-- plugin_template.html -->
-
-<html lang="en">
-<head>
-    <!-- Feuille de style pour avoir un affichage identique à l'app mobile -->
-    <link rel="stylesheet" href="/assets/css/plugin-embed.css">
-</head>
-<body>
 <h1>Hello World</h1>
-<!-- Script pour avoir accès à l'API -->
-<script src="/assets/js/plugin-api-embed.js"></script>
 <script>
     // Votre logique métier ici
 </script>
-</body>
-</html>
 ```
 
 
@@ -159,24 +148,16 @@ Envoie la réponse de l'utilisateur quand le template du plugin est utilisé dan
 ```html
 <!-- plugin_template.html -->
 <!-- Question personnalisée champ texte libre -->
-<html lang="en">
-<head>
-  <link rel="stylesheet" href="/assets/css/plugin-embed.css">
-</head>
-<body>
-  <form>
+<form>
     <!-- Champ texte -->
     <input type="text"/>
-  </form>
-  <script src="/assets/js/plugin-api-embed.js"></script>
-    <script>
-        const userInput = document.querySelector('input');
-        // Quand l'utilisateur tape du texte
-        userInput.addEventListener('keyup', (event) => {
-            // On envoie la réponse à l'app
-          plugin.emit('user-responded', userInput.value)
-        });
-    </script>
-</body>
-</html>
+</form>
+<script>
+    const userInput = document.querySelector('input');
+    // Quand l'utilisateur tape du texte
+    userInput.addEventListener('keyup', (event) => {
+        // On envoie la réponse à l'app
+      plugin.emit('user-responded', userInput.value)
+    });
+</script>
 ```
