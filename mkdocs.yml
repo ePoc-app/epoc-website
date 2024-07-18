@@ -24,4 +24,26 @@ exclude_docs: |
 plugins:
   - awesome-pages
   - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: false
+      languages:
+        - build: true
+          default: true
+          locale: fr
+          name: Français
+        - build: true
+          default: false
+          locale: en
+          name: English
+          nav_translations:
+            Accueil: Home
+            Nos Cours: Courses
+            Guide Editeur: Editor Guide
+            Guide Développeur: Developer Guide
+            Aide: Help
+            Outils: Tools
+      reconfigure_material: true
+      reconfigure_search: true
+
 
