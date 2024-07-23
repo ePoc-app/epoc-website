@@ -1,4 +1,4 @@
 title: Home
 template: epoc-theme/home.en.html
-description: "ePoc: l'apprentissage sur mobile libre et ouvert"
+description: "ePoc: mobile learning free and open source"
 img: /images/accueil.png

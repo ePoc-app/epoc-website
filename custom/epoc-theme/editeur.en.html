@@ -1,0 +1,177 @@
+{% extends "main.en.html" %}
+
+{% block extrahead %}
+<style>
+    .md-main{
+        display: none;
+        padding: 0;
+        height:0;
+    }
+
+    @media screen and (max-width: 76.1875em) {
+        .md-main{
+            display: block;
+        }
+    }
+</style>
+{{ super() }}
+{% endblock %}
+
+{% block hero %}
+<!-- Header -->
+<header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+    <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
+        <div class="mb-16 mt-16 xl:mr-12">
+            <h1 class="h1-large mb-5">ePoc Editor <small>(beta)</small></h1>
+            <p class="p-large mb-8">
+                The desktop application to design, build and publish your own mobile learning course in ePoc format.
+            </p>
+            <p class="p-large mb-8">Free and open <a href="{{ config.repo_url }}" target="_blank">source</a>. Developed by <a href="https://inria.fr/">Inria</a>.</p>
+            <h5 class="mb-5">Download:</h5>
+            <a class="btn-solid-lg" href="{{ config.extra.editor_link_windows | replace('${EDITOR_VERSION}', config.extra.editor_version) }}">
+                <i class="fab fa-windows"></i>Windows ({{ config.extra.editor_version }})
+            </a>
+            <a class="btn-solid-lg" href="{{ config.extra.editor_link_macos | replace('${EDITOR_VERSION}', config.extra.editor_version)  }}">
+                <i class="fab fa-apple"></i>MacOS ({{ config.extra.editor_version }})
+            </a>
+            <a class="btn-solid-lg" href="{{ config.extra.editor_link_linux | replace('${EDITOR_VERSION}', config.extra.editor_version)  }}">
+                <i class="fab fa-linux"></i>Linux ({{ config.extra.editor_version }})
+            </a>
+            <a class="btn-solid-lg" href="{{ config.repo_url }}" target="_blank">
+                <i class="fa fa-code-branch"></i>Source code
+            </a>
+        </div>
+        <div class="xl:text-right home-video">
+            <iframe class="shadow-xl outline-none w-full"
+                    src="https://www.youtube.com/embed/86lbMmM03FU?modestbranding=1&autohide=1&rel=0&showinfo=0"
+                    title="YouTube video player"
+                    allowfullscreen
+            ></iframe>
+        </div>
+    </div> <!-- end of container -->
+</header> <!-- end of header -->
+<!-- end of header -->
+
+{% include "epoc-theme/newsletter.en.html" %}
+
+<!-- Features -->
+<div id="features" class="cards-1">
+    <div class="container px-4 sm:px-8 xl:px-4">
+
+        <!-- Card -->
+        <div class="card">
+            <div class="card-image">
+                <img src="/images/automated.svg" alt="alternative" />
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">ERGONOMICS</h5>
+                <p class="mb-4">Visual and intuitive design interface with no coding skills required</p>
+            </div>
+        </div>
+        <!-- end of card -->
+
+        <!-- Card -->
+        <div class="card">
+            <div class="card-image">
+                <img src="/images/science.svg" alt="alternative" />
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">ALL-IN-ONE</h5>
+                <p class="mb-4">Ready-to-use content: texts, videos, quizzes, activities</p>
+            </div>
+        </div>
+        <!-- end of card -->
+
+        <!-- Card -->
+        <div class="card">
+            <div class="card-image">
+                <img src="/images/securite.svg" alt="alternative" />
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">PEDAGOGY</h5>
+                <p class="mb-4">Branching scenario, assessment, completion certificate, badges</p>
+            </div>
+        </div>
+        <!-- end of card -->
+
+    </div> <!-- end of container -->
+</div> <!-- end of cards-1 -->
+<!-- end of features -->
+
+<!-- Details 1 -->
+<div id="details" class="pt-12 pb-16 lg:pt-16">
+    <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+        <div class="lg:col-span-7">
+            <div class="xl:mr-14">
+                <img class="inline" src="/images/editeur-video.png" alt="alternative" />
+            </div>
+        </div> <!-- end of col -->
+        <div class="lg:col-span-5">
+            <div class="mt-16 lg:mt-0 xl:mt-24">
+                <h2 class="mb-6">Ready to use</h2>
+                <p class="mb-4">Ready-to-use content customizable to your needs</p>
+                <ul class="list mb-7 space-y-2">
+                    <li class="flex">
+                        <i class="fas fa-chevron-right"></i>
+                        <div>Videos, audios, texts</div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-chevron-right"></i>
+                        <div>Single/Multiple choice questions, Drag-and-drop, sorting, swipe</div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-chevron-right"></i>
+                        <div>Assessment, completion certificate and badges</div>
+                    </li>
+                </ul>
+            </div>
+        </div> <!-- end of col -->
+    </div> <!-- end of container -->
+</div>
+<!-- end of details 1 -->
+
+
+<!-- Details 2 -->
+<div class="py-24">
+    <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+        <div class="lg:col-span-5">
+            <div class="xl:mt-32">
+                <h2 class="mb-6">Educational scenario in a few clicks</h2>
+                <p class="mb-4">
+                    Build your branching educational scenario using a visual and ergonomic interface
+                </p>
+                <!--<a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Lightbox</a>
+                <a class="btn-outline-reg" href="article.html">Details</a>-->
+            </div>
+        </div> <!-- end of col -->
+        <div class="lg:col-span-7">
+            <div class="mb-12 lg:mb-0 xl:mr-14">
+                <img class="inline" src="/images/editeur-scenario.png" alt="alternative" />
+            </div>
+        </div> <!-- end of col -->
+    </div> <!-- end of container -->
+</div>
+<!-- end of details 2 -->
+
+
+<!-- Conclusion -->
+<div id="Télécharger" class="basic-5">
+    <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
+        <div class="mb-16 lg:mb-0">
+            <img src="/images/swipe.png" alt="alternative" />
+        </div>
+        <div class="lg:mt-24 xl:mt-44 xl:ml-12">
+            <p class="mb-9 text-gray-800 text-3xl leading-10">Download the ePoc app</p>
+            <a class="btn-solid-lg" href="{{ page.meta.apple_link if page.meta.apple_link else config.extra.apple_link }}"><i class="fab fa-apple"></i>Download</a>
+            <a class="btn-solid-lg" href="{{ page.meta.google_link if page.meta.apple_link else config.extra.google_link }}"><i class="fab fa-google-play"></i>Download</a>
+        </div>
+    </div> <!-- end of container -->
+</div> <!-- end of basic-5 -->
+<!-- end of conclusion -->
+
+{{ super() }}
+
+{% endblock %}
+
+{% block content %}
+{% endblock %}

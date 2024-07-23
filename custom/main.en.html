@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+<link href="/css/fontawesome-all.css" rel="stylesheet" />
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+<link href="https://unpkg.com/@tailwindcss/typography@0.4.1/dist/typography.min.css" rel="stylesheet" />
+<link href="/css/swiper.css" rel="stylesheet" />
+<link href="/css/magnific-popup.css" rel="stylesheet" />
+<link href="/css/styles.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+{% endblock %}
+
+{% block header %}
+{% include "epoc-theme/nav.html" %}
+{% endblock %}
+
+{% block content %}
+{{ super() }}
+{% endblock %}
+
+{% block footer %}
+{% include "epoc-theme/footer.en.html" %}
+{% include "epoc-theme/copyright.en.html" %}
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+{% include "epoc-theme/script.html" %}
+{% endblock %}

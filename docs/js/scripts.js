@@ -179,7 +179,10 @@
 	function changeActive() {
 		const menuItems = getMenuItems();
 		$.each(menuItems, function(index, value){
-			var offsetSection = $('#' + value).offset().top;
+			if (!value || !value.replace('/', '')) return;
+			var elem = $('#' + value.replace('/', ''));
+			if (elem.length < 1) return;
+			var offsetSection = elem.offset().top;
 			var docScroll = $(document).scrollTop();
 			var docScroll1 = docScroll + 1; 
 			
@@ -191,18 +194,23 @@
 	}
 
 	/* Newsletter */
-	$('#newsletter').submit(function(event) {
+	var nl = $('#newsletter');
+	nl.submit(function(event) {
 		event.preventDefault();
 		var email = $('#newsletter_email').val();
-		var prevEmails = JSON.parse(localStorage.getItem('newsltterEmails')) || [];
+		var prevEmails = JSON.parse(localStorage.getItem('newsletterEmails')) || [];
 		if (!email && !_paq) return;
 		if (prevEmails.indexOf(email) === -1) {
-			_paq.push(['trackEvent', 'Newsletter', 'Subscribe', email]);
+			var eventName = 'Subscribe';
+			if (nl.data('lang')) {
+				eventName = eventName + '-' + nl.data('lang')
+			}
+			_paq.push(['trackEvent', 'Newsletter', eventName, email]);
 			prevEmails.push(email)
 			localStorage.setItem('newsletterEmails', JSON.stringify(prevEmails))
 		}
 		Toastify({
-			text: "Inscription réussie",
+			text: nl.data('confirm') || "Inscription réussie",
 			duration: 3000,
 			gravity: "bottom",
 			position: "center",

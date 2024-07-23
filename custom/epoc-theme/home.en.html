@@ -1,4 +1,4 @@
-{% extends "main.html" %}
+{% extends "main.en.html" %}
 
 {% block extrahead %}
 <style>
@@ -23,7 +23,7 @@
     <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
         <div class="mb-16 lg:mt-32 xl:mt-40 xl:mr-12">
             <h1 class="h1-medium mb-5">ePoc, mobile learning free and open source</h1>
-            <p class="p-large mb-8">ePoc (<b>E</b>lectronic <b>P</b>ocket <b>O</b>pen <b>C</b>ourse) is a complete mobile learning free and open source solution. Discover <a href="./epocs">our courses</a> or create your own using <a href="./editor">the editor</a>. </p>
+            <p class="p-large mb-8">ePoc (<b>E</b>lectronic <b>P</b>ocket <b>O</b>pen <b>C</b>ourse) is a complete mobile learning free and open source solution. Discover our courses or create your own using <a href="./editor">the editor</a>. </p>
             <p class="p-large mb-8">Free and <a href="{{ config.repo_url }}" target="_blank">open source</a>. Developed by <a href="https://inria.fr/" target="_blank">Inria</a>.</p>
             <a class="btn-solid-lg" href="{{ page.meta.apple_link if page.meta.apple_link else config.extra.apple_link }}"><i class="fab fa-apple"></i>Download</a>
             <a class="btn-solid-lg" href="{{ page.meta.google_link if page.meta.apple_link else config.extra.google_link }}"><i class="fab fa-google-play"></i>Download</a>
@@ -35,7 +35,7 @@
 </header> <!-- end of header -->
 <!-- end of header -->
 
-{% include "epoc-theme/newsletter.html" %}
+{% include "epoc-theme/newsletter.en.html" %}
 
 <!-- Features -->
 <div id="features" class="cards-1">
@@ -152,21 +152,6 @@
     </div> <!-- end of container -->
 </div>
 <!-- end of details 3 -->
-
-<!-- Conclusion -->
-<div id="Télécharger" class="basic-5">
-    <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
-        <div class="mb-16 lg:mb-0">
-            <img src="images/swipe.png" alt="alternative" />
-        </div>
-        <div class="lg:mt-24 xl:mt-44 xl:ml-12">
-            <p class="mb-9 text-gray-800 text-3xl leading-10">Download now on iOS or Android.</p>
-            <a class="btn-solid-lg" href="{{ page.meta.apple_link if page.meta.apple_link else config.extra.apple_link }}"><i class="fab fa-apple"></i>Download</a>
-            <a class="btn-solid-lg" href="{{ page.meta.google_link if page.meta.apple_link else config.extra.google_link }}"><i class="fab fa-google-play"></i>Download</a>
-        </div>
-    </div> <!-- end of container -->
-</div> <!-- end of basic-5 -->
-<!-- end of conclusion -->
 
 {{ super() }}
 

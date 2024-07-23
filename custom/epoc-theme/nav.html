@@ -6,10 +6,10 @@
         <!-- <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="home.html">Pavo</a> -->
 
         <!-- Image Logo -->
-        <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="/">
+        <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}">
             <img src="/images/logo-epoc-by-inria.png" alt="alternative" class="h-10" />
         </a>
-
+        <div class="flex">
         <button class="menu-button background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline text-gray-400" type="button" data-toggle="offcanvas">
             <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
         </button>
@@ -61,11 +61,12 @@
                     <i class="fab fa-android text-xl transition-all duration-200"></i>
                 </a>
             </span>
-            <!-- Site language selector -->
-            {% if config.extra.alternate %}
-            {% include "partials/alternate.html" %}
-            {% endif %}
         </div> <!-- end of navbar-collapse -->
+        <!-- Site language selector -->
+        {% if config.extra.alternate %}
+        {% include "partials/alternate.html" %}
+        {% endif %}
+        </div>
     </div> <!-- end of container -->
 </nav> <!-- end of navbar -->
 <!-- end of navigation -->
