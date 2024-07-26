@@ -59,5 +59,11 @@ fournisseur basé sur Nextcloud [ici](https://www.chatons.org/search/by-service?
 2. Récupérer le lien de partage
 3. Utiliser [notre outil](../../qr-code-generator/index.md) pour convertir ce lien en QR Code
 
-![Copy share link Dropbox](images/share-dropbox.png)
-![Get QR Code Dropbox](images/share-qr-dropbox.png)
+### Partage rapide sur FliQR
+
+Pour un partage rapide (QR code valable que quelques jours) vous pouvez déposer votre ePoc sur [FliQR](https://fliqr.codes). Ce service propose une version gratuite idéale pour partager un ePoc en cours de conception.
+
+1. Déposer votre ePoc sur le site [FliQR.codes](https://fliqr.codes)
+2. Récupérer le QR Code
+
+![Upload sur FliQR](images/fliqr.gif)
