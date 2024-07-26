@@ -16,7 +16,7 @@ Inria Domaine de Voluceau Rocquencourt - B.P. 105 78153 Le Chesnay Cedex - Franc
 ## Protection des données à caractère personnel (RGPD)
 
 
-Inria est engagé dans une démarche de protection des données à caractère personnel qu'il traite. Pour plus d'informations, veuillez consulter notre mention d'information sur la [protection des données personnelles](/node/106 "Données personnelles").
+Inria est engagé dans une démarche de protection des données à caractère personnel qu'il traite. Pour plus d'informations, veuillez consulter notre mention d'information sur la [protection des données personnelles](./privacy.md).
 
 ## Contenu du site
 
