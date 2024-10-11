@@ -19,18 +19,11 @@
 
 {% block hero %}
 <!-- Header -->
-<header id="header" class="header pt-28 pb-16 text-center md:pt-36 lg:text-left xl:pt-44">
+<header id="header" class="header pt-14 pb-8 text-center lg:text-left">
     <div class="container px-4 sm:px-8">
-        <div class="mb-16 lg:mt-32 text-center">
+        <div class="mb-8 mt-16 text-center mx-auto" style="max-width: 48rem">
             <h1 class="h1-medium mb-5">Découvrez nos ePocs</h1>
             <p class="p-large mb-8">Les ePocs <a href="https://learninglab.inria.fr/" target="_blank">Inria Learning lab</a>, des formations courtes et ludiques sur le numérique, proposées par des experts scientifiques.</p>
-            <p class="p-large mb-8">Téléchargez l'application pour découvrir nos ePocs :</p>
-            <a class="btn-solid-lg" href="{{ page.meta.apple_link if page.meta.apple_link else config.extra.apple_link }}">
-                <i class="fab fa-apple"></i>Télécharger
-            </a>
-            <a class="btn-solid-lg" href="{{ page.meta.google_link if page.meta.apple_link else config.extra.google_link }}">
-                <i class="fab fa-google-play"></i>Télécharger
-            </a>
         </div>
     </div> <!-- end of container -->
 </header> <!-- end of header -->
@@ -47,25 +40,23 @@
         {% endfor %}
     {% endif %}
 {% endfor %}
-{% for epoc in epocs %}
 -->
-<div id="details" class="pt-12 pb-16 lg:pt-16">
-    <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-        <div class="lg:col-span-7">
-            <div class="mb-16 lg:mb-0 xl:mt-16">
-                <h2 class="mb-6">{{ epoc.title }}</h2>
-                <p class="mb-8">{{epoc.meta.description}}</p>
-                <a class="btn-solid-lg" href="/{{epoc.url}}">En savoir plus</a>
-            </div>
-        </div> <!-- end of col -->
-        <div class="lg:col-span-5 {% if loop.index % 2 == 1 %}text-right order-first{% endif %}">
-            <div class="xl:ml-14">
+<div id="details" class="pb-32">
+    <div class="container px-4 sm:px-8 md:grid md:grid-cols-2 md:gap-x-6 md:gap-y-16 lg:grid-cols-4">
+        {% for epoc in epocs %}
+        <div class="w-full m-auto" style="max-width: 24rem">
+            <div>
                 <img class="inline w-96 shadow-md" src="{{ epoc.meta.thumb | url }}" alt="Image ePoc {{ epoc.title }}">
             </div>
+            <div class="mb-16 lg:mb-0 xl:mt-16 text-center lg:text-left">
+                <h2 class="mt-6 mb-2 text-lg h-14">{{ epoc.title }}</h2>
+                <p class="mb-4 line-clamp-3">{{epoc.meta.short}}</p>
+                <a class="text-red-600" href="/{{epoc.url}}">En savoir plus</a>
+            </div>
         </div> <!-- end of col -->
+        {% endfor %}
     </div> <!-- end of container -->
 </div>
-{% endfor %}
 
 {% include "epoc-theme/newsletter.html" %}
 
