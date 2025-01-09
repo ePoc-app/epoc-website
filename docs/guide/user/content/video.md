@@ -17,7 +17,7 @@ Les informations à renseigner pour la rubrique “vidéo“ sont :
 
 ## Encodage des videos
 
-Pour garantir une lecture optimale des vidéos sur la plupart des smartphoness, nous recommandons l'encodage en format MP4 avec le codec H.264 en résolution 480p. Ce format est suffisant pour une lecture fluide et de bonne qualité sur les appareils mobiles.
+Pour garantir une lecture optimale des vidéos sur la plupart des smartphones, nous recommandons l'encodage en format MP4 avec le codec H.264 en résolution 480p. Ce format est suffisant pour une lecture fluide et de bonne qualité sur les appareils mobiles.
 
 ### Encodage avec ffmpeg
 
