@@ -12,3 +12,26 @@ Les informations à renseigner pour la rubrique “audio“ sont :
 - Transcription : si l'audio contient un discours ou un dialogue important, vous pouvez fournir une transcription textuelle de l'audio pour aider les utilisateurs qui ne souhaite pas ou qui ne sont pas en capacité d'écouter l'audio.
 
 ![Renseigner un contenu audio](../images/audio.png)
+
+### Encodage des fichiers audio
+
+Pour garantir une lecture optimale des podcasts et autre fichier audio, nous recommandons l'encodage en format MP3 avec un débit binaire de 128 kbps. Ce format est suffisant pour une qualité audio claire et une compatibilité maximale avec divers appareils.
+
+#### Commande FFmpeg
+
+Pour encoder un podcast avec [FFmpeg](https://ffmpeg.org/), utilisez la commande suivante :
+
+```sh
+ffmpeg -i input.wav -codec\:a libmp3lame -b\:a 128k output.mp3
+```
+
+### Alternative avec Audacity
+
+Si vous préférez utiliser [Audacity](https://www.audacityteam.org/), suivez ces étapes :
+
+1. Ouvrez Audacity et chargez votre fichier audio. 
+2. Allez dans "Fichier" > "Exporter" > "Exporter en MP3". 
+3. Dans la fenêtre d'exportation, sélectionnez "128 kbps" comme débit binaire. 
+4. Cliquez sur "Enregistrer" pour commencer l'encodage.
+
+Ces recommandations garantissent une compatibilité maximale et une qualité audio optimale pour la lecture sur divers appareils.
