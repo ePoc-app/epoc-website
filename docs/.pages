@@ -3,7 +3,4 @@ nav:
     - Nos ePocs: epocs
     - Editeur (beta) : editor.md
     - Aide: guide
-    - Communauté:
-        - Discord: https://discord.gg/xzSVeuPEtH
-        - Tchap: https://www.tchap.gouv.fr/#/room/#epoc:agent.education.tchap.gouv.fr
-        - ePocs de la communauté ↗ : https://epoc.forge.apps.education.fr/
+    - Communauté: community
