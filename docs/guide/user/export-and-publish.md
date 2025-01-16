@@ -37,7 +37,7 @@ fournisseur basé sur Nextcloud [ici](https://www.chatons.org/search/by-service?
 
 ### Déposer sur Google Drive
 
-1. Déposer votre ePoc dans votre espace
+1. Déposer votre ePoc dans votre espace (100MB max sinon Google Drive affiche un avertissement qui bloque le téléchargement direct)
 2. Récuperer le lien de partage
 3. Utiliser [notre outil](../../qr-code-generator/index.md) pour convertir ce lien en QR Code
 
