@@ -1373,3 +1373,10 @@ a:hover.back-to-top {
     font-weight: 400;
     text-transform: none;
 }
+
+.mockup {
+    display:inline;
+    margin:1rem 1rem 1rem 0;
+    border:1px solid black;
+    border-radius:1rem;
+}
