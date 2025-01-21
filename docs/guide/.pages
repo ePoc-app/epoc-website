@@ -1,4 +1,5 @@
 nav:
+    - Guide App mobile : app
     - Guide Editeur : user
     - Guide Développeur : developer
     - Outils: outils
