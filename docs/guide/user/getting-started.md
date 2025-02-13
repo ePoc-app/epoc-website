@@ -31,3 +31,25 @@ Dans ce guide nous ferons la distinction des termes suivants :
 - Page : un élément qui compose un chapitre. Une page contient un titre et un ou plusieurs contenus disposés verticalement. 
   On peut passer d'une page à l'autre en swipant de droite à gauche
 - Contenu : un élément qui compose une page. Un contenu peut être du texte, des images, des tableaux, des graphiques et d'autres éléments de contenu.
+
+## Mon premier ePoc
+
+Le parcours de l'ePoc "Produire mon 1er ePoc" vous guide pas à pas pour la découverte d'ePoc Editor, l'application de bureau pour construire votre ePoc.  
+En suivant les étapes de l'ePoc "Produire mon 1er ePoc" sur votre mobile, vous pouvez en parallèle, avec ePoc Editor sur votre ordinateur, découvrir son interface, expérimenter la création de contenus, le paramétrage d'évaluation puis l'export de votre premier ePoc au format .epoc, prêt à être téléchargé et suivi sur l'application mobile.
+
+### Synopsis
+
+Conçue comme un accompagnement structuré et ludique, l'apprenant est guidé pas à pas pour découvrir l'éditeur d'ePoc et expérimenter comment :
+
+•	Structurer votre parcours pédagogique  
+•	Créer des contenus variés  
+•	Paramétrer une évaluation  
+•	Exporter votre ePoc pour lecture sur l'application mobile
+
+### Informations pratiques
+
+•	Télécharger [ePoc Editor](/editor/) sur votre ordinateur (MacOS, Windows, Linux),  
+•	Suivre les modules de l'ePoc "[Produire mon 1er ePoc](/epocs/E012MC)" sur votre téléphone mobile tout en expérimentant les fonctionnalités présentées.  
+•	Durée de l'apprentissage : 40 min (10 min par module)
+
+
