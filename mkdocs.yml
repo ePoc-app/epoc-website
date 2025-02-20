@@ -1,6 +1,6 @@
 site_name: ePoc Mobile Learning
 site_url: https://epoc.inria.fr/
-repo_url: https://gitlab.inria.fr/learninglab/epoc
+repo_url: https://github.com/ePoc-app
 dev_addr: '127.0.0.1:1091'
 theme:
   name: material

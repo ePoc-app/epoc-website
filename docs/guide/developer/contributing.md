@@ -34,7 +34,7 @@ Pour en savoir plus sur les différentes façons de contribuer à ePoc et pour r
 
 ## Liens utiles
 
-- [Sources](https://gitlab.inria.fr/learninglab/epoc/)
+- [Sources](https://github.com/ePoc-app)
 - [Tchap](https://www.tchap.gouv.fr/#/room/#epoc:agent.education.tchap.gouv.fr)
 - [Discord](https://discord.gg/xzSVeuPEtH)
 - [Documentation des plugins](plugins.md)

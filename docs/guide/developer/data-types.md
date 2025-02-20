@@ -12,6 +12,6 @@ npm i @epoc/epoc-types
 
 ## Liens utiles
 
-- [Types](https://gitlab.inria.fr/learninglab/epoc/epoc-types/-/tree/master/src/v1)
+- [Types](https://github.com/ePoc-app/epoc-types/tree/master/src/v1)
 - [Package](https://www.npmjs.com/package/@epoc/epoc-types)
 
