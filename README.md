@@ -1,23 +1,23 @@
 # ePoc Website
 
-The source code of https://epoc.inria.fr/ a static website based on mkdocs, mkdocs-material and [Pavo](https://github.com/technext/pavo) lading page template.
+The source code of https://epoc.inria.fr/ a static website based on [nuxt](https://nuxt.com/), [nuxt-content](https://content.nuxt.com/) and [shadcn-docs](https://github.com/ZTL-UwU/shadcn-docs-nuxt) nuxt theme.
 
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+npm i
 ```
 
 ## Live Preview
 
 ```bash
-mkdocs serve --watch-theme
+npm run dev
 ```
 
 ## Build and publish
 
 ```bash
-mkdcos build
+npm run generate
 ```
 
 then publish it by uploading it to `epoc.inria.fr:/var/www/html/`
