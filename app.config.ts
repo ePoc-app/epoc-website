@@ -26,31 +26,31 @@ export default defineAppConfig({
           description: 'Découvrez la collection ePoc Inria',
         },{
           title: 'B.A.-BA des data',
-          to: '/epocs/E006PE',
+          to: '/epocs/E006PE'.toLowerCase(),
           description: 'Comprendre quelques fondamentaux de l\'informatique et des données.',
         },{
           title: 'Smartphone et vie privée',
-          to: '/epocs/E002VR',
+          to: '/epocs/E002VR'.toLowerCase(),
           description: 'A propos du respect de la vie privée sur nos smartphone ou tablette.',
         },{
           title: 'Internet des objets et vie privée',
-          to: '/epocs/E003VR',
+          to: '/epocs/E003VR'.toLowerCase(),
           description: 'Sur la question de la vie privée dans le domaine de la maison intelligente.',
         },{
           title: 'Le smartphone et la planète',
-          to: '/epocs/E007MM',
+          to: '/epocs/E007MM'.toLowerCase(),
           description: 'Comprendre les impacts environnementaux du smartphone.',
         },{
           title: 'C\'est quoi l\'IA ?',
-          to: '/epocs/E009LL',
+          to: '/epocs/E009LL'.toLowerCase(),
           description: 'Les principes de l\'intelligence artificielle (IA) par rapport à l\'intelligence biologique',
         },{
           title: 'Produire mon 1er ePoc',
-          to: '/epocs/E012MC',
+          to: '/epocs/E012MC'.toLowerCase(),
           description: 'Découvrez comment créer votre première formation mobile learning, courte, ludique, en quelques clics.',
         },{
           title: '🔒 Zone à Régime Restrictif',
-          to: '/epocs/E001DB',
+          to: '/epocs/E001DB'.toLowerCase(),
           description: 'Formation ePoc des nouveaux arrivants Inria en Zone à Régime Restrictif.',
         },
         ],
