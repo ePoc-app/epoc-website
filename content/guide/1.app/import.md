@@ -1,4 +1,8 @@
-# Importer des ePocs
+---
+title: Importer des ePocs
+icon: lucide:folder-down
+description: Guide pour importer un ePoc dans l'application mobile
+---
 
 Cette page vous guide à travers le processus d'importation d'un ePoc dans l'application. Vous pouvez importer des ePocs depuis un lien, un QR code ou un fichier local sur votre smartphone.
 

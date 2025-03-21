@@ -1,7 +1,6 @@
 ---
 title: Editeur
-navigation: false
-fullpage: true
+navigation: false 
 ---
 
 ::hero

@@ -46,6 +46,9 @@ ePoc (Electronic Pocket Open Course) est une solution complète de mobile learni
 #title
 Inscrivez-vous à notre Newsletter 💌
 
+#description
+Pour recevoir les actualités à propos de l'application, de l'éditeur et des formations ePoc.
+
 #content
     ::newsletter-box
     ---

@@ -7,7 +7,7 @@ export default defineAppConfig({
     },
     theme: {
       customizable: false,
-      color: 'slate',
+      color: 'inria',
       radius: 0.5,
     },
     header: {
@@ -21,22 +21,39 @@ export default defineAppConfig({
       nav: [{
         title: 'Nos ePocs',
         links: [{
-          title: 'Getting Started',
-          to: '/getting-started',
-          description: 'Start building your document with shadcn-docs-nuxt',
-          icon: 'lucide:rocket',
-        }, {
-          title: 'Components',
-          to: '/components/prose',
-          description: 'Explore available UI components and usage examples.',
-          icon: 'lucide:box',
-        }, {
-          title: 'API',
-          to: '/api/configuration/shadcn-docs',
-          description: 'Discover the configurations and exposed APIs.',
-          target: '_self',
-          icon: 'lucide:code',
-        }],
+          title: 'Tous nos ePocs',
+          to: '/epocs',
+          description: 'Découvrez la collection ePoc Inria',
+        },{
+          title: 'B.A.-BA des data',
+          to: '/epocs/E006PE',
+          description: 'Comprendre quelques fondamentaux de l\'informatique et des données.',
+        },{
+          title: 'Smartphone et vie privée',
+          to: '/epocs/E002VR',
+          description: 'A propos du respect de la vie privée sur nos smartphone ou tablette.',
+        },{
+          title: 'Internet des objets et vie privée',
+          to: '/epocs/E003VR',
+          description: 'Sur la question de la vie privée dans le domaine de la maison intelligente.',
+        },{
+          title: 'Le smartphone et la planète',
+          to: '/epocs/E007MM',
+          description: 'Comprendre les impacts environnementaux du smartphone.',
+        },{
+          title: 'C\'est quoi l\'IA ?',
+          to: '/epocs/E009LL',
+          description: 'Les principes de l\'intelligence artificielle (IA) par rapport à l\'intelligence biologique',
+        },{
+          title: 'Produire mon 1er ePoc',
+          to: '/epocs/E012MC',
+          description: 'Découvrez comment créer votre première formation mobile learning, courte, ludique, en quelques clics.',
+        },{
+          title: '🔒 Zone à Régime Restrictif',
+          to: '/epocs/E001DB',
+          description: 'Formation ePoc des nouveaux arrivants Inria en Zone à Régime Restrictif.',
+        },
+        ],
       }, {
         title: 'Editeur',
         to: '/editor',
@@ -44,7 +61,22 @@ export default defineAppConfig({
         showLinkIcon: false,
       }, {
         title: 'Aide',
-        links: [],
+        links: [{
+          title: 'Guide App mobile',
+          to: '/guide/app/download',
+          description: 'Guide d\'utilisation l\'application mobile sur iOS et Android',
+          icon: 'lucide:smartphone'
+        },{
+          title: 'Guide Editeur',
+          to: '/guide/user/install',
+          description: 'Guide pour créer une formation mobile learning, courte, ludique, en quelques clics grâce à notre éditeur ePoc.',
+          icon: 'lucide:monitor-cog'
+        },{
+          title: 'Guide Développeur',
+          to: '/guide/developer/contributing/',
+          description: 'Guide pour contribuer et participer aux développements de la solution ePoc',
+          icon: 'lucide:braces'
+        },],
       }, ],
       links: [{
         icon: 'lucide:github',
@@ -61,13 +93,13 @@ export default defineAppConfig({
       showTitle: true,
     },
     footer: {
-      credits: 'Copyright © Inria Learning Lab',
+      credits: 'COPYRIGHT',
       links: [{
           title: 'Conditions d\'utilisation',
           to: '/terms',
         },
         {
-          title: 'Vie privée',
+          title: 'Vie privee',
           to: '/privacy',
         },
         {

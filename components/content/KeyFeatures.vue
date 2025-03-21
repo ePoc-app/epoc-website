@@ -1,6 +1,6 @@
 <template>
   <div
-      class="gap-8 py-8 md:py-12 md:pb-8 lg:py-12 lg:pb-10 text-center lg:text-left"
+      class="gap-8 px-4 py-8 md:py-12 md:pb-8 lg:py-12 lg:pb-10 text-center lg:text-left"
       :class="{ 'grid lg:grid-cols-2': $slots.right }"
   >
     <section
