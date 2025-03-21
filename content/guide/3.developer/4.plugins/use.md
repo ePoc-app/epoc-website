@@ -1,5 +1,8 @@
-# Utiliser un plugin
-
+---
+title: "Utiliser un plugin"
+description: "Guide d'utilisation de plugins pour ePoc"
+icon: "lucide:file-box"
+---
 Ce guide vous montrera comment utiliser un plugin JavaScript dans un ePoc.
 
 ## Installer un plugin
@@ -25,7 +28,7 @@ Si votre plugin déclare un template vous pouvez ensuite l'intégrer à l'aide d
 ePoc.onLoad = () => {
     // Executé lorsque le plugin est chargé à l'ouverture de l'ePoc
     console.log('Hello World')
-    
+
     // Le plugin retourne le nom du template et le shortcode pour l'intégrer dans les pages de texte
     return {
         template: 'plugin_template.html',
@@ -69,7 +72,7 @@ Si votre plugin déclare un template vous pouvez aussi l'intégrer dans une ques
 ePoc.onLoad = () => {
     // Executé lorsque le plugin est chargé à l'ouverture de l'ePoc
     console.log('Hello World')
-    
+
     // Le plugin retourne le nom du template et le shortcode pour l'intégrer dans les pages de texte
     return {
         template: 'plugin_template.html',
@@ -102,9 +105,8 @@ ePoc.onLoad = () => {
 </body>
 ```
 
-![Intégrer un plugin dans une question](plugin-embed-question.png)
+![Intégrer un plugin dans une question](/images/plugins/plugin-embed-question.png)
 
 Ce qui donne comme résultat :
-  
-![PReview de la question custom](plugin-question.gif)
 
+![PReview de la question custom](/images/plugins/plugin-question.gif)
