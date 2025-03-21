@@ -12,7 +12,7 @@
           <p class="font-light text-muted-foreground my-4">{{item.short}}</p>
         </div>
         <ButtonLink :to="item._path">
-          En savoir plus
+          {{$t('En savoir plus')}}
         </ButtonLink>
       </div>
     </UiCard>

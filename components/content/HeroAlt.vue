@@ -1,7 +1,7 @@
 <template>
   <div
       class="gap-8 py-8 md:py-12 md:pb-8 lg:py-12 lg:pb-10 text-center lg:text-left"
-      :class="{ 'grid lg:grid-cols-2': $slots.right }"
+      :class="{ 'grid lg:grid-cols-2 items-center': $slots.right }"
   >
     <section
         class="flex flex-col items-center lg:items-start gap-2"
