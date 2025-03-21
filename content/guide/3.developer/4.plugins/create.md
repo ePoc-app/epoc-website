@@ -1,28 +1,32 @@
-# Créer un plugin
+---
+title: "Créer un plugin"
+description: "Guide de création de plugins pour ePoc"
+icon: "lucide:file-pen"
+---
 
 ## Introduction
 
-Notre application mobile utilise un système de plugin qui permet d'étendre ses fonctionnalités de manière 
-sécurisée et contrôlée. Ce système repose sur l'utilisation d'une iframe en mode sandbox au sein de la webview du 
-téléphone. Cette approche garantit un environnement d'exécution isolé pour chaque plugin, préservant ainsi la sécurité 
+Notre application mobile utilise un système de plugin qui permet d'étendre ses fonctionnalités de manière
+sécurisée et contrôlée. Ce système repose sur l'utilisation d'une iframe en mode sandbox au sein de la webview du
+téléphone. Cette approche garantit un environnement d'exécution isolé pour chaque plugin, préservant ainsi la sécurité
 et la stabilité de l'application principale.
 
 ## Fonctionnement du système de plugin
 
-Chaque plugin est essentiellement un script JavaScript (lancé à l'ouverture de l'ePoc) accompagné de template html 
-(à insérer dans les pages de texte ou les exercies). Le plugin et ses templates sont éxécutés dans des iframes distinctes. 
-L'attribut "sandbox" de l'iframe est utilisé pour créer un environnement d'exécution isolé, empêchant ainsi le plugin d'accéder 
+Chaque plugin est essentiellement un script JavaScript (lancé à l'ouverture de l'ePoc) accompagné de template html
+(à insérer dans les pages de texte ou les exercies). Le plugin et ses templates sont éxécutés dans des iframes distinctes.
+L'attribut "sandbox" de l'iframe est utilisé pour créer un environnement d'exécution isolé, empêchant ainsi le plugin d'accéder
 aux ressources de l'application principale sans autorisation explicite.
 
-Le système de plugin fournit une API JavaScript qui permet aux plugins d'interagir avec l'application principale de 
-manière contrôlée mais aussi aux templates d'échanger des données avec le plugin. Cette API comprend des méthodes pour 
+Le système de plugin fournit une API JavaScript qui permet aux plugins d'interagir avec l'application principale de
+manière contrôlée mais aussi aux templates d'échanger des données avec le plugin. Cette API comprend des méthodes pour
 envoyer et recevoir des données, ainsi que pour déclencher des actions dans l'application principale.
 
 ## Plugin core
 ### Premier pas
 
-Pour développer un plugin, vous devez tout d'abord créer un script JavaScript. Ce script est ensuite intégré dans une 
-iframe non visible en mode sandbox avec les fonctions de l'API. Les fonctions d'API sont le seul moyen d'intéragir avec 
+Pour développer un plugin, vous devez tout d'abord créer un script JavaScript. Ce script est ensuite intégré dans une
+iframe non visible en mode sandbox avec les fonctions de l'API. Les fonctions d'API sont le seul moyen d'intéragir avec
 l'application et les templates.
 
 Voici un exemple de code pour créer un plugin qui affiche 'Hello World' au chargement de l'ePoc :
@@ -92,7 +96,7 @@ ePoc.receive = async (data) => {
 
 ## Template
 
-Les plugins peuvent déclarer un template html qui est aussi éxécuté dans une iframe distinct. La 
+Les plugins peuvent déclarer un template html qui est aussi éxécuté dans une iframe distinct. La
 différence est que l'iframe du template est intégré dans des pages de texte ou des exercices et est visible par
 l'apprenant. La propriété `template` peut être une chaine de caractères inline ou un fichier HTML distinct.
 
@@ -105,7 +109,7 @@ Voici comment déclarer un template de plugin en reprenant l'exemple précédent
 ePoc.onLoad = () => {
     // Executé lorsque le plugin est chargé à l'ouverture de l'ePoc
     console.log('Hello World')
-    
+
     // Le plugin retourne le nom du template et le shortcode pour l'intégrer dans les pages de texte
     return {
         template: 'plugin_template.html',
