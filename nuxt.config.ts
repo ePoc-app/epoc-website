@@ -1,4 +1,7 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const currentDir = dirname(fileURLToPath(import.meta.url));
 export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['shadcn-docs-nuxt'],
@@ -6,9 +9,26 @@ export default defineNuxtConfig({
   site: {
     url: 'https://epoc.inria.fr',
   },
-  modules: ['@nuxtjs/i18n'],
   i18n: {
+    baseUrl: 'https://epoc.inria.fr/',
+    vueI18n: join(currentDir,'./i18n/i18n.config.ts'),
+    detectBrowserLanguage: false,
     strategy: 'prefix_except_default',
-    defaultLocale: 'fr'
-  }
+    defaultLocale: 'fr',
+    locales: [
+      {
+        code: 'en',
+        name: 'English',
+        language: 'en-US',
+      },
+      {
+        code: 'fr',
+        name: 'Français',
+        language: 'fr-FR',
+      },
+    ],
+  },
+  css: [
+    join(currentDir, './assets/css/theme-inria.css'),
+  ]
 });

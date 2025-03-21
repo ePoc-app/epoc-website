@@ -1,4 +1,8 @@
-# Démarrage
+---
+title: Démarrage
+icon: lucide:rocket
+description: Guide pour prendre en main l'application mobile
+---
 
 Bienvenue sur ePoc, l'application mobile d'apprentissage sur mobile proposée par Inria. Cette page vous guidera à travers les fonctionnalités principales de l'application.
 

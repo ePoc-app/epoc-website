@@ -1,4 +1,8 @@
-# Télécharger l'application mobile ePoc
+---
+title: Télécharger l'app
+icon: lucide:cloud-download
+description: Guide pour télécharger l'application mobile sur iOS et Android
+---
 
 Bienvenue sur la page de téléchargement de l'application mobile ePoc. Vous trouverez ci-dessous les instructions pour télécharger et installer notre application sur différentes plateformes.
 

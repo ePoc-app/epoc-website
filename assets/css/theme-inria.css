@@ -1,0 +1,45 @@
+
+.theme-inria  {
+    --background: 219 100% 100%;
+    --foreground: 219 21.7% 20%;
+    --card: 219 21.7% 98%;
+    --card-foreground: 219 21.7% 20%;
+    --popover: 219 21.7% 98%;
+    --popover-foreground: 219 21.7% 20%;
+    --primary: 219 21.7% 28%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 219 30% 70%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 219 21.7% 90%;
+    --muted-foreground: 219 21.7% 28%;
+    --accent: 219 21.7% 97%;
+    --accent-foreground: 219 21.7% 20%;
+    --destructive: 0 100% 30%;
+    --destructive-foreground: 219 5% 90%;
+    --border: 219 21.7% 90%;
+    --input: 219 21.7% 90%;
+    --ring: 219 21.7% 28%;
+    --radius: 0.5rem;
+}
+.dark .theme-inria  {
+    --background: 219 50% 5%;
+    --foreground: 219 5% 90%;
+    --card: 219 50% 0%;
+    --card-foreground: 219 5% 90%;
+    --popover: 219 50% 5%;
+    --popover-foreground: 219 5% 90%;
+    --primary: 219 21.7% 90%;
+    --primary-foreground: 219 21.7% 28%;
+    --secondary: 219 30% 10%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 219 21.7% 20%;
+    --muted-foreground: 219 5% 60%;
+    --accent: 219 21.7% 20%;
+    --accent-foreground: 219 5% 90%;
+    --destructive: 0 100% 30%;
+    --destructive-foreground: 219 5% 90%;
+    --border: 219 30% 18%;
+    --input: 219 30% 18%;
+    --ring: 219 21.7% 28%;
+    --radius: 0.5rem;
+}
