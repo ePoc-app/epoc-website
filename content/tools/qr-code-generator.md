@@ -1,13 +1,14 @@
 ---
-template: epoc-theme/full-center.html
-hide:
-    - toc
-    - navigation
+title:  Générateur de QR Code
+description: Outil pour générer des QR Codes pour importer une ePoc à partir d'un lien
+aside: false
+prevNext: false
+toc: false
+main:
+    backToTop: false
 ---
 
-# Générateur de QR Code pour ePoc Mobile
-
-<iframe style="width:100%;height:600px;border:none;margin-bottom:2em;" src="/qr-code-generator/app/index.html"></iframe>
+🚧En chantier
 
 Cet outil permet de générer des QR codes pour des liens de téléchargement direct afin de pouvoir être importer dans votre application ePoc mobile.
 

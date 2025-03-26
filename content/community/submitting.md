@@ -1,4 +1,8 @@
-# Soumettre un ePoc
+---
+title: Soumettre un ePoc
+aside: false
+prevNext: false
+---
 
 Merci de votre intérêt à partager votre ePoc avec la communauté ! Pour soumettre votre ePoc afin qu'il apparaisse sur la page "ePocs de la communauté", veuillez suivre les instructions ci-dessous.
 

@@ -1,4 +1,8 @@
-# Faire communauté
+---
+title: Faire communauté
+aside: false
+prevNext: false
+---
 
 Nous nous efforçons de promouvoir la création et l'animation de communautés autour de notre solution de mobile learning 
 ePoc, en encourageant la communication, la participation et les rencontres.
