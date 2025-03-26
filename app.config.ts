@@ -14,53 +14,93 @@ export default defineAppConfig({
       title: 'ePoc',
       showTitle: false,
       darkModeToggle: true,
+      languageSwitcher: {
+        enable: true,
+        triggerType: 'icon',
+        dropdownType: 'select'
+      },
       logo: {
         light: '/logo.svg',
         dark: '/logo-dark.svg',
       },
       nav: [{
-        title: 'Nos ePocs',
-        links: [{
-          title: 'Tous nos ePocs',
-          to: '/epocs',
-          description: 'Découvrez la collection ePoc Inria',
-        },{
-          title: 'B.A.-BA des data',
-          to: '/epocs/E006PE'.toLowerCase(),
-          description: 'Comprendre quelques fondamentaux de l\'informatique et des données.',
-        },{
-          title: 'Smartphone et vie privée',
-          to: '/epocs/E002VR'.toLowerCase(),
-          description: 'A propos du respect de la vie privée sur nos smartphone ou tablette.',
-        },{
-          title: 'Internet des objets et vie privée',
-          to: '/epocs/E003VR'.toLowerCase(),
-          description: 'Sur la question de la vie privée dans le domaine de la maison intelligente.',
-        },{
-          title: 'Le smartphone et la planète',
-          to: '/epocs/E007MM'.toLowerCase(),
-          description: 'Comprendre les impacts environnementaux du smartphone.',
-        },{
-          title: 'C\'est quoi l\'IA ?',
-          to: '/epocs/E009LL'.toLowerCase(),
-          description: 'Les principes de l\'intelligence artificielle (IA) par rapport à l\'intelligence biologique',
-        },{
-          title: 'Produire mon 1er ePoc',
-          to: '/epocs/E012MC'.toLowerCase(),
-          description: 'Découvrez comment créer votre première formation mobile learning, courte, ludique, en quelques clics.',
-        },{
-          title: '🔒 Zone à Régime Restrictif',
-          to: '/epocs/E001DB'.toLowerCase(),
-          description: 'Formation ePoc des nouveaux arrivants Inria en Zone à Régime Restrictif.',
-        },
-        ],
-      }, {
         title: 'Editeur',
         to: '/editor',
         icon: 'lucide:box',
         showLinkIcon: false,
-      }, {
+      },{
+        title: 'Nos ePocs',
+        class: 'w-[600px] grid grid-cols-2',
+        links: [{
+          icon: 'lucide:library-big',
+          title: 'Tous nos ePocs',
+          to: '/epocs',
+          description: 'Découvrez la collection ePoc Inria',
+        },{
+          icon: 'lucide:database',
+          title: 'B.A.-BA des data',
+          to: '/epocs/E006PE'.toLowerCase(),
+          description: 'Comprendre quelques fondamentaux de l\'informatique et des données.',
+        },{
+          icon: 'lucide:smartphone',
+          title: 'Smartphone et vie privée',
+          to: '/epocs/E002VR'.toLowerCase(),
+          description: 'A propos du respect de la vie privée sur nos smartphone ou tablette.',
+        },{
+          icon: 'lucide:cpu',
+          title: 'Internet des objets et vie privée',
+          to: '/epocs/E003VR'.toLowerCase(),
+          description: 'Sur la question de la vie privée dans le domaine de la maison intelligente.',
+        },{
+          icon: 'lucide:leaf',
+          title: 'Le smartphone et la planète',
+          to: '/epocs/E007MM'.toLowerCase(),
+          description: 'Comprendre les impacts environnementaux du smartphone.',
+        },{
+          icon: 'lucide:brain-cog',
+          title: 'C\'est quoi l\'IA ?',
+          to: '/epocs/E009LL'.toLowerCase(),
+          description: 'Les principes de l\'intelligence artificielle (IA) par rapport à l\'intelligence biologique',
+        },{
+          icon: 'lucide:monitor-cog',
+          title: 'Produire mon 1er ePoc',
+          to: '/epocs/E012MC'.toLowerCase(),
+          description: 'Découvrez comment créer votre première formation mobile learning, courte, ludique, en quelques clics.',
+        },{
+          icon: 'lucide:lock',
+          title: 'Zone à Régime Restrictif',
+          to: '/epocs/E001DB'.toLowerCase(),
+          description: 'Formation ePoc des nouveaux arrivants Inria en Zone à Régime Restrictif.',
+        },
+        ],
+      }, /*{
+        title: 'Cas d\'usages',
+        class: 'w-[600px] grid grid-cols-2',
+        links: [{
+          icon: 'lucide:heart-handshake',
+          title: 'Accueil nouveaux arrivants',
+          to: '/usecases/onboarding',
+          description: 'Facilite l\'intégration des nouveaux employés avec des modules de formation accessibles sur mobile.',
+        },{
+          icon: 'lucide:backpack',
+          title: 'Récapitulatif à emporter',
+          to: '/usecases/takeaway',
+          description: 'Permet de réviser les concepts clés après une formation grâce à des résumés et quiz sur mobile.',
+        },{
+          icon: 'lucide:lightbulb',
+          title: 'Introduction d\'un cours',
+          to: '/usecases/intro',
+          description: 'Offre une introduction interactive à un nouveau sujet avec des vidéos et activités sur mobile.',
+        },{
+          icon: 'lucide:monitor-smartphone',
+          title: 'Formation Hybride',
+          to: '/usecases/hybrid',
+          description: ' Intègre des modules mobiles dans un programme hybride pour renforcer l\'apprentissage et offrir plus de flexibilité.',
+        },
+        ],
+      },*/ {
         title: 'Aide',
+        class: 'w-[250px] grid grid-cols-1',
         links: [{
           title: 'Guide App mobile',
           to: '/guide/app/download',
@@ -73,9 +113,51 @@ export default defineAppConfig({
           icon: 'lucide:monitor-cog'
         },{
           title: 'Guide Développeur',
-          to: '/guide/developer/contributing/',
+          to: '/guide/developer/contributing',
           description: 'Guide pour contribuer et participer aux développements de la solution ePoc',
           icon: 'lucide:braces'
+        },{
+          title: 'Editeur de diagramme mermaid',
+          to: '/tools/mermaid-editor',
+          description: 'Outil pour générer le code d\'un diagramme mermaid',
+          icon: 'lucide:git-fork'
+        },{
+          title: 'Générateur de QR Code',
+          to: '/tools/qr-code-generator',
+          description: 'Outil pour générer des QR Codes pour importer une ePoc à partir d\'un lien',
+          icon: 'lucide:qr-code'
+        },],
+      }, {
+        title: 'Communauté',
+        class: 'w-[250px] grid grid-cols-1',
+        links: [{
+          title: 'Faire communauté',
+          to: '/community/building-community',
+          description: 'Pourquoi et comment participer à la communauté ePoc',
+          icon: 'lucide:users'
+        },{
+          title: 'Soumettre un ePoc',
+          to: '/community/submitting',
+          description: 'Comment partager vos créations ePoc avec la communauté',
+          icon: 'lucide:share'
+        },{
+          title: 'Forum',
+          to: 'https://mooc-forums.inria.fr/laforgeedu/c/epoc',
+          target: '_blank',
+          description: 'Forum discourse dédié à ePoc',
+          icon: 'lucide:messages-square'
+        },{
+          title: 'Discord',
+          to: 'https://discord.gg/xzSVeuPEtH',
+          target: '_blank',
+          description: 'Serveur Discord ePoc',
+          icon: 'cib:discord'
+        },{
+          title: 'Tchap',
+          to: 'https://www.tchap.gouv.fr/#/room/#epoc:agent.education.tchap.gouv.fr',
+          target: '_blank',
+          description: 'Serveur Discord ePoc',
+          icon: '/images/tchap.svg'
         },],
       }, ],
       links: [{

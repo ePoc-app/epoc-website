@@ -1,16 +1,16 @@
 ---
 title: Mentions Légales
-template: epoc-theme/full.html
-hide:
-- navigation
-- toc
+aside: false
+prevNext: false
+toc:
+    links: []
 ---
 
 ## Informations légales
 
 Inria Domaine de Voluceau Rocquencourt - B.P. 105 78153 Le Chesnay Cedex - France Téléphone: +33 1 39 63 55 11
 
-*   **Directeur de publication** : Jean-Marc Hasenfratz, Responsable du service éducation et médiation scientifique Inria
+*   **Directrice de publication** : Elise Taillant, Responsable du service éducation scientifique Inria
 *   **Hébergeur :** Direction des systèmes d'information d'Inria
 
 ## Protection des données à caractère personnel (RGPD)
