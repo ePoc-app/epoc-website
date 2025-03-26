@@ -156,7 +156,7 @@ export default defineAppConfig({
           title: 'Tchap',
           to: 'https://www.tchap.gouv.fr/#/room/#epoc:agent.education.tchap.gouv.fr',
           target: '_blank',
-          description: 'Serveur Discord ePoc',
+          description: 'Salon tchap ePoc (agents de la fonction publique)',
           icon: '/images/tchap.svg'
         },],
       }, ],

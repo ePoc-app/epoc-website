@@ -1,15 +1,16 @@
 ---
-title: Editeur
-navigation: false 
+title: Editor
+navigation: false
+fullpage: true
 ---
 
 ::hero
 ---
 announcement:
-title: 'Version {{$data.mobile_version}}'
-icon: '🎉'
-to: https://github.com/ZTL-UwU/shadcn-docs-nuxt/releases/latest
-target: _blank
+  title: 'Version {{$data.mobile_version}}'
+  icon: '🎉'
+  to: https://github.com/ZTL-UwU/shadcn-docs-nuxt/releases/latest
+  target: _blank
 actions:
 - name: Télécharger pour Android
   to: {{$data.google_link}}
