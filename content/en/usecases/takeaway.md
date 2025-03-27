@@ -1,24 +1,24 @@
 ---
-title: Récapitulatif à Emporter
+title: Takeaway Summary
 aside: false
 prevNext: false
 ---
 
-## Pourquoi utiliser ePoc pour un récapitulatif à emporter ?
+## Why use ePoc for a takeaway summary?
 
-Après une formation ou un événement, il est essentiel de fournir un récapitulatif clair et concis des points clés abordés. ePoc permet de créer des résumés interactifs et accessibles.
+After a training or event, it's essential to provide a clear and concise summary of the key points covered. ePoc allows you to create interactive and accessible summaries.
 
-### Avantages :
-- **Personnalisation** : Adaptez le contenu en fonction des besoins spécifiques de votre audience.
-- **Évaluation intégrée** : Incluez des quiz pour vérifier la compréhension des participants.
-- **Attestation de réussite** : Offrez une attestation pour les participants ayant complété le récapitulatif.
+### Advantages:
+- **Customization**: Adapt content based on your audience's specific needs.
+- **Integrated evaluation**: Include quizzes to verify participants' understanding.
+- **Completion certificate**: Offer a certificate for participants who complete the summary.
 
-### Exemple de contenu :
-- Points clés de la formation
-- Ressources supplémentaires
-- Activités de révision
+### Example content:
+- Key points of the training
+- Additional resources
+- Review activities
 
-## Voir aussi
+## See also
 
 :read-more{to="/usecases/hybrid"}
 :read-more{to="/usecases/onboarding"}

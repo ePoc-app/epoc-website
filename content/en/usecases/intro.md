@@ -1,26 +1,24 @@
 ---
-title: Introduction d'un cours
+title: Course Introduction
 aside: false
 prevNext: false
 ---
 
-## Pourquoi utiliser ePoc pour introduire un cours ?
+## Why use ePoc to introduce a course?
 
-L'introduction d'un concept peut servir de rappel ou de préparation avant une formation plus complète, qu'elle soit en présentiel ou en distanciel. Avec ePoc, vous pouvez créer des modules courts et interactifs qui permettent aux apprenants de se familiariser avec les notions de base nécessaires pour suivre la formation principale.
+Introducing a concept can serve as a reminder or preparation before a more comprehensive training, whether in-person or remote. With ePoc, you can create short, interactive modules that allow learners to familiarize themselves with the basic concepts needed to follow the main training.
 
-### Avantages
+### Advantages
+- Educational scenarios
+- Multimedia
+- Step-by-step progression
 
-- Scénarios pédagogiques
-- Multimédia
-- Progression pas à pas
+### Example content
+- Prerequisite reminders
+- Introduction to basic concepts
+- Preparatory activities for the main training
 
-### Exemple de contenu
-
-- Rappel des prérequis
-- Introduction aux notions de base
-- Activités préparatoires pour la formation principale
-
-## Voir aussi
+## See also
 
 :read-more{to="/usecases/hybrid"}
 :read-more{to="/usecases/takeaway"}

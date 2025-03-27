@@ -1,24 +1,19 @@
 ---
-title: Accueil Nouveaux Arrivants
+title: Newcomer Onboarding
 aside: false
 prevNext: false
 ---
 
-## Pourquoi utiliser ePoc pour l'accueil des nouveaux arrivants ?
+## Why use ePoc for newcomer onboarding?
 
-L'intégration des nouveaux arrivants dans une organisation est une étape cruciale pour leur réussite future. Avec ePoc, vous pouvez créer des parcours d'accueil engageants et interactifs qui facilitent cette transition.
+Integrating newcomers into an organization is a crucial step for their future success. With ePoc, you can create engaging and interactive onboarding paths that facilitate this transition.
 
-### Avantages :
-- **Contenus ludiques et interactifs** : Utilisez des vidéos, des quiz et des activités pour rendre l'accueil plus dynamique.
-- **Accessibilité hors ligne** : Les nouveaux arrivants peuvent consulter les informations importantes à tout moment, même sans connexion internet.
-- **Modules courts et ciblés** : Décomposez l'information en modules courts pour une meilleure assimilation.
+### Example content:
+- Company presentation and values
+- First days guide
+- Useful resources and contacts
 
-### Exemple de contenu :
-- Présentation de l'entreprise et de ses valeurs
-- Guide des premiers jours
-- Ressources et contacts utiles
-
-## Voir aussi
+## See also
 
 :read-more{to="/usecases/hybrid"}
 :read-more{to="/usecases/takeaway"}

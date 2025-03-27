@@ -1,6 +1,6 @@
 ---
-title:  Générateur de QR Code
-description: Outil pour générer des QR Codes pour importer une ePoc à partir d'un lien
+title: QR Code Generator
+description: Tool to generate QR Codes for importing an ePoc from a link
 aside: false
 prevNext: false
 toc: false
@@ -8,13 +8,13 @@ main:
     backToTop: false
 ---
 
-🚧En chantier
+## 🚧 Under Construction
 
-Cet outil permet de générer des QR codes pour des liens de téléchargement direct afin de pouvoir être importer dans votre application ePoc mobile.
+This tool allows you to generate QR codes for direct download links to be imported into your ePoc mobile application.
 
-Il ne prend en charge la conversion en QR code des liens de partage des services suivants :
+It supports converting share links from the following services into QR codes:
 
-*   Google Drive
-*   Dropbox
-*   GitHub
-*   Ou tout lien direct vers un fichier zip d'ePoc ([guide](https://bytesbin.com/file-hosting-direct-download-link/) pour obtenir un lien direct)
+-   Google Drive
+-   Dropbox
+-   GitHub
+-   Or any direct link to an ePoc zip file ([guide](https://bytesbin.com/file-hosting-direct-download-link/) to get a direct link)

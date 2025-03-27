@@ -1,26 +1,26 @@
 ---
-title: Soumettre un ePoc
+title: Submit an ePoc
 aside: false
 prevNext: false
 ---
 
-Merci de votre intérêt à partager votre ePoc avec la communauté ! Pour soumettre votre ePoc afin qu'il apparaisse sur la page "ePocs de la communauté", veuillez suivre les instructions ci-dessous.
+Thank you for your interest in sharing your ePoc with the community! To submit your ePoc so it appears on the "Community ePocs" page, please follow the instructions below.
 
-## Instructions de soumission
+## Submission Instructions
 
-Pour soumettre votre ePoc, veuillez poster un message dans le [topic dédié du forum](https://mooc-forums.inria.fr/laforgeedu/t/epocs-de-la-communaute) les informations suivantes :
+To submit your ePoc, please post a message in the [dedicated forum topic](https://mooc-forums.inria.fr/laforgeedu/t/epocs-de-la-communaute) with the following information:
 
-- **Titre de l'ePoc** : ≤ 60 caractères
-- **Description courte** : ≤ 120 caractères
-- **Lien public et pérenne vers votre ePoc** ou fichier `.epoc` en pièce jointe
-- **Date** : date de publication
-- **Nom et prénom ou entité**
-- **Email de contact**
-- **Tags** : 5 maximum (voir la liste des tags disponibles ci-dessous)
+-   **ePoc Title**: ≤ 60 characters
+-   **Short Description**: ≤ 120 characters
+-   **Public and permanent link to your ePoc** or attached `.epoc` file
+-   **Date**: publication date
+-   **Name or entity**
+-   **Contact email**
+-   **Tags**: maximum of 5 (see available tags list below)
 
-## Exemple de soumission
+## Submission Example
 
-Voici un exemple de ce que vous devez inclure dans votre email :
+Here's an example of what you should include in your post:
 
 ```
 Titre de l'ePoc : Introduction à la programmation en Python
@@ -32,33 +32,32 @@ Email de contact : jean.dupont@exemple.com
 Tags : programmation, lycée
 ```
 
+## Selection Criteria
 
-## Critères de sélection
+We ask that your ePoc meets the following criteria:
 
-Nous demandons à votre ePoc de respecter les critères suivants :
+-   It should not be under development with empty pages or sections
+-   It must have a stable URL (temporary services like WeTransfer will not be accepted)
+-   It must respect copyright laws for the content it provides
 
-- Il ne doit pas être en cours de développement avec des pages ou sections vides
-- Il doit avoir une URL stable (wetransfer ou autre service temporaire ne seront pas validés)
-- Il doit respecter les droits d'auteur des contenus qu'il propose
+We reserve the right to reject or remove an ePoc at any time.
 
-Nous nous réservons le droit de rejeter ou de retirer un ePoc à tout moment.
+## After Submission
 
-## Après votre soumission
+We will add valid submissions to our gallery periodically, when we have time to do so. In case of an invalid submission, we will inform you.
 
-Nous ajouterons les soumissions valides à notre galerie périodiquement, lorsque nous aurons le temps de le faire. En cas de soumission invalide, nous vous en informerons.
+## Available Tags
 
-## Tags disponibles
+Here is the list of available tags:
 
-Voici la liste des tags disponibles :
-
-- **collège** : ePocs destinés aux collégiens
-- **lycée** : ePocs destinés aux lycéens
-- **esr** : ePocs destinés à l'enseignement supérieur
-- **histoire**, **maths**, **biologie**, **géographie**, **programmation**, **informatique**, **économie**, **divers**: ePocs sur la matière ciblée (vous pouvez en proposer d'autres)
+-   **middle-school**: ePocs for middle school students
+-   **high-school**: ePocs for high school students
+-   **higher-education**: ePocs for higher education
+-   **history**, **maths**, **biology**, **geography**, **programming**, **computer-science**, **economics**, **miscellaneous**: ePocs on the targeted subject (you can suggest others)
 
 ## Notes
 
-- Aidez-nous à maintenir la liste à jour : informez-nous si un ePoc contient des données incorrectes.
-- Vous pouvez également demander une mise à jour des données de votre ePoc.
-- Nous nous réservons le droit de modifier votre soumission avant publication.
-- Nous garderons cette discussion propre au fil du temps : les soumissions seront marquées comme résolues, puis masquée.
+-   Help us keep the list up to date: inform us if an ePoc contains incorrect data.
+-   You can also request an update of your ePoc's data.
+-   We reserve the right to modify your submission before publication.
+-   We will keep this discussion clean over time: submissions will be marked as resolved, then hidden.
