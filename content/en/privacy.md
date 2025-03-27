@@ -1,95 +1,90 @@
 ---
-title: Vie Privée
+title: Privacy Policy
 aside: false
 prevNext: false
 toc:
    links: []
 ---
 
+**Last updated**: July 26, 2024
 
-**Dernière mise à jour** : 26 juillet 2024
+Inria is committed to protecting the personal data it processes for its operational needs. In this regard, Inria is committed to complying with the General Data Protection Regulation 2016/679 of April 27, 2016 ("GDPR") and the amended French Data Protection Act. This page describes the personal data processing related to the use of the inria.fr website.
 
-Inria est engagé dans une démarche de protection des données personnelles qu’il traite pour ses besoins d’activité. À ce 
-titre, Inria s’engage à respecter le Règlement général sur la protection des données 2016/679 du 27 avril 2016 
-(« RGPD ») et la loi Informatique et Libertés modifiée. Cette page décrit les traitements de données personnelles 
-relatifs à l’utilisation du site inria.fr
+## epoc.inria.fr Website
 
+The Data Protection Officer (DPO) appointed by Inria can be contacted by email at dpo@inria.fr
 
-## Site internet epoc.inria.fr
+### Data Transfer Outside the European Union
 
-La déléguée à la protection des données (DPO) nommée par Inria peut être contactée par email à dpo@inria.fr
+No data is transferred outside the European Union.
 
-### Transfert des données hors de l'Union européenne
+### Individual Rights
 
-Aucun transfert des données hors de l’Union européenne n’est réalisé.
+In accordance with applicable legal and regulatory provisions, particularly the amended French Data Protection Act n° 78-17 of January 6 and the European Regulation n° 2016/679/UE of April 27, 2016 (applicable since May 25, 2018), you have the following rights:
 
-### Droit des personnes
+*   Exercise your right of access to know the personal data concerning you;
+*   Request the update of your data if they are inaccurate;
+*   Request the portability or deletion of your data;
+*   Request the limitation of the processing of your data;
+*   Object, for legitimate reasons, to the processing of your data.
 
-Conformément aux dispositions légales et réglementaires applicables, en particulier la _loi n° 78-17 du 6 janvier modifiée relative à l’informatique, aux fichiers et aux libertés_ et le _règlement européen n° 2016/679/UE du 27 avril 2016_ (applicable depuis le 25 mai 2018), vous disposez des droits suivants :
+### Right to Lodge a Complaint
 
-*   Exercer votre droit d’accès, pour connaître les données personnelles qui vous concernent ;
-*   Demander la mise à jour de vos données, si elles sont inexactes ;
-*   Demander la portabilité ou la suppression de vos données ;
-*   Demander la limitation du traitement de vos données ;
-*   Vous opposer, pour des motifs légitimes, au traitement de vos données.
+If you believe, after contacting us, that your data protection rights are not being respected, you may file a complaint online with the CNIL or by postal mail.
 
-### Droit d’introduire une réclamation
+### Cookies and Connection Logs
 
-Si vous estimez, après nous avoir contactés, que vos droits Informatique et Libertés ne sont pas respectés, vous avez la possibilité d’introduire une réclamation en ligne auprès de la CNIL ou par courrier postal.
+When a person visits the www.inria.fr website, cookies or connection logs may be placed on their device (computer, mobile, tablet). This page helps you better understand how cookies work and how to use current tools to configure them.
 
-### Cookies et témoins de connexion
+#### Definition
 
-Lorsqu’une personne visite le site www.inria.fr, des cookies ou témoins de connexion sont susceptibles d’être déposés sur son terminal (ordinateur, mobile, tablette). Cette page vous permet de mieux comprendre comment fonctionnent les cookies et comment utiliser les outils actuels afin de les paramétrer.
+A "cookie" is a text file that may be placed on your device when you visit our site. Its purpose is to collect anonymous navigation status information and to provide you with content adapted to your device or interests. Only the issuer of a cookie can read or modify the information it contains.
 
-#### Définition
+#### Purposes of Cookies
 
-Un "cookie" est un fichier texte susceptible d’être déposé sur votre terminal à l’occasion de la visite de notre site. Il a pour but de collecter des informations d’état, anonymes, relatives à votre navigation, et de vous adresser des contenus adaptés à votre terminal ou à vos centres d’intérêt. Seul l'émetteur d'un cookie est susceptible de lire ou de modifier des informations qui y sont contenues.
+The cookies we issue allow:
 
-#### Finalités des cookies
+- To establish statistics and traffic volumes of the various elements composing our site (number of pages viewed, number of visits, activity, return frequency, etc.) in order to monitor and improve the quality of our services
+- To adapt the presentation of our site to your device's display preferences (language, display resolution, operating system, etc.)
+- To facilitate your use of our site, for example by remembering data related to a form or information you have chosen on our site in order to provide you with content related to your interest in Inria's activities.
 
-Les cookies que nous émettons permettent :
+#### Analytics
 
-- d'établir des statistiques et volumes de fréquentation et d'utilisation des divers éléments composant notre site (nombre de pages vues, nombre de visites, activité, fréquence de retour, etc.) afin de suivre et améliorer la qualité de nos services
-- d'adapter la présentation de notre site aux préférences d'affichage de votre terminal (langue, résolution d’affichage, système d’exploitation, etc.)
-- de vous faciliter l’utilisation de notre site, par exemple en mémorisant des données relatives à un formulaire ou à des informations que vous avez choisies sur notre site afin de vous fournir du contenu en rapport avec votre intérêt pour les activités d’Inria.
+We use analytical cookies solely for internal research purposes on how we can improve the service we offer to all our users. These cookies simply allow us to evaluate how you interact with our websites - as an anonymous user (the data collected does not allow us to personally identify you).
 
-#### Analytiques
+epoc.inria.fr uses _Matomo_, a free and _open source_ web statistics software, recommended by the CNIL.
 
-Nous utilisons les cookies analytiques uniquement à des fins de recherche interne sur la manière dont nous pouvons améliorer le service que nous offrons à tous nos utilisateurs. Ces cookies permettent simplement d’évaluer la manière dont vous interagissez avec nos sites web — en tant qu’utilisateur anonyme (les données recueillies ne permettent pas de vous identifier personnellement).
+## ePoc Mobile Application
 
-epoc.inria.fr utilise _Matomo_, un logiciel libre et _open source_ de mesure de statistiques web, préconisé par la CNIL.
+### Collection and Use of Information
 
-## Application mobile ePoc
+ePoc does not collect any personal data. We do not request, store, or process information such as your name, email address, phone number, IP address, or any other personal information.
 
-### Collecte et utilisation des informations
+### Audience and Monitoring Data
 
-ePoc ne collecte aucune donnée personnelle. Nous ne demandons pas, ne stockons pas et ne traitons pas d'informations telles que votre nom, adresse e-mail, numéro de téléphone, adresse IP ou toute autre information à caractère personnel.
+To improve our service and ensure its proper functioning, we collect anonymous audience and monitoring data through the following services:
 
-### Données d'audience et de monitoring
+1. **Matomo (formerly Piwik)**: We use Matomo, hosted on piwik.inria.fr, to collect anonymous audience data. This data includes information such as:
+    - Pages visited
+    - Session duration
+    - Device type and operating system
+    - Country of origin of traffic
 
-Pour améliorer notre service et assurer son bon fonctionnement, nous collectons des données anonymes d'audience et de monitoring via les services suivants :
+2. **Sentry**: We use Sentry for application monitoring. This helps us identify and resolve technical issues. The collected data may include:
+    - Error reports
+    - Application performance
+    - Technical environment information (app version, operating system)
 
-1. **Matomo (anciennement Piwik)** : Nous utilisons Matomo, hébergé sur piwik.inria.fr, pour collecter des données d'audience anonymes. Ces données incluent des informations telles que :
-    - Pages visitées
-    - Durée des sessions
-    - Type d'appareil et système d'exploitation
-    - Pays d'origine du trafic
+This data is used solely for analysis and improvement of our service. It is not used to personally identify users.
 
-2. **Sentry** : Nous utilisons Sentry pour le monitoring de l'application. Cela nous aide à identifier et résoudre les problèmes techniques. Les données collectées peuvent inclure :
-    - Rapports d'erreurs
-    - Performances de l'application
-    - Informations sur l'environnement technique (version de l'app, système d'exploitation)
+### Data Protection
 
-Ces données sont utilisées uniquement à des fins d'analyse et d'amélioration de notre service. Elles ne sont pas utilisées pour identifier personnellement les utilisateurs.
+We take the security of your data seriously. Although we do not collect personal data, we implement appropriate security measures to protect the audience and monitoring data we collect.
 
-### Protection des données
+### Changes to Our Privacy Policy
 
-Nous prenons au sérieux la sécurité de vos données. Bien que nous ne collections pas de données personnelles, nous mettons en œuvre des mesures de sécurité appropriées pour protéger les données d'audience et de monitoring que nous collectons.
-
-### Modifications de notre politique de confidentialité
-
-Nous pouvons mettre à jour notre politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page.
+We may update our privacy policy from time to time. We will inform you of any changes by posting the new privacy policy on this page.
 
 ### Contact
 
-Si vous avez des questions concernant cette politique de confidentialité, vous pouvez nous contacter à : dpo@inria.fr
+If you have any questions regarding this privacy policy, you can contact us at: dpo@inria.fr

@@ -1,12 +1,11 @@
 ---
-title: Editeur de diagramme Mermaid
-description: Outil pour générer le code d'un diagramme mermaid
+title: Mermaid Diagram Editor
+description: Tool to generate Mermaid diagram code
 aside: false
 prevNext: false
 toc: false
 main:
-  backToTop: false
+    backToTop: false
 ---
 
-🚧En chantier
-
+## 🚧 Under construction

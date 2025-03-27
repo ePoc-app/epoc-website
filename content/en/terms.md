@@ -1,31 +1,28 @@
 ---
-title: Mentions Légales
+title: Legal Notice
 aside: false
 prevNext: false
 toc:
     links: []
 ---
 
-## Informations légales
+## Legal Information
 
-Inria Domaine de Voluceau Rocquencourt - B.P. 105 78153 Le Chesnay Cedex - France Téléphone: +33 1 39 63 55 11
+Inria Domaine de Voluceau Rocquencourt - B.P. 105 78153 Le Chesnay Cedex - France Phone: +33 1 39 63 55 11
 
-*   **Directrice de publication** : Elise Taillant, Responsable du service éducation scientifique Inria
-*   **Hébergeur :** Direction des systèmes d'information d'Inria
+*   **Editorial Director**: Elise Taillant, Head of Scientific Education Department at Inria
+*   **Host**: Inria's Information Systems Department
 
-## Protection des données à caractère personnel (RGPD)
+## Personal Data Protection (GDPR)
 
+Inria is committed to protecting the personal data it processes. For more information, please consult our [personal data protection notice](./privacy.md).
 
-Inria est engagé dans une démarche de protection des données à caractère personnel qu'il traite. Pour plus d'informations, veuillez consulter notre mention d'information sur la [protection des données personnelles](./privacy.md).
+## Website Content
 
-## Contenu du site
+Inria makes every effort to ensure the accuracy and timeliness of the information published on the site at the time of its publication. However, Inria does not guarantee in any way the accuracy, precision, or completeness of the information made available on the site. The information on the site is non-contractual and may be modified at any time.
 
+## Intellectual Property
 
-Inria s'efforce d'assurer au mieux de ses possibilités, l'exactitude et la mise à jour des informations diffusées, au moment de leur mise en ligne sur le site. Cependant, Inria ne garantit en aucune façon l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur le site. Les informations présentes sur le site sont non-contractuelles et peuvent être modifiées à tout moment.
+The contents, texts, including press releases, videos, images, and animations that appear or are available on the site are protected by intellectual property law. As such, you agree not to copy, translate, reproduce, sell, publish, exploit, or distribute content from the site protected by intellectual property law without prior written authorization from Inria.
 
-Propriété intellectuelle
-------------------------
-
-Les contenus, les textes, y compris les communiqués de presse, les vidéos, les images et les animations qui apparaissent ou sont disponibles sur le site, sont protégés par le droit de la propriété intellectuelle. À ce titre, vous vous engagez à ne pas copier, traduire, reproduire, vendre, publier, exploiter et diffuser des contenus du site protégés par le droit de la propriété intellectuelle, sans autorisation préalable et écrite d'Inria.
-
-Les marques et les logos présents sur le site sont, sauf cas particulier, la propriété d'Inria. Sauf autorisation préalable et écrite, l'internaute s'interdit de les utiliser.
+The trademarks and logos present on the site are, unless otherwise specified, the property of Inria. Unless prior written authorization is obtained, the user is prohibited from using them.
