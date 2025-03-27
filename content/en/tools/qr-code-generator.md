@@ -8,7 +8,8 @@ main:
     backToTop: false
 ---
 
-## 🚧 Under Construction
+::qr-code
+::
 
 This tool allows you to generate QR codes for direct download links to be imported into your ePoc mobile application.
 

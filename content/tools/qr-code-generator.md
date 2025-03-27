@@ -8,7 +8,8 @@ main:
     backToTop: false
 ---
 
-## 🚧 En chantier
+::qr-code
+::
 
 Cet outil permet de générer des QR codes pour des liens de téléchargement direct afin de pouvoir être importer dans votre application ePoc mobile.
 
@@ -17,4 +18,8 @@ Il ne prend en charge la conversion en QR code des liens de partage des services
 -   Google Drive
 -   Dropbox
 -   GitHub
--   Ou tout lien direct vers un fichier zip d'ePoc ([guide](https://bytesbin.com/file-hosting-direct-download-link/) pour obtenir un lien direct)
+-   Ou tout lien direct vers un fichier zip d'ePoc
+
+::alert{to="https://bytesbin.com/file-hosting-direct-download-link/" target="_blank" icon="lucide:link"}
+Guide pour obtenir un lien direct
+::

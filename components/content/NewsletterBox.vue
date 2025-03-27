@@ -1,14 +1,8 @@
 <template>
     <div class="w-full">
         <form @submit.prevent="handleSubmit" class="flex space-x-2">
-            <input
-                type="email"
-                :placeholder="placeholder"
-                v-model="email"
-                class="flex-grow p-1 px-2 border rounded-md"
-                required
-            />
-            <UiButton size="sm">
+            <UiInput :placeholder="placeholder" type="email" v-model="email" required />
+            <UiButton>
                 <ContentSlot :use="$slots.button" unwrap="p" />
             </UiButton>
         </form>

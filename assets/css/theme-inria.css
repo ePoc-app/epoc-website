@@ -1,5 +1,4 @@
-
-.theme-inria  {
+.theme-inria {
     --background: 219 100% 100%;
     --foreground: 219 21.7% 20%;
     --card: 219 21.7% 98%;
@@ -11,7 +10,7 @@
     --secondary: 219 30% 70%;
     --secondary-foreground: 0 0% 0%;
     --muted: 219 21.7% 90%;
-    --muted-foreground: 219 21.7% 28%;
+    --muted-foreground: 219 21.7% 60%;
     --accent: 219 21.7% 97%;
     --accent-foreground: 219 21.7% 20%;
     --destructive: 0 100% 30%;
@@ -21,7 +20,7 @@
     --ring: 219 21.7% 28%;
     --radius: 0.5rem;
 }
-.dark .theme-inria  {
+.dark .theme-inria {
     --background: 219 50% 5%;
     --foreground: 219 5% 90%;
     --card: 219 50% 0%;
