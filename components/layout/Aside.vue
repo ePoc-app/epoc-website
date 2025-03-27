@@ -45,7 +45,7 @@ const config = useConfig();
 const { locale, defaultLocale, navigation: nav } = useI18nDocs();
 
 const navigation = computed(() => {
-  return nav.value.find((node: NavItem) => node._path === '/guide').children;
+  return nav.value.find((node: NavItem) => node._path.includes('/guide')).children;
 })
 
 

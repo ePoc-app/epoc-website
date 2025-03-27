@@ -22,7 +22,8 @@
 <script setup lang="ts">
 import type {NavItem, ParsedContent} from '@nuxt/content';
 
-const { page, navigation } = useContent();
+const { page } = useContent();
+const { navigation } = useI18nDocs();
 const { data: directory } = await useAsyncData('directory', () => {
   return navigation.value.find((nav: NavItem) => nav._path === page.value._path).children.reduce(async (directoryPromise: Promise<ParsedContent[]>, nav: NavItem) => {
     const directory = await directoryPromise;
@@ -33,6 +34,7 @@ const { data: directory } = await useAsyncData('directory', () => {
     return directory;
   }, Promise.resolve([]));
 }, {
-  watch: [page, navigation]
+  watch: [page, navigation],
+  lazy: true
 })
 </script>
