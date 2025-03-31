@@ -2,6 +2,7 @@ site_name: ePoc Mobile Learning
 site_url: https://epoc.inria.fr/
 repo_url: https://github.com/ePoc-app
 dev_addr: '127.0.0.1:1091'
+edit_uri: epoc-website/edit/master/docs/
 theme:
   name: material
   custom_dir: custom/
