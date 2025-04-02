@@ -58,3 +58,61 @@ Pour recevoir les actualités à propos de l'application, de l'éditeur et des f
     S'abonner
     ::
 ::
+
+::section-title 
+#title
+Pourquoi ePoc ?
+#description
+Vos **cours** dans la poche pour une consultation **hors ligne** partout et tout le temps dans le **respect** de votre **vie privée**.
+::
+
+::key-features
+#side1
+![Image d'exemple de contenu vidéo](/images/video.png)
+
+#side2
+### Des contenus riches et variés spécialement conçu pour le mobile
+
+#side2Desc
+- Des séquences courtes et scénarisées.
+- Des contenus diversifiés : vidéos, podcasts audio, infographies, activités interactives
+- Des quiz pour tester ses acquis
+
+::
+
+::key-features
+---
+reverse: true
+---
+#side1
+### Engagement actif
+
+#side1Desc
+Une alternance entre apprentissage et activités au sein d'un parcours pédagogique engageant et spécialement conçu pour le mobile..
+Profitez d'exercices variés et ludiques comme des glisser-déposer, des swipes, qcm et plein d'autres.
+
+#side2
+![Image d'exemple de contenu quiz](/images/quiz.png)
+::
+
+::key-features
+#side1
+![Image d'exemple de contenu quiz](/images/progression.png)
+
+#side2
+### Apprendre à son rythme
+
+#side2Desc
+Les formations spécialement conçues pour un usage nomade sont découpées en modules courts et ludiques pour une progression pas à pas.
+<br/><br/>
+Répétez les activités autant de fois que nécessaire pour obtenir l'attestation.
+::
+
+
+::section-title
+#title
+Aimé des utilisateurs 🤩
+#description
+Appréciée des apprenants mais aussi des formateurs et enseignants
+::
+
