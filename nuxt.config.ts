@@ -28,6 +28,16 @@ export default defineNuxtConfig({
       },
     ],
   },
+  scripts: {
+    registry: {
+      matomoAnalytics: {
+        matomoUrl: 'https://piwik.inria.fr',
+        trackPageView: true,
+        enableLinkTracking: true,
+        siteId: 132,
+      }
+    }
+  },
   css: [
     join(currentDir, './assets/css/theme-inria.css'),
   ]

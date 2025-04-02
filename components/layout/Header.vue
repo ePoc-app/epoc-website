@@ -35,9 +35,11 @@
       <LayoutToc is-small />
     </div>
   </header>
+  <Toaster />
 </template>
 
 <script setup lang="ts">
+import { Toaster } from '@/components/ui/sonner'
 const config = useConfig();
 const { i18nEnabled, localePath } = useI18nDocs();
 const { page } = useContent();
