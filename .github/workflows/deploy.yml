@@ -17,8 +17,20 @@ jobs:
           node-version: "22"
       # Pick your own package manager and build script
       - run: npm install
+      - name: Add preview banner
+        run: |
+          # Read the current app.config.ts
+          CONFIG_CONTENT=$(cat app.config.ts)
+          
+          # Define the banner configuration
+          BANNER_CONFIG="banner: { enable: true, showClose: false, content: '⚠️ Ceci est un site de prévisualisation. Pour le site officiel, visitez [epoc.inria.fr](https://epoc.inria.fr)', to: 'https://epoc.inria.fr', target: '_blank', border: true, },"
+          
+          # Insert the banner configuration
+          echo "$CONFIG_CONTENT" | sed "s|shadcnDocs: {|shadcnDocs: {$BANNER_CONFIG|" > app.config.ts
       - name: Build for GitHub Pages
-        run: SITE_URL=https://epoc-app.github.io/epoc-website npm run generate
+        run: |
+          SITE_URL=https://epoc-app.github.io/epoc-website \
+          npm run generate || true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

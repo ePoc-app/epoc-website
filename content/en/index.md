@@ -8,7 +8,7 @@ fullpage: true
 announcement:
   title: Try our editor for free
   icon: '🚀'
-  to: /editor
+  to: /en/editor
 actions:
   - name: Download for Android
     to: {{$data.google_link}}
@@ -23,12 +23,12 @@ actions:
   - separator: true
   - name: 'Editor: build your own course'
     title: 'ePoc Editor'
-    to: /editor
+    to: /en/editor
     leftIcon: 'lucide:monitor-cog'
     variant: outline
   - name: Guide
     title: Guide
-    to: /guide
+    to: /en/guide
     leftIcon: 'lucide:book-check'
     variant: outline
 ---
