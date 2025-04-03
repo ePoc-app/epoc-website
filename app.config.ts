@@ -24,7 +24,7 @@ export default defineAppConfig({
         dark: '/logo-dark.svg',
       },
       nav: [{
-        title: 'Editeur',
+        title: 'Éditeur',
         to: '/editor',
         icon: 'lucide:box',
         showLinkIcon: false,

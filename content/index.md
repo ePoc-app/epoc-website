@@ -5,8 +5,8 @@ navigation: false
 ::hero-alt
 ---
 announcement:
-  title: Découvrez l'éditeur
-  icon: '🎉'
+  title: Essayez notre éditeur gratuitement
+  icon: '🚀'
   to: /editor
 actions:
   - name: Télécharger pour Android
@@ -20,8 +20,8 @@ actions:
     rightIcon: 'lucide:arrow-up-right'
     target: _blank
   - separator: true
-  - name: Editeur ePoc
-    title: Editeur ePoc
+  - name: 'Éditeur : construisez votre formation'
+    title: 'Éditeur ePoc'
     to: /editor
     leftIcon: 'lucide:monitor-cog'
     variant: outline
@@ -33,7 +33,7 @@ actions:
 ---
 
 #title
-L'apprentissage sur mobile libre
+L'apprentissage sur mobile, libre et ouvert
 
 #description
 ePoc (Electronic Pocket Open Course) est une solution complète de mobile learning libre et ouverte. Découvrez nos cours ou créez le votre à l'aide de l'éditeur. Gratuite et open source. Développée par Inria.
@@ -114,5 +114,8 @@ Répétez les activités autant de fois que nécessaire pour obtenir l'attestati
 Aimé des utilisateurs 🤩
 #description
 Appréciée des apprenants mais aussi des formateurs et enseignants
+::
+
+::testimonials
 ::
 
