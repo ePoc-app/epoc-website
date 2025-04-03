@@ -1,5 +1,6 @@
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import process from 'node:process';
 
 const currentDir = dirname(fileURLToPath(import.meta.url));
 export default defineNuxtConfig({
@@ -7,10 +8,10 @@ export default defineNuxtConfig({
   extends: ['shadcn-docs-nuxt'],
   compatibilityDate: '2024-07-06',
   site: {
-    url: 'https://epoc.inria.fr',
+    url: process.env.SITE_URL || 'https://epoc.inria.fr',
   },
   i18n: {
-    baseUrl: 'https://epoc.inria.fr/',
+    baseUrl: process.env.SITE_URL || 'https://epoc.inria.fr/',
     vueI18n: join(currentDir,'./i18n/i18n.config.ts'),
     detectBrowserLanguage: false,
     strategy: 'prefix_except_default',
