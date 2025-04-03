@@ -12,7 +12,7 @@ Ce guide vous montrera comment utiliser un plugin JavaScript dans un ePoc.
 3. Ajouter le fichier javascript du plugin (obligatoire)
 4. Ajouter le fichier template du plugin (optionnel)
 
-![Ajouter un plugin](add-plugin.png)
+![Ajouter un plugin](/images/plugins/add-plugin.png)
 
 ## Intégrer un template
 
@@ -56,9 +56,9 @@ ePoc.onLoad = () => {
 </html>
 ```
 
-![Intégrer un template](plugin-hello.png)
+![Intégrer un template](/images/plugins/plugin-hello.png)
 
-![Embed plugin hello avec shortcode](plugin-embed-shortcode.jpg)
+![Embed plugin hello avec shortcode](/images/plugins/plugin-embed-shortcode.jpg)
 
 ### Intégrer dans un quiz
 

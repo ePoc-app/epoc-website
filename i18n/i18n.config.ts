@@ -6,7 +6,8 @@ export default defineI18nConfig(() => ({
             // Header nav
             "ePoc Mobile Learning": "ePoc Mobile Learning",
             ePoc: "ePoc",
-            Editeur: "Editeur",
+            Editeur: "Éditeur",
+            "Éditeur": "Éditeur",
             "Nos ePocs": "Nos ePocs",
             Aide: "Aide",
             Communauté: "Communauté",
@@ -89,6 +90,7 @@ export default defineI18nConfig(() => ({
             "ePoc Mobile Learning": "ePoc Mobile Learning",
             ePoc: "ePoc",
             Editeur: "Editor",
+            "Éditeur": "Editor",
             "Nos ePocs": "Our ePocs",
             Aide: "Help",
             Communauté: "Community",

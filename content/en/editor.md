@@ -9,7 +9,7 @@ fullpage: true
 announcement:
   title: Get started now
   icon: '🚀'
-  to: /guide/user/install
+  to: /en/guide/user/install
 actions:
 - name: Download for Windows
   to: {{$data.editor_link_windows}}
@@ -29,7 +29,7 @@ actions:
   target: _blank
 - name: 'Editor Guide'
   title: 'Editor Guide'
-  to: /guide/user/install
+  to: /en/guide/user/install
   leftIcon: 'lucide:book-check'
   variant: outline
 ---

@@ -40,8 +40,6 @@ function getInitials(name: string): string {
   }
 }
 
-const shuffleArray = <T,>(array: T[]): T[] => array.slice().sort(() => Math.random() - 0.5);
-
 const fr = [
   {
     name: 'Alexis Kauffmann',
@@ -175,7 +173,6 @@ const en = [
 ]
 
 const testimonials =  computed(() => {
-  const localeTestimonials = locale.value === defaultLocale ? fr : en;
-  return shuffleArray(localeTestimonials);
+  return locale.value === defaultLocale ? fr : en;
 })
 </script>
