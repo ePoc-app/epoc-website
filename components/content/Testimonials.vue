@@ -63,13 +63,13 @@ const testimonials = shuffleArray([
   //   srcName: 'via Tchap',
   //   quote: 'Bonjour, en SVT dans l\'académie de Versailles nous testons quelques usages d\'epoc. Des articles ont en cours de rédaction.'
   // },
-  // {
-  //   name: 'Agnes Lagrene',
-  //   img: 'https://matrix.agent.education.tchap.gouv.fr/_matrix/media/v3/thumbnail/matrix.agent.education.tchap.gouv.fr/d70e9ec5efb818aa25e830f710d3807affd1706a?width=30&height=30&method=crop',
-  //   src: 'https://tchap.gouv.fr/#/room/!cDdWbfkPfGeLnonKXE:agent.education.tchap.gouv.fr/$UYqx68LKse_MA4UHvY-nrs882J5rG7RAhtt8-wLMPH0?via=agent.education.tchap.gouv.fr&via=agent.agriculture.tchap.gouv.fr&via=agent.diplomatie.tchap.gouv.fr',
-  //   srcName: 'via Tchap',
-  //   quote: 'Bonjour, je viens de découvrir depuis peu ePoc et j\'adhère vraiment à l\'interface de création intuitive. Cela me donne beaucoup d\'idées d\'utilisation pour enrichir des modalités de formation pour les personnels.'
-  // },
+  {
+    name: 'Agnes Lagrene',
+    img: 'https://matrix.agent.education.tchap.gouv.fr/_matrix/media/v3/thumbnail/matrix.agent.education.tchap.gouv.fr/d70e9ec5efb818aa25e830f710d3807affd1706a?width=30&height=30&method=crop',
+    src: 'https://tchap.gouv.fr/#/room/!cDdWbfkPfGeLnonKXE:agent.education.tchap.gouv.fr/$UYqx68LKse_MA4UHvY-nrs882J5rG7RAhtt8-wLMPH0?via=agent.education.tchap.gouv.fr&via=agent.agriculture.tchap.gouv.fr&via=agent.diplomatie.tchap.gouv.fr',
+    srcName: 'via Tchap',
+    quote: 'Bonjour, je viens de découvrir depuis peu ePoc et j\'adhère vraiment à l\'interface de création intuitive. Cela me donne beaucoup d\'idées d\'utilisation pour enrichir des modalités de formation pour les personnels.'
+  },
   {
     name: 'Bidule Bulle',
     img: 'https://play-lh.googleusercontent.com/a/ACg8ocKeM2UB59Nw1LI9QEZcFUtaeeguHhrqQRG9dSnR8oCDu8dXGw=s32-mo',

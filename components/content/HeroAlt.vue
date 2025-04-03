@@ -43,7 +43,7 @@
         </template>
       </div>
     </section>
-    <div class="mx-auto" :class="{ 'order-first md:order-last': mobileRight === 'top' }">
+    <div class="w-full mx-auto" :class="{ 'order-first md:order-last': mobileRight === 'top' }">
       <ContentSlot :use="$slots.right" unwrap="p" />
     </div>
   </div>
