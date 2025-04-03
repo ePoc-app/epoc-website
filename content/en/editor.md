@@ -4,35 +4,106 @@ navigation: false
 fullpage: true
 ---
 
-::hero
+::hero-alt
 ---
 announcement:
-  title: 'Version {{$data.mobile_version}}'
-  icon: '🎉'
-  to: https://github.com/ZTL-UwU/shadcn-docs-nuxt/releases/latest
-  target: _blank
+  title: Get started now
+  icon: '🚀'
+  to: /guide/user/install
 actions:
-- name: Download for Android
-  to: {{$data.google_link}}
-  leftIcon: 'cib:google-play'
+- name: Download for Windows
+  to: {{$data.editor_link_windows}}
+  leftIcon: 'cib:windows'
+  rightIcon: 'lucide:arrow-up-right'
   target: _blank
-- name: Download for iOS
-  to: {{$data.apple_link}}
+- name: Download for Mac
+  to: {{$data.editor_link_macos}}
   leftIcon: 'cib:apple'
+  rightIcon: 'lucide:arrow-up-right'
   target: _blank
-- name: Editor
-  title: ePoc Editor
-  to: /editor
-  variant: outline
-- name: Documentation
-  title: Documentation
-  to: /guide
+- separator: true
+- name: Download for Linux
+  to: {{$data.editor_link_linux}}
+  leftIcon: 'cib:linux'
+  rightIcon: 'lucide:arrow-up-right'
+  target: _blank
+- name: 'Editor Guide'
+  title: 'Editor Guide'
+  to: /guide/user/install
+  leftIcon: 'lucide:book-check'
   variant: outline
 ---
 
 #title
-ePoc - Free mobile learning
+Your training in just a few clicks
 
 #description
-ePoc (Electronic Pocket Open Course) is a complete free and open mobile learning solution. Discover our courses or create your own using the editor. Free and open source. Developed by Inria.
+The ePoc editor is a desktop application that allows you to design, build, and publish your own mobile learning training in ePoc format. Free and open source. Developed by Inria.
+
+#right
+<iframe class="shadow-xl outline-none w-full aspect-video" src="https://www.youtube.com/embed/86lbMmM03FU?modestbranding=1&amp;autohide=1&amp;rel=0&amp;showinfo=0" title="YouTube video player" allowfullscreen=""></iframe>
+::
+
+::card
+#title
+Subscribe to our Newsletter 💌
+
+#description
+To receive news about the application, editor, and ePoc training.
+
+#content
+::newsletter-box
+---
+placeholder: Enter your email
+---
+#button
+Subscribe
+::
+::
+
+::section-title
+#title
+Why ePoc?
+#description
+**Visual** and **intuitive** design interface with no coding skills required.
+::
+
+::key-features
+#side1
+![Example editor image](/images/editeur-video.png)
+
+#side2
+### Ready to use
+
+#side2Desc
+Ready-to-use and customizable content according to your needs
+
+- Videos, audio, text
+- Multiple choice questions, drag-and-drop, sorting, swipe
+- Assessment, success certificate, and badges
+
+::
+
+::key-features
+---
+reverse: true
+---
+#side1
+### Pedagogical scenario in just a few clicks
+
+#side1Desc
+Build your pedagogical scenario using a visual and ergonomic interface
+
+#side2
+![Example scenario image](/images/editeur-scenario.png)
+::
+
+::section-title
+#title
+Loved by users 🤩
+#description
+Appreciated by learners as well as trainers and teachers
+::
+
+::testimonials
 ::
