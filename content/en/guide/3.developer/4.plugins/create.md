@@ -1,82 +1,70 @@
 ---
-title: "Créer un plugin"
-description: "Guide de création de plugins pour ePoc"
+title: "Create a Plugin"
+description: "Guide to creating plugins for ePoc"
 icon: "lucide:file-pen"
 ---
 
 ## Introduction
 
-Notre application mobile utilise un système de plugin qui permet d'étendre ses fonctionnalités de manière
-sécurisée et contrôlée. Ce système repose sur l'utilisation d'une iframe en mode sandbox au sein de la webview du
-téléphone. Cette approche garantit un environnement d'exécution isolé pour chaque plugin, préservant ainsi la sécurité
-et la stabilité de l'application principale.
+Our mobile application uses a plugin system that allows extending its functionality in a secure and controlled manner. This system relies on using a sandboxed iframe within the phone's webview. This approach ensures an isolated execution environment for each plugin, thus preserving the security and stability of the main application.
 
-## Fonctionnement du système de plugin
+## Plugin System Operation
 
-Chaque plugin est essentiellement un script JavaScript (lancé à l'ouverture de l'ePoc) accompagné de template html
-(à insérer dans les pages de texte ou les exercies). Le plugin et ses templates sont éxécutés dans des iframes distinctes.
-L'attribut "sandbox" de l'iframe est utilisé pour créer un environnement d'exécution isolé, empêchant ainsi le plugin d'accéder
-aux ressources de l'application principale sans autorisation explicite.
+Each plugin is essentially a JavaScript script (launched when the ePoc opens) accompanied by HTML templates (to be inserted in text pages or exercises). The plugin and its templates are executed in separate iframes. The "sandbox" attribute of the iframe is used to create an isolated execution environment, preventing the plugin from accessing the main application's resources without explicit authorization.
 
-Le système de plugin fournit une API JavaScript qui permet aux plugins d'interagir avec l'application principale de
-manière contrôlée mais aussi aux templates d'échanger des données avec le plugin. Cette API comprend des méthodes pour
-envoyer et recevoir des données, ainsi que pour déclencher des actions dans l'application principale.
+The plugin system provides a JavaScript API that allows plugins to interact with the main application in a controlled manner and also enables templates to exchange data with the plugin. This API includes methods for sending and receiving data, as well as triggering actions in the main application.
 
-## Plugin core
-### Premier pas
+## Plugin Core
+### First Steps
 
-Pour développer un plugin, vous devez tout d'abord créer un script JavaScript. Ce script est ensuite intégré dans une
-iframe non visible en mode sandbox avec les fonctions de l'API. Les fonctions d'API sont le seul moyen d'intéragir avec
-l'application et les templates.
+To develop a plugin, you must first create a JavaScript script. This script is then integrated into a non-visible sandboxed iframe with the API functions. The API functions are the only way to interact with the application and templates.
 
-Voici un exemple de code pour créer un plugin qui affiche 'Hello World' au chargement de l'ePoc :
+Here's an example code to create a plugin that displays 'Hello World' when the ePoc loads:
 
 ```js
 // plugin.js
 
 ePoc.onLoad = () => {
-    // Executé lorsque le plugin est chargé à l'ouverture de l'ePoc
+    // Executed when the plugin is loaded at ePoc startup
     console.log('Hello World')
 }
 ```
 
+### Plugin Core API
 
-### API plugin core
-
-#### Fonctions
+#### Functions
 
 ##### `ePoc.onLoad(context)`
 
-Fonction appelée au chargement du plugin permet de retourner sa configuration
+Function called when the plugin loads, allows returning its configuration
 
 ##### `ePoc.onEmbed`
 
-Fonction appelée lors du chargement d'un template intégré dans une page de texte ou une question
+Function called when a template embedded in a text page or question loads
 
 ##### `ePoc.emit(event, value)`
 
-Envoie un message vers l'application mobile
+Sends a message to the mobile application
 
 ##### `ePoc.emitToEmbeds(value)`
 
-Envoie un message vers les templates du plugin
-
+Sends a message to the plugin's templates
 
 ##### `ePoc.receive(data)`
 
-Reçoit un message de l'application mobile
+Receives a message from the mobile application
 
-#### Événements reçu speciaux
+#### Special Received Events
 ##### `'statement'`
-Reçu lorsque l'utilisateur déclenche un évenement xAPI
+Received when the user triggers an xAPI event
 
-- `epocId` : ID de l'ePoc où l'évennement a eu lieu
-- `entityType` : Type du contenu qui a déclenché l'évenement (page, video, texte, question, etc)
-- `entityId` : ID du contenu qui a déclenché l'évenement
-- `verb` : Verbe de l'action qui a été effectuée (vu, lu, répondu, etc)
-- `value` : Valeur de l'action qui a été effectuée
+- `epocId`: ID of the ePoc where the event occurred
+- `entityType`: Type of content that triggered the event (page, video, text, question, etc)
+- `entityId`: ID of the content that triggered the event
+- `verb`: Verb of the action that was performed (viewed, read, answered, etc)
+- `value`: Value of the action that was performed
 
-###### Exemple
+###### Example
 
 ```js
 // plugin.js
@@ -96,21 +84,19 @@ ePoc.receive = async (data) => {
 
 ## Template
 
-Les plugins peuvent déclarer un template html qui est aussi éxécuté dans une iframe distinct. La
-différence est que l'iframe du template est intégré dans des pages de texte ou des exercices et est visible par
-l'apprenant. La propriété `template` peut être une chaine de caractères inline ou un fichier HTML distinct.
+Plugins can declare an HTML template that is also executed in a separate iframe. The difference is that the template's iframe is embedded in text pages or exercises and is visible to the learner. The `template` property can be an inline string or a separate HTML file.
 
-### Exemple "Hello World"
-Voici comment déclarer un template de plugin en reprenant l'exemple précédent :
+### "Hello World" Example
+Here's how to declare a plugin template using the previous example:
 
 ```js
 // plugin.js
 
 ePoc.onLoad = () => {
-    // Executé lorsque le plugin est chargé à l'ouverture de l'ePoc
+    // Executed when the plugin is loaded at ePoc startup
     console.log('Hello World')
 
-    // Le plugin retourne le nom du template et le shortcode pour l'intégrer dans les pages de texte
+    // The plugin returns the template name and shortcode for integration in text pages
     return {
         template: 'plugin_template.html',
         shortcode: '[#hello_world]'
@@ -118,49 +104,47 @@ ePoc.onLoad = () => {
 }
 ```
 
-Et le template en question (affiche simplement un titre H1) :
+And the template in question (simply displays an H1 title):
 
 ```html
 <!-- plugin_template.html -->
 <h1>Hello World</h1>
 <script>
-    // Votre logique métier ici
+    // Your business logic here
 </script>
 ```
 
+### Plugin Template API
 
-### API plugin template
-
-#### Fonctions
+#### Functions
 ##### `plugin.emit(event, value)`
 
-Envoie un message depuis le template vers le plugin
-
+Sends a message from the template to the plugin
 
 ##### `plugin.receive(data)`
 
-Reçoit un message du plugin ou de l'application mobile
+Receives a message from the plugin or the mobile application
 
-#### Événements émis speciaux
+#### Special Emitted Events
 
 ##### `plugin.emit('user-responded', payload)`
 
-Envoie la réponse de l'utilisateur quand le template du plugin est utilisé dans une question personnalisée
+Sends the user's response when the plugin template is used in a custom question
 
-###### Exemple de question personnalisée
+###### Custom Question Example
 
 ```html
 <!-- plugin_template.html -->
-<!-- Question personnalisée champ texte libre -->
+<!-- Custom question with free text field -->
 <form>
-    <!-- Champ texte -->
+    <!-- Text field -->
     <input type="text"/>
 </form>
 <script>
     const userInput = document.querySelector('input');
-    // Quand l'utilisateur tape du texte
+    // When the user types text
     userInput.addEventListener('keyup', (event) => {
-        // On envoie la réponse à l'app
+        // Send the response to the app
       plugin.emit('user-responded', userInput.value)
     });
 </script>
