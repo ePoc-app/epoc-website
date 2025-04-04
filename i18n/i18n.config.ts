@@ -84,6 +84,7 @@ export default defineI18nConfig(() => ({
             // QRCode generator
             "Generate QR Code": "Générer le code QR",
             "Download QR Code": "Télécharger le code QR",
+            "En savoir plus": "En savoir plus",
         },
         en: {
             // Header nav
@@ -166,6 +167,7 @@ export default defineI18nConfig(() => ({
             // QRCode generator
             "Generate QR Code": "Generate QR Code",
             "Download QR Code": "Download QR Code",
+            "En savoir plus": "Learn more",
         },
     },
 }));
