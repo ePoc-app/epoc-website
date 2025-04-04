@@ -1,48 +1,48 @@
 ---
-title: Démarrage
+title: Getting Started
 icon: lucide:rocket
-description: Guide pour prendre en main l'application mobile
+description: Guide to get started with the mobile application
 ---
 
-Bienvenue sur ePoc, l'application mobile d'apprentissage sur mobile proposée par Inria. Cette page vous guidera à travers les fonctionnalités principales de l'application.
+Welcome to ePoc, the mobile learning application offered by Inria. This page will guide you through the main features of the application.
 
-## Page d'accueil
+## Home Page
 
-La page d'accueil liste toutes les ePocs proposés par Inria. Vous pouvez également importer vos propres ePocs ou ceux de la communauté en utilisant le bouton d'importation.
+The home page lists all ePocs offered by Inria. You can also import your own ePocs or those from the community using the import button.
 
-Pour plus de détails sur l'importation d'ePocs, consultez la page de documentation [import.md](import.md).
+For more details on importing ePocs, please refer to the documentation page [import.md](import.md).
 
-![Page d'accueil](/images/app-accueil.png){ width="300" class="mockup" }
-![Page d'accueil import](/images/app-accueil-import.png){ width="300" class="mockup" }
+![Home Page](/images/app-accueil.png){ width="300" class="mockup" }
+![Home Page Import](/images/app-accueil-import.png){ width="300" class="mockup" }
 
-## Page de présentation des cours
+## Course Overview Page
 
-Chaque cours dispose d'une page de présentation où vous pouvez retrouver :
+Each course has an overview page where you can find:
 
-- Un teaser du cours
-- Les objectifs pédagogiques
-- Les auteurs du cours
-- Un résumé de la formation
+- A course teaser
+- Learning objectives
+- Course authors
+- A training summary
 
-![Page de présentation](/images/app-epoc-overview.png){ width="300" class="mockup" }
+![Overview Page](/images/app-epoc-overview.png){ width="300" class="mockup" }
 
-## Télécharger et lancer une formation
+## Download and Start a Training
 
-Pour télécharger un ePoc et lancer la formation, suivez ces étapes :
+To download an ePoc and start the training, follow these steps:
 
-1. Sélectionnez le cours que vous souhaitez suivre.
-2. Cliquez sur le bouton de téléchargement.
-3. Une fois le téléchargement terminé, cliquez sur "Découvrir".
+1. Select the course you want to take.
+2. Click on the download button.
+3. Once the download is complete, click on "Discover".
 
-## Menu contextuel d'un ePoc
+## ePoc Context Menu
 
-Chaque ePoc dispose d'un menu contextuel permettant un accès rapide à plusieurs fonctionnalités :
+Each ePoc has a context menu providing quick access to several features:
 
-- **Score** : Consultez votre progression et vos résultats.
-- **Licence** : Accédez aux informations de licence du cours.
-- **Supprimer** : Supprimez le cours de votre bibliothèque.
-- **Mettre à jour** : Mettez à jour le contenu du cours (non disponible pour les ePocs importés).
+- **Score**: View your progress and results.
+- **License**: Access course license information.
+- **Delete**: Remove the course from your library.
+- **Update**: Update the course content (not available for imported ePocs).
 
-![Menu contextuel](/images/app-epoc-menu.png){ width="300" class="mockup" }
+![Context Menu](/images/app-epoc-menu.png){ width="300" class="mockup" }
 
-Nous espérons que cette introduction vous aidera à démarrer avec ePoc. Bonne formation !
+We hope this introduction helps you get started with ePoc. Happy learning!

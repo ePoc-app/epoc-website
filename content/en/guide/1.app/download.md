@@ -1,39 +1,39 @@
 ---
-title: Télécharger l'app
+title: Download the App
 icon: lucide:cloud-download
-description: Guide pour télécharger l'application mobile sur iOS et Android
+description: Guide to download the mobile application on iOS and Android
 ---
 
-Bienvenue sur la page de téléchargement de l'application mobile ePoc. Vous trouverez ci-dessous les instructions pour télécharger et installer notre application sur différentes plateformes.
+Welcome to the ePoc mobile application download page. Below you will find instructions for downloading and installing our application on different platforms.
 
-## Télécharger sur l'App Store (iOS)
+## Download from the App Store (iOS)
 
-Pour les utilisateurs d'iPhone et d'iPad, vous pouvez télécharger notre application directement depuis l'App Store d'Apple. Cliquez sur le lien ci-dessous pour accéder à la page de téléchargement :
+For iPhone and iPad users, you can download our application directly from the Apple App Store. Click on the link below to access the download page:
 
-[Télécharger sur l'App Store](https://apps.apple.com/app/epoc/id1596317383)
+[Download from the App Store](https://apps.apple.com/app/epoc/id1596317383)
 
-## Télécharger sur Google Play (Android)
+## Download from Google Play (Android)
 
-Pour les utilisateurs d'Android, notre application est disponible sur Google Play. Cliquez sur le lien ci-dessous pour accéder à la page de téléchargement :
+For Android users, our application is available on Google Play. Click on the link below to access the download page:
 
-[Télécharger sur Google Play](https://play.google.com/store/apps/details?id=fr.inria.epoc)
+[Download from Google Play](https://play.google.com/store/apps/details?id=fr.inria.epoc)
 
-## Stores alternatifs
+## Alternative Stores
 
 ### F-Droid
 
-Nous comprenons que certains utilisateurs préfèrent utiliser des stores alternatifs comme F-Droid. Cependant, déposer notre application sur F-Droid nécessite une configuration particulière qui demande beaucoup de travail pour notre équipe. Pour cette raison, nous n'avons pas encore déposé notre application sur F-Droid.
+We understand that some users prefer to use alternative stores like F-Droid. However, submitting our application to F-Droid requires specific configuration that demands significant work from our team. For this reason, we have not yet submitted our application to F-Droid.
 
 ### Aurora Store
 
-En revanche, notre application est disponible sur Aurora Store, un autre store alternatif qui est lui-même disponible sur F-Droid. Vous pouvez télécharger Aurora Store depuis F-Droid et ensuite rechercher notre application ePoc.
+However, our application is available on Aurora Store, another alternative store that is itself available on F-Droid. You can download Aurora Store from F-Droid and then search for our ePoc application.
 
-Pour télécharger Aurora Store depuis F-Droid, suivez ces étapes :
+To download Aurora Store from F-Droid, follow these steps:
 
-1. Ouvrez F-Droid sur votre appareil Android.
-2. Recherchez "Aurora Store".
-3. Téléchargez et installez Aurora Store.
-4. Ouvrez Aurora Store et recherchez "ePoc".
-5. Téléchargez et installez notre application ePoc.
+1. Open F-Droid on your Android device.
+2. Search for "Aurora Store".
+3. Download and install Aurora Store.
+4. Open Aurora Store and search for "ePoc".
+5. Download and install our ePoc application.
 
-Nous espérons que ces instructions vous aideront à télécharger et installer notre application mobile ePoc. Si vous avez des questions ou des problèmes, n'hésitez pas à nous contacter pour obtenir de l'aide.
+We hope these instructions help you download and install our ePoc mobile application. If you have any questions or issues, please don't hesitate to contact us for assistance.

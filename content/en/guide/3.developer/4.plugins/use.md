@@ -1,38 +1,38 @@
 ---
-title: "Utiliser un plugin"
-description: "Guide d'utilisation de plugins pour ePoc"
+title: "Using a Plugin"
+description: "Guide to using plugins for ePoc"
 icon: "lucide:file-box"
 ---
-Ce guide vous montrera comment utiliser un plugin JavaScript dans un ePoc.
+This guide will show you how to use a JavaScript plugin in an ePoc.
 
-## Installer un plugin
+## Installing a Plugin
 
-1. [Créer](create.md) ou télécharger les fichiers d'un plugin
-2. Ajouter un plugin dans les paramètres de l'ePoc
-3. Ajouter le fichier javascript du plugin (obligatoire)
-4. Ajouter le fichier template du plugin (optionnel)
+1. [Create](create.md) or download plugin files
+2. Add a plugin in the ePoc settings
+3. Add the plugin's JavaScript file (required)
+4. Add the plugin's template file (optional)
 
-![Ajouter un plugin](/images/plugins/add-plugin.png)
+![Add a plugin](/images/plugins/add-plugin.png)
 
-## Intégrer un template
+## Integrating a Template
 
-### Intégrer dans une page de texte
+### Integrating in a Text Page
 
-Si votre plugin déclare un template vous pouvez ensuite l'intégrer à l'aide du shortcode prédéterminé.
+If your plugin declares a template, you can then integrate it using the predefined shortcode.
 
-**Exemple :** En repartant de l'[exemple "Hello World"](create.md#exemple-hello-world) du guide de création d'un plugin
+**Example:** Starting from the ["Hello World" example](create.md#exemple-hello-world) in the plugin creation guide
 
 ```js
 // plugin.js
 
 ePoc.onLoad = () => {
-    // Executé lorsque le plugin est chargé à l'ouverture de l'ePoc
+    // Executed when the plugin is loaded at ePoc startup
     console.log('Hello World')
 
-    // Le plugin retourne le nom du template et le shortcode pour l'intégrer dans les pages de texte
+    // The plugin returns the template name and shortcode for integration in text pages
     return {
         template: 'plugin_template.html',
-        shortcode: '[#hello_world]' // Shortcode à définir ici
+        shortcode: '[#hello_world]' // Shortcode to define here
     };
 }
 ```
@@ -42,71 +42,71 @@ ePoc.onLoad = () => {
 
 <html lang="en">
 <head>
-    <!-- Feuille de style pour avoir un affichage identique à l'app mobile -->
+    <!-- Style sheet for identical display to the mobile app -->
     <link rel="stylesheet" href="/assets/css/plugin-embed.css">
 </head>
 <body>
 <h1>Hello World</h1>
-<!-- Script pour avoir accès à l'API -->
+<!-- Script to access the API -->
 <script src="/assets/js/plugin-api-embed.js"></script>
 <script>
-    // Votre logique métier ici
+    // Your business logic here
 </script>
 </body>
 </html>
 ```
 
-![Intégrer un template](/images/plugins/plugin-hello.png)
+![Integrate a template](/images/plugins/plugin-hello.png)
 
-![Embed plugin hello avec shortcode](/images/plugins/plugin-embed-shortcode.jpg)
+![Embed plugin hello with shortcode](/images/plugins/plugin-embed-shortcode.jpg)
 
-### Intégrer dans un quiz
+### Integrating in a Quiz
 
-Si votre plugin déclare un template vous pouvez aussi l'intégrer dans une question personnalisée.
+If your plugin declares a template, you can also integrate it into a custom question.
 
-**Exemple :** En repartant de l'[exemple "Question personnalisée"](create.md#exemple-de-question-personnalisée) du guide de création d'un plugin
+**Example:** Starting from the ["Custom Question" example](create.md#exemple-de-question-personnalisée) in the plugin creation guide
 
 ```js
 // plugin.js
 
 ePoc.onLoad = () => {
-    // Executé lorsque le plugin est chargé à l'ouverture de l'ePoc
+    // Executed when the plugin is loaded at ePoc startup
     console.log('Hello World')
 
-    // Le plugin retourne le nom du template et le shortcode pour l'intégrer dans les pages de texte
+    // The plugin returns the template name and shortcode for integration in text pages
     return {
         template: 'plugin_template.html',
-        shortcode: '[#hello_world]' // Shortcode à définir ici
+        shortcode: '[#hello_world]' // Shortcode to define here
     };
 }
 ```
 
 ```html
 <!-- plugin_template.html -->
-<!-- Question personnalisée champ texte libre -->
+<!-- Custom question with free text field -->
 <html lang="en">
 <head>
     <link rel="stylesheet" href="/assets/css/plugin-embed.css">
 </head>
 <body>
 <form>
-    <!-- Champ texte -->
+    <!-- Text field -->
     <input type="text"/>
 </form>
 <script src="/assets/js/plugin-api-embed.js"></script>
 <script>
     const userInput = document.querySelector('input');
-    // Quand l'utilisateur tape du texte
+    // When the user types text
     userInput.addEventListener('keyup', (event) => {
-        // On envoie la réponse à l'app
+        // Send the response to the app
         plugin.emit('user-responded', userInput.value)
     });
 </script>
 </body>
 ```
 
-![Intégrer un plugin dans une question](/images/plugins/plugin-embed-question.png)
+![Integrate a plugin in a question](/images/plugins/plugin-embed-question.png)
 
-Ce qui donne comme résultat :
+Which gives the following result:
 
-![PReview de la question custom](/images/plugins/plugin-question.gif)
+![Custom question preview](/images/plugins/plugin-question.gif)

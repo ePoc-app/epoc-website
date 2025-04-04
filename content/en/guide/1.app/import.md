@@ -1,37 +1,37 @@
 ---
-title: Importer des ePocs
+title: Import ePocs
 icon: lucide:folder-down
-description: Guide pour importer un ePoc dans l'application mobile
+description: Guide to import an ePoc into the mobile application
 ---
 
-Cette page vous guide à travers le processus d'importation d'un ePoc dans l'application. Vous pouvez importer des ePocs depuis un lien, un QR code ou un fichier local sur votre smartphone.
+This page guides you through the process of importing an ePoc into the application. You can import ePocs from a link, a QR code, or a local file on your smartphone.
 
-## Importer un ePoc depuis un lien
+## Import an ePoc from a link
 
-1. **Obtenir le lien** : Assurez-vous d'avoir un lien direct vers un fichier `.epoc` ou `.zip` accessible publiquement.
-2. **Importer** : Ouvrez l'application ePoc, cliquez sur le bouton "Ajouter un ePoc" et selectionner "Importer depuis un lien".
-3. **Coller le lien** : Collez le lien dans le champ prévu à cet effet.
-4. **Télécharger** : L'application téléchargera et importera automatiquement le fichier.
-5. **Profitez** : C'est fait ! Vous pouvez maintenant parcourir l'ePoc importé!
+1. **Get the link**: Make sure you have a direct link to a publicly accessible `.epoc` or `.zip` file.
+2. **Import**: Open the ePoc application, click on the "Add an ePoc" button and select "Import from a link".
+3. **Paste the link**: Paste the link in the provided field.
+4. **Download**: The application will automatically download and import the file.
+5. **Enjoy**: That's it! You can now browse the imported ePoc!
 
-## Importer un ePoc depuis un QR code
+## Import an ePoc from a QR code
 
-1. **Obtenir le QR code** : Assurez-vous d'avoir un QR code pointant vers un fichier `.epoc` ou `.zip` accessible publiquement.
-2. **Importer** : Ouvrez l'application ePoc, cliquez sur le bouton "Ajouter un ePoc" et selectionner "Importer depuis un QR code".
-3. **Scanner le QR code** : Utilisez l'appareil photo pour scanner le code.
-4. **Télécharger** : L'application reconnaîtra le lien et téléchargera automatiquement le fichier.
-5. **Profitez** : C'est fait ! Vous pouvez maintenant parcourir l'ePoc importé!
+1. **Get the QR code**: Make sure you have a QR code pointing to a publicly accessible `.epoc` or `.zip` file.
+2. **Import**: Open the ePoc application, click on the "Add an ePoc" button and select "Import from a QR code".
+3. **Scan the QR code**: Use the camera to scan the code.
+4. **Download**: The application will recognize the link and automatically download the file.
+5. **Enjoy**: That's it! You can now browse the imported ePoc!
 
-## Importer un ePoc depuis un fichier local
+## Import an ePoc from a local file
 
-1. **Télécharger le fichier** : Assurez-vous d'avoir le fichier `.epoc` ou `.zip` téléchargé sur votre smartphone.
-2. **Importer** : Ouvrez l'application ePoc, cliquez sur le bouton "Ajouter un ePoc" et selectionner "Importer depuis un fichier"
-3. **Sélectionner le fichier** : Naviguer dans vos fichiers locaux et sélectionner le fichier téléchargé
-4. **Profitez** : C'est fait ! Vous pouvez maintenant parcourir l'ePoc importé!
+1. **Download the file**: Make sure you have the `.epoc` or `.zip` file downloaded on your smartphone.
+2. **Import**: Open the ePoc application, click on the "Add an ePoc" button and select "Import from a file"
+3. **Select the file**: Navigate through your local files and select the downloaded file
+4. **Enjoy**: That's it! You can now browse the imported ePoc!
 
-## Remarques importantes
+## Important notes
 
-- **Accessibilité publique** : Le lien ou le QR code doit pointer vers un fichier accessible publiquement. L'application ne supporte pas l'import depuis des services cloud ou serveurs nécessitant une authentification.
-- **Formats supportés** : Les formats supportés pour l'importation sont `.epoc` et `.zip`.
+- **Public accessibility**: The link or QR code must point to a publicly accessible file. The application does not support importing from cloud services or servers requiring authentication.
+- **Supported formats**: The supported formats for import are `.epoc` and `.zip`.
 
-Nous espérons que ce guide vous aidera à importer facilement vos ePocs. Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à nous contacter pour obtenir de l'aide.
+We hope this guide helps you easily import your ePocs. If you have any questions or encounter any issues, please don't hesitate to contact us for assistance.
