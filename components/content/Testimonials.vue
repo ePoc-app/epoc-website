@@ -48,20 +48,20 @@ const fr = [
     srcName: 'via Tchap',
     quote: 'Chef de projet logiciels et ressources éducatives libres à la DNE [...] Le projet ePoc nous intéresse beaucoup et je participe à faire connaitre le projet et à mettre les personnes intéressées en relation. '
   },
-  // {
-  //   name: 'Amelie Silvert',
-  //   img: 'https://matrix.agent.education.tchap.gouv.fr/_matrix/media/v3/thumbnail/agent.education.tchap.gouv.fr/KXARfOMwxjHFKwRvaPxjFpNF?width=30&height=30&method=crop',
-  //   src: 'https://tchap.gouv.fr/#/room/!cDdWbfkPfGeLnonKXE:agent.education.tchap.gouv.fr/$ImIw6X63MJj5ZcThhd5epodIvEw5m_ubQdenh2w6xzA?via=agent.education.tchap.gouv.fr&via=agent.agriculture.tchap.gouv.fr&via=agent.diplomatie.tchap.gouv.fr',
-  //   srcName: 'via Tchap',
-  //   quote: 'Bonjour, j\'ai trouvé epoc par hasard via un post sur X. Ca m\'a tout de suite plu. J\'ai fait une première version d\'une application sur Visio Agents.'
-  // },
-  // {
-  //   name: 'Delphine Sechet',
-  //   img: 'https://matrix.agent.education.tchap.gouv.fr/_matrix/media/v3/thumbnail/agent.education.tchap.gouv.fr/BwHltdsmHWxFpLQwmTOMlHhf?width=30&height=30&method=crop',
-  //   src: 'https://tchap.gouv.fr/#/room/!cDdWbfkPfGeLnonKXE:agent.education.tchap.gouv.fr/$UmJdKibIG5OWNArMphNCgs3K640XGVu6lvsBAluBqTI?via=agent.education.tchap.gouv.fr&via=agent.agriculture.tchap.gouv.fr&via=agent.diplomatie.tchap.gouv.fr',
-  //   srcName: 'via Tchap',
-  //   quote: 'Bonjour, en SVT dans l\'académie de Versailles nous testons quelques usages d\'epoc. Des articles ont en cours de rédaction.'
-  // },
+  {
+    name: 'Amelie Silvert',
+    img: 'https://matrix.agent.education.tchap.gouv.fr/_matrix/media/v3/thumbnail/agent.education.tchap.gouv.fr/KXARfOMwxjHFKwRvaPxjFpNF?width=30&height=30&method=crop',
+    src: 'https://tchap.gouv.fr/#/room/!cDdWbfkPfGeLnonKXE:agent.education.tchap.gouv.fr/$ImIw6X63MJj5ZcThhd5epodIvEw5m_ubQdenh2w6xzA?via=agent.education.tchap.gouv.fr&via=agent.agriculture.tchap.gouv.fr&via=agent.diplomatie.tchap.gouv.fr',
+    srcName: 'via Tchap',
+    quote: 'Bonjour, j\'ai trouvé epoc par hasard via un post sur X. Ca m\'a tout de suite plu. J\'ai fait une première version d\'une application sur Visio Agents.'
+  },
+  {
+    name: 'Delphine Sechet',
+    img: 'https://matrix.agent.education.tchap.gouv.fr/_matrix/media/v3/thumbnail/agent.education.tchap.gouv.fr/BwHltdsmHWxFpLQwmTOMlHhf?width=30&height=30&method=crop',
+    src: 'https://tchap.gouv.fr/#/room/!cDdWbfkPfGeLnonKXE:agent.education.tchap.gouv.fr/$UmJdKibIG5OWNArMphNCgs3K640XGVu6lvsBAluBqTI?via=agent.education.tchap.gouv.fr&via=agent.agriculture.tchap.gouv.fr&via=agent.diplomatie.tchap.gouv.fr',
+    srcName: 'via Tchap',
+    quote: 'Bonjour, en SVT dans l\'académie de Versailles nous testons quelques usages d\'epoc. Des articles ont en cours de rédaction.'
+  },
   {
     name: 'Agnes Lagrene',
     img: 'https://matrix.agent.education.tchap.gouv.fr/_matrix/media/v3/thumbnail/matrix.agent.education.tchap.gouv.fr/d70e9ec5efb818aa25e830f710d3807affd1706a?width=30&height=30&method=crop',
