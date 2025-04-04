@@ -7,6 +7,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['shadcn-docs-nuxt'],
   compatibilityDate: '2024-07-06',
+  baseUrl:process.env.BASE_URL || '/',
   site: {
     url: process.env.SITE_URL || 'https://epoc.inria.fr',
   },

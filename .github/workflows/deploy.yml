@@ -30,6 +30,7 @@ jobs:
       - name: Build for GitHub Pages
         run: |
           SITE_URL=https://epoc-app.github.io/epoc-website \
+          BASE_URL=/epoc-website/ \
           npm run generate || true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
