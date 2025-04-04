@@ -1,7 +1,0 @@
-nav:
-    - Guide App mobile : app
-    - Guide Editeur : user
-    - Guide Développeur : developer
-    - Outils: outils
-    - Générateur QR Code : ../../qr-code-generator
-    - Diagramme Mermaid : ../../mermaid-editor
