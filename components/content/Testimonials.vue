@@ -7,7 +7,7 @@
       </UiCardHeader>
       <UiCardFooter>
         <UiAvatar class="mr-2">
-          <UiAvatarImage :src="t.img"></UiAvatarImage>
+          <UiAvatarImage :src="t.img" :alt="'Avatar '+t.name"></UiAvatarImage>
           <UiAvatarFallback class="text-primary-foreground">{{getInitials(t.name)}}</UiAvatarFallback>
         </UiAvatar>
         <div>
