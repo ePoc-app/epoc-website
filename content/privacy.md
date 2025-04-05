@@ -4,6 +4,7 @@ aside: false
 prevNext: false
 toc:
    links: []
+description: Dans la Politique de confidentialité, nous expliquons comment nous collectons, utilisons, partageons, conservons et transférons les informations. Nous vous informons également de vos droits.
 ---
 
 

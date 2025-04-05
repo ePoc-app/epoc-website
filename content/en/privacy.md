@@ -4,6 +4,7 @@ aside: false
 prevNext: false
 toc:
    links: []
+description: In the Privacy Policy, we explain how we collect, use, share, retain and transfer information. We also let you know your rights.
 ---
 
 **Last updated**: July 26, 2024

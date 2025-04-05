@@ -2,6 +2,7 @@
 title: Editor
 navigation: false
 fullpage: true
+description: The ePoc editor is a desktop application that allows you to design, build, and publish your own mobile learning training in ePoc format. Free and open source. Developed by Inria.
 ---
 
 ::hero-alt
