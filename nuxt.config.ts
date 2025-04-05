@@ -7,12 +7,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['shadcn-docs-nuxt'],
   compatibilityDate: '2024-07-06',
+
   app: {
     baseUrl:process.env.BASE_URL || '/',
   },
-  site: {
-    url: process.env.SITE_URL || 'https://epoc.inria.fr',
-  },
+
   i18n: {
     baseUrl: process.env.SITE_URL || 'https://epoc.inria.fr/',
     vueI18n: join(currentDir,'./i18n/i18n.config.ts'),
@@ -32,6 +31,7 @@ export default defineNuxtConfig({
       },
     ],
   },
+
   scripts: {
     registry: {
       matomoAnalytics: {
@@ -42,7 +42,10 @@ export default defineNuxtConfig({
       }
     }
   },
+
   css: [
     join(currentDir, './assets/css/theme-inria.css'),
-  ]
+  ],
+
+  modules: ['@nuxtjs/sitemap']
 });

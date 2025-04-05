@@ -2,6 +2,7 @@
 title: Home
 navigation: false 
 fullpage: true
+description: ePoc (Electronic Pocket Open Course) is a complete free and open mobile learning solution. Free and open source. Developed by Inria.
 ---
 ::hero-alt
 ---

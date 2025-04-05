@@ -4,6 +4,7 @@ aside: false
 prevNext: false
 toc:
     links: []
+description: Legal Information
 ---
 
 ## Legal Information
