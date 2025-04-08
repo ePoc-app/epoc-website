@@ -1,5 +1,6 @@
 ---
 title: Mentions Légales
+breadcrumb: false
 aside: false
 prevNext: false
 toc:
