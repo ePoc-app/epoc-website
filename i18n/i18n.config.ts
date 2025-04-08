@@ -89,6 +89,7 @@ export default defineI18nConfig(() => ({
             "Divers": "Divers",
             "Media Kit": "Media Kit",
             "Partenariat": "Partenariat",
+            "Plan du site": "Plan du site",
             // QRCode generator
             "Generate QR Code": "Générer le code QR",
             "Download QR Code": "Télécharger le code QR",
@@ -180,6 +181,7 @@ export default defineI18nConfig(() => ({
             "Divers": "More",
             "Media Kit": "Media Kit",
             "Partenariat": "Partnerships",
+            "Plan du site": "Sitemap",
             // QRCode generator
             "Generate QR Code": "Generate QR Code",
             "Download QR Code": "Download QR Code",

@@ -178,6 +178,9 @@ export default defineAppConfig({
     footer: {
       credits: 'COPYRIGHT',
       links: [{
+          title: 'Plan du site',
+          to: '/sitemap',
+        },{
           title: 'Conditions d\'utilisation',
           to: '/terms',
         },
