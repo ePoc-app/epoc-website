@@ -1,6 +1,5 @@
 ---
 title: Éditeur
-navigation: false
 fullpage: true
 description: L'éditeur ePoc est une application de bureau permettant de concevoir, construire et publier votre propre formation de mobile learning au format ePoc. Gratuite et open source. Développée par Inria.
 ---
