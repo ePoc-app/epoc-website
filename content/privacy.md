@@ -1,5 +1,6 @@
 ---
 title: Vie Privée
+breadcrumb: false
 aside: false
 prevNext: false
 toc:

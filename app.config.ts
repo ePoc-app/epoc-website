@@ -190,6 +190,87 @@ export default defineAppConfig({
         to: envConfig.repo,
         target: '_blank',
       },],
+      navLinks: [
+        {
+          title: 'Docs',
+          links: [{
+            title: 'Guide App mobile',
+            to: '/guide/app/download',
+            icon: 'lucide:smartphone'
+          },{
+            title: 'Guide Editeur',
+            to: '/guide/user/install',
+            icon: 'lucide:monitor-cog'
+          }, {
+            title: 'Guide Développeur',
+            to: '/guide/developer/contributing',
+            icon: 'lucide:braces'
+          }]
+        },
+        {
+          title: 'Usecases',
+          links: [{
+            title: 'Formation Hybride',
+            to: '/usecases/hybrid',
+            icon: 'lucide:monitor-smartphone'
+          },{
+            title: 'Prérequis',
+            to: '/usecases/intro',
+            icon: 'lucide:list-checks'
+          }, {
+            title: 'Accueil Nouveaux Arrivants',
+            to: '/usecases/onboarding',
+            icon: 'lucide:heart-handshake'
+          }, {
+            title: 'Récapitulatif',
+            to: '/usecases/takeaway',
+            icon: 'lucide:backpack'
+          }]
+        },
+        {
+          title: 'Community',
+          links: [{
+            title: 'Faire communauté',
+            to: '/community/building-community',
+            icon: 'lucide:users'
+          },{
+            title: 'Soumettre un ePoc',
+            to: '/community/submitting',
+            icon: 'lucide:share'
+          },{
+            title: 'Forum',
+            to: 'https://mooc-forums.inria.fr/laforgeedu/c/epoc',
+            target: '_blank',
+            icon: 'lucide:messages-square'
+          },{
+            title: 'Discord',
+            to: 'https://discord.gg/xzSVeuPEtH',
+            target: '_blank',
+            icon: 'cib:discord'
+          },{
+            title: 'Tchap',
+            to: 'https://www.tchap.gouv.fr/#/room/#epoc:agent.education.tchap.gouv.fr',
+            target: '_blank',
+            icon: '/images/tchap.svg'
+          },]
+        },
+        {
+          title: 'Divers',
+          links: [{
+            title: 'Générateur de QR Code',
+            to: '/tools/qr-code-generator',
+            icon: 'lucide:qr-code'
+          },{
+            title: 'Media Kit',
+            to: '/mediakit',
+            icon: 'lucide:wallpaper'
+          }, {
+            title: 'Partenariat',
+            to: '/partnerships',
+            icon: 'lucide:hand-heart'
+          }]
+        },
+      ]
     },
     toc: {
       enable: true,

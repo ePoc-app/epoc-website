@@ -1,5 +1,5 @@
 ---
-title: Introduction d'un cours
+title: Prérequis
 aside: false
 prevNext: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: Course Introduction
+title: Requirements
 aside: false
 prevNext: false
 ---
