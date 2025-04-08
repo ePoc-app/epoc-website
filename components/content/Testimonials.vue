@@ -1,29 +1,35 @@
 <template>
-  <div class="masonry grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-
-    <UiCard v-for="t in testimonials" :key="t.name" class="flex flex-col">
-      <UiCardHeader class="flex-grow justify-center max-h-36 transition-all">
-        <p class="line-clamp-4">{{t.quote}}</p>
-      </UiCardHeader>
-      <UiCardFooter>
-        <UiAvatar class="mr-2">
-          <UiAvatarImage :src="t.img" :alt="'Avatar '+t.name"></UiAvatarImage>
-          <UiAvatarFallback class="text-primary-foreground">{{getInitials(t.name)}}</UiAvatarFallback>
-        </UiAvatar>
-        <div>
-          <UiCardTitle>{{t.name}}</UiCardTitle>
-          <UiCardDescription>
-            <NuxtLink v-if="t.src" :to="t.src" target="_blank">{{t.srcName}}</NuxtLink>
-            <span v-else>{{t.srcName}}</span>
-          </UiCardDescription>
-        </div>
-      </UiCardFooter>
-    </UiCard>
+  <div>
+    <UiCarousel :opts="{ loop: true }" :plugins="[AutoScroll({speed: 1})]">
+      <UiCarouselContent>
+        <UiCarouselItem v-for="t in testimonials" :key="t.name" class="md:basis-1/2 lg:basis-1/3">
+          <UiCard class="flex flex-col">
+            <UiCardHeader class="flex-grow justify-center max-h-36 transition-all">
+              <p class="line-clamp-4">{{t.quote}}</p>
+            </UiCardHeader>
+            <UiCardFooter>
+              <UiAvatar class="mr-2">
+                <UiAvatarImage :src="t.img" :alt="'Avatar '+t.name"></UiAvatarImage>
+                <UiAvatarFallback class="text-primary-foreground">{{getInitials(t.name)}}</UiAvatarFallback>
+              </UiAvatar>
+              <div>
+                <UiCardTitle>{{t.name}}</UiCardTitle>
+                <UiCardDescription>
+                  <NuxtLink v-if="t.src" :to="t.src" target="_blank">{{t.srcName}}</NuxtLink>
+                  <span v-else>{{t.srcName}}</span>
+                </UiCardDescription>
+              </div>
+            </UiCardFooter>
+          </UiCard>
+        </UiCarouselItem>
+      </UiCarouselContent>
+    </UiCarousel>
 
   </div>
 </template>
 
 <script setup lang="ts">
+import AutoScroll from 'embla-carousel-auto-scroll'
 const { locale, defaultLocale } = useI18nDocs();
 function getInitials(name: string): string {
   // Split the name into words
