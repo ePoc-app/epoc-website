@@ -7,7 +7,7 @@
             <h4 class="text-lg font-semibold text-foreground">{{ $t(item.title) }}</h4>
             <ul class="flex flex-col gap-2">
               <li v-for="(link, i) in item.links" :key="i">
-                <NuxtLink :to="link.to" class="text-sm hover:text-primary transition-colors flex items-center justify-center lg:justify-start">
+                <NuxtLink :to="localePath(link.to)" class="text-sm hover:text-primary transition-colors flex items-center justify-center lg:justify-start">
                   <SmartIcon v-if="link?.icon" :name="link.icon" :size="16" class="mr-1"/>
                   <span>{{ $t(link.title) }}</span>
                 </NuxtLink>
@@ -22,7 +22,7 @@
         <NuxtLink
             v-for="(link, i) in footer.links"
             :key="i"
-            :to="link?.to"
+            :to="localePath(link?.to)"
             :target="link?.target"
         >
           <UiButton variant="ghost" :size="link?.icon && !link?.title ? 'icon' : 'default'" class="flex gap-2">
@@ -39,4 +39,5 @@
 const { page } = useContent();
 const route = useRoute();
 const { footer } = useConfig().value;
+const { localePath } = useI18nDocs();
 </script>
