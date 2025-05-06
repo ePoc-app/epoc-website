@@ -90,6 +90,8 @@ export default defineI18nConfig(() => ({
             "Media Kit": "Media Kit",
             Partenariat: "Partenariat",
             "Plan du site": "Plan du site",
+            "Changelogs éditeur": "Changelogs éditeur",
+            "Changelogs mobile": "Changelogs mobile",
             // QRCode generator
             "Generate QR Code": "Générer le code QR",
             "Download QR Code": "Télécharger le code QR",
