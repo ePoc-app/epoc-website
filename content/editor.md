@@ -107,3 +107,16 @@ Appréciée des apprenants mais aussi des formateurs et enseignants
 
 ::testimonials
 ::
+
+<div id="roadmap"></div>
+
+::section-title
+#title
+Roadmap 🚀
+#description
+ePoc est un projet en développement actif, retrouvé ci-dessous les fonctionnalités à venir et déjà implémentées.  
+N'hésitez pas à nous faire part de vos suggestions.
+::
+
+::roadmap
+::

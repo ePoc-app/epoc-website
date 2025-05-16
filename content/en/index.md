@@ -119,3 +119,17 @@ Appreciated by learners as well as trainers and teachers
 ::testimonials
 ::
 
+
+<div id="roadmap"></div>
+
+::section-title
+#title
+Roadmap 🚀
+#description
+ePoc is still in development and we are working on new features to improve your experience. Here is a list of past and upcoming features.  
+Feel free to suggest the next feature.
+::
+
+::roadmap
+::
+

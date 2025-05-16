@@ -320,6 +320,11 @@ export default defineAppConfig({
                     title: "Divers",
                     links: [
                         {
+                            title: "Roadmap",
+                            to: "/#roadmap",
+                            icon: "lucide:rocket",
+                        },
+                        {
                             title: "Générateur de QR Code",
                             to: "/tools/qr-code-generator",
                             icon: "lucide:qr-code",

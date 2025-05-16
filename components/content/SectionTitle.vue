@@ -1,5 +1,5 @@
 <template>
-  <section class="py-8 md:py-12 text-center">
+  <section class="py-12 md:py-16 text-center">
     <h2 class="w-full font-bold leading-tight tracking-tighter md:text-5xl text-4xl lg:leading-[1.1] mb-4">
       <ContentSlot :use="$slots.title" unwrap="p" />
     </h2>
