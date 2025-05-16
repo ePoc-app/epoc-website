@@ -101,7 +101,7 @@ export default defineI18nConfig(() => ({
             "feature_request": "Demande de fonctionnalité",
             "feature_request_description": "Suggérer une nouvelle fonctionnalité ou amélioration pour ePoc.",
             "feature_request_button": "Demander",
-            "feature_request_mailto": "mailto:ill-epoc-contact@inria.fr?subject=Demande%20de%20fonctionnalité&body=Bonjour%20l'équipe,%0D%0A%0D%0AJe%20vous%20écris%20pour%20suggérer%20une%20nouvelle%20fonctionnalité%20pour%20votre%20produit.%20Voici%20les%20détails%20:%0D%0A%0D%0A-%20Nom%20de%20la%20fonctionnalité%20:%20[Nom%20de%20la%20fonctionnalité]%0D%0A-%20Description%20:%20[Description%20détaillée%20de%20la%20fonctionnalité]%0D%0A-%20Avantages%20:%20[Avantages%20ou%20bénéfices%20attendus]%0D%0A%0D%0ACordialement,%0D%0A[Votre%20Nom]"
+            "feature_request_mailto": "?subject=Demande%20de%20fonctionnalité&body=Bonjour%20l'équipe,%0D%0A%0D%0AJe%20vous%20écris%20pour%20suggérer%20une%20nouvelle%20fonctionnalité%20pour%20votre%20produit.%20Voici%20les%20détails%20:%0D%0A%0D%0A-%20Nom%20de%20la%20fonctionnalité%20:%20[Nom%20de%20la%20fonctionnalité]%0D%0A-%20Description%20:%20[Description%20détaillée%20de%20la%20fonctionnalité]%0D%0A-%20Avantages%20:%20[Avantages%20ou%20bénéfices%20attendus]%0D%0A%0D%0ACordialement,%0D%0A[Votre%20Nom]"
         },
         en: {
             // Header nav
@@ -201,7 +201,7 @@ export default defineI18nConfig(() => ({
             "feature_request": "Feature request",
             "feature_request_description": "Suggest a new feature or improvement for ePoc.",
             "feature_request_button": "Request",
-            "feature_request_mailto": "mailto:ill-epoc-contact@inria.fr?subject=Feature%20Request&body=Hello%20Team,%0D%0A%0D%0AI%20am%20writing%20to%20suggest%20a%20new%20feature%20for%20your%20product.%20Here%20are%20the%20details%20:%0D%0A%0D%0A-%20Feature%20Name%20:%20[Feature%20Name]%0D%0A-%20Description%20:%20[Detailed%20description%20of%20the%20feature]%0D%0A-%20Benefits%20:%20[Expected%20benefits%20or%20advantages]%0D%0A%0D%0ABest%20regards,%0D%0A[Your%20Name]"
+            "feature_request_mailto": "?subject=Feature%20Request&body=Hello%20Team,%0D%0A%0D%0AI%20am%20writing%20to%20suggest%20a%20new%20feature%20for%20your%20product.%20Here%20are%20the%20details%20:%0D%0A%0D%0A-%20Feature%20Name%20:%20[Feature%20Name]%0D%0A-%20Description%20:%20[Detailed%20description%20of%20the%20feature]%0D%0A-%20Benefits%20:%20[Expected%20benefits%20or%20advantages]%0D%0A%0D%0ABest%20regards,%0D%0A[Your%20Name]"
         },
     },
 }));

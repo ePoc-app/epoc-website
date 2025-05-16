@@ -19,7 +19,7 @@
         <p class="line-clamp-3 flex-1">{{$t('feature_request_description')}}</p>
       </UiCardHeader>
       <UiCardFooter class="flex-grow flex-col items-start gap-1">
-        <ButtonLink size="sm" :to="$t('feature_request_mailto')" target="_blank">
+        <ButtonLink size="sm" :to="'mailto:ill-epoc-contact@inria.fr'+$t('feature_request_mailto')" target="_blank">
           {{ $t('feature_request_button') }}
           <SmartIcon name="lucide:arrow-up-right" class="ml-1" />
         </ButtonLink>
@@ -83,7 +83,7 @@ const fr = [
     description: 'Ouverture du catalogue d\'ePocs pour permettre de créer des collections tierces',
   },
   {
-    name: 'Expor SCORM et HTML',
+    name: 'Export SCORM et HTML',
     success: false,
     description: 'Export d\'un ePoc au format SCORM et HTML',
   }
