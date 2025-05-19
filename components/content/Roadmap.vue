@@ -1,13 +1,13 @@
 <template>
   <div class="flex flex-wrap gap-4">
-    <UiCard v-for="f in features" :key="f.name" class="flex flex-col md:basis-[calc(50%-0.5rem)] lg:basis-[calc(33.333%-0.66666rem)]" :class="{'bg-emerald-50 border-emerald-200 dark:bg-emerald-950 dark:border-emerald-800': f.success}">
-      <UiCardHeader class="max-h-36 transition-all" :class="{'text-emerald-500': f.success}">
-        <UiCardTitle>{{f.name}}
+    <UiCard v-for="f in features" :key="f.name" class="flex flex-col basis-[calc(50%-0.5rem)] lg:basis-[calc(33.333%-0.66666rem)]" :class="{'bg-emerald-50 border-emerald-200 dark:bg-emerald-950 dark:border-emerald-800': f.success}">
+      <UiCardHeader class="max-h-36 transition-all p-4 pb-0 md:p-6" :class="{'text-emerald-500': f.success}">
+        <UiCardTitle class="text-sm md:text-2xl">{{f.name}}
           <SmartIcon v-if="f.success" name="lucide:circle-check-big" class="float-end" />
         </UiCardTitle>
       </UiCardHeader>
-      <UiCardFooter class="flex-grow flex-col items-start">
-        <p class="line-clamp-3 flex-1">{{f.description}}</p>
+      <UiCardFooter class="flex-grow flex-col items-start p-4">
+        <p class="line-clamp-3 flex-1 text-sm md:text-base">{{f.description}}</p>
         <UiCardDescription class="pt-2 flex items-center gap-1">
           <SmartIcon name="lucide:calendar" /> {{f.date ? f.date : $t('coming_soon')}}
         </UiCardDescription>
