@@ -96,6 +96,7 @@ export default defineI18nConfig(() => ({
             "Generate QR Code": "Générer le code QR",
             "Download QR Code": "Télécharger le code QR",
             "En savoir plus": "En savoir plus",
+            // Roadmap
             "coming_soon": "Bientôt disponible",
             "Roadmap": "Feuille de route",
             "feature_request": "Demande de fonctionnalité",
@@ -196,6 +197,7 @@ export default defineI18nConfig(() => ({
             "Generate QR Code": "Generate QR Code",
             "Download QR Code": "Download QR Code",
             "En savoir plus": "Learn more",
+            // Roadmap
             "coming_soon": "Coming Soon",
             "Roadmap": "Roadmap",
             "feature_request": "Feature request",

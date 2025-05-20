@@ -1,15 +1,20 @@
 <template>
   <div class="flex flex-wrap gap-4">
     <UiCard v-for="f in features" :key="f.name" class="flex flex-col basis-[calc(50%-0.5rem)] lg:basis-[calc(33.333%-0.66666rem)]" :class="{'bg-emerald-50 border-emerald-200 dark:bg-emerald-950 dark:border-emerald-800': f.success}">
-      <UiCardHeader class="max-h-36 transition-all p-4 pb-0 md:p-6" :class="{'text-emerald-500': f.success}">
+      <UiCardHeader class="max-h-36 transition-all p-4 pb-0" :class="{'text-emerald-500': f.success}">
         <UiCardTitle class="text-sm md:text-2xl">{{f.name}}
           <SmartIcon v-if="f.success" name="lucide:circle-check-big" class="float-end" />
         </UiCardTitle>
       </UiCardHeader>
       <UiCardFooter class="flex-grow flex-col items-start p-4">
         <p class="line-clamp-3 flex-1 text-sm md:text-base">{{f.description}}</p>
-        <UiCardDescription class="pt-2 flex items-center gap-1">
-          <SmartIcon name="lucide:calendar" /> {{f.date ? f.date : $t('coming_soon')}}
+        <UiCardDescription class="pt-4 flex items-center gap-1">
+          <SmartIcon name="lucide:calendar" />
+          <span>{{f.date ? f.date : $t('coming_soon')}}</span>
+          <span v-if="f.url">·</span>
+          <NuxtLink v-if="f.url" :to="f.url" class="text-sm text-muted-foreground underline">
+            {{$t('En savoir plus')}}
+          </NuxtLink>
         </UiCardDescription>
       </UiCardFooter>
     </UiCard>
@@ -36,13 +41,15 @@ const fr = [
     name: 'Editeur ePoc',
     success: true,
     description: 'Sortie de l\'éditeur permettant de créer des ePocs',
-    date: 'Q1 2023'
+    date: 'Q1 2023',
+    url: '/editor'
   },
   {
     name: 'Import d\'ePoc',
     success: true,
     description: 'Import d\'un ePoc créé avec l\'éditeur ou partagé par la communauté',
-    date: 'Q1 2023'
+    date: 'Q1 2023',
+    url: '/guide/app/import'
   },
   {
     name: 'Badges',
@@ -54,13 +61,15 @@ const fr = [
     name: 'Plugins',
     success: true,
     description: 'Système de plugin permettant d\'étendre les fonctionnalités d\'un ePoc',
-    date: 'Q4 2023'
+    date: 'Q4 2023',
+    url: '/guide/developer/plugins/create'
   },
   {
     name: 'Mathjax et Mermaid',
     success: true,
     description: 'Ajout du Mathjax et Mermaid pour avoir du LaTeX et des diagrammes dans les ePoc',
-    date: 'Q1 2024'
+    date: 'Q1 2024',
+    url: '/guide/user/content/wysiwyg/latex'
   },
   {
     name: 'Collections d\'ePocs',
@@ -94,13 +103,15 @@ const en = [
     name: 'ePoc Editor',
     success: true,
     description: 'Release of the editor to create ePocs',
-    date: 'Q1 2023'
+    date: 'Q1 2023',
+    url: '/en/editor'
   },
   {
     name: 'ePoc Import',
     success: true,
     description: 'Import an ePoc created with the editor or shared by the community',
-    date: 'Q1 2023'
+    date: 'Q1 2023',
+    url: '/en/guide/app/import'
   },
   {
     name: 'Badges',
@@ -112,13 +123,15 @@ const en = [
     name: 'Plugins',
     success: true,
     description: 'Plugin system to extend the functionality of an ePoc',
-    date: 'Q4 2023'
+    date: 'Q4 2023',
+    url: '/en/guide/developer/plugins/create'
   },
   {
     name: 'Mathjax and Mermaid',
     success: true,
     description: 'Addition of Mathjax and Mermaid to have LaTeX and diagrams in ePocs',
-    date: 'Q1 2024'
+    date: 'Q1 2024',
+    url: '/en/guide/user/content/wysiwyg/latex'
   },
   {
     name: 'ePoc Collections',
