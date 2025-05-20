@@ -195,6 +195,7 @@ export default defineAppConfig({
                     icon: "lucide:github",
                     to: envConfig.repo,
                     target: "_blank",
+                    alt: "GitHub",
                 },
             ],
         },
@@ -225,6 +226,7 @@ export default defineAppConfig({
                     icon: "lucide:github",
                     to: envConfig.repo,
                     target: "_blank",
+                    alt: "GitHub",
                 },
             ],
             navLinks: [
