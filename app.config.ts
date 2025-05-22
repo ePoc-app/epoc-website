@@ -249,14 +249,9 @@ export default defineAppConfig({
                             icon: "lucide:braces",
                         },
                         {
-                            title: "Changelogs mobile",
-                            to: "/changelogs/mobile",
-                            icon: "lucide:smartphone",
-                        },
-                        {
-                            title: "Changelogs éditeur",
-                            to: "/changelogs/editor",
-                            icon: "lucide:monitor-cog",
+                            title: "Changelogs",
+                            to: "/changelogs",
+                            icon: "lucide:calendar-clock",
                         },
                     ],
                 },

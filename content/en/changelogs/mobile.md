@@ -75,3 +75,5 @@ prevNext: false
 - Fixed default license text
 - Fixed chapter objectives not scrollable
 - Fixed various UI issues (colors, button size, missing icons, etc)
+
+:read-more{icon="lucide:calendar-clock" to="/en/changelogs/editor"}

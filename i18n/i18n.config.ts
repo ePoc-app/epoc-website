@@ -90,8 +90,7 @@ export default defineI18nConfig(() => ({
             "Media Kit": "Media Kit",
             Partenariat: "Partenariat",
             "Plan du site": "Plan du site",
-            "Changelogs éditeur": "Changelogs éditeur",
-            "Changelogs mobile": "Changelogs mobile",
+            "Changelogs": "Changelogs",
             // QRCode generator
             "Generate QR Code": "Générer le code QR",
             "Download QR Code": "Télécharger le code QR",
@@ -191,8 +190,7 @@ export default defineI18nConfig(() => ({
             "Media Kit": "Media Kit",
             Partenariat: "Partnerships",
             "Plan du site": "Sitemap",
-            "Changelogs éditeur": "Changelogs editor",
-            "Changelogs mobile": "Changelogs mobile",
+            "Changelogs": "Changelogs",
             // QRCode generator
             "Generate QR Code": "Generate QR Code",
             "Download QR Code": "Download QR Code",

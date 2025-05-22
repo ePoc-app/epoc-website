@@ -93,3 +93,5 @@ prevNext: false
 -   Correction du texte de licence par défaut
 -   Correction des objectifs de chapitre non défilables
 -   Correction de divers problèmes d'interface (couleurs, taille des boutons, icônes manquantes, etc)
+
+:read-more{icon="lucide:calendar-clock" to="/changelogs/editor"}

@@ -119,3 +119,5 @@ prevNext: false
 
 ### 🛠️ Improvements
 - Code signature (Windows & MacOS)
+
+:read-more{icon="lucide:calendar-clock" to="/en/changelogs/mobile"}
