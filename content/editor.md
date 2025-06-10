@@ -114,7 +114,8 @@ Appréciée des apprenants mais aussi des formateurs et enseignants
 #title
 Roadmap 🚀
 #description
-ePoc est un projet en développement actif, retrouvé ci-dessous les fonctionnalités à venir et déjà implémentées.  
+ePoc est un projet en développement actif.  
+Retrouvez ci-dessous les fonctionnalités à venir et déjà implémentées.  
 N'hésitez pas à nous faire part de vos suggestions.
 ::
 
