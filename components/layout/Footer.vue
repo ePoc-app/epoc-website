@@ -1,7 +1,7 @@
 <template>
     <footer
         class="text-muted-foreground py-6 md:px-8 md:py-0 mt-8"
-        :class="{ 'border-t': page.fullpage || route.path === '/' }"
+        :class="{ 'border-t': page?.fullpage || route.path === '/' }"
     >
         <div class="container flex flex-col gap-2">
             <nav class="grid grid-cols-1 min-[450px]:grid-cols-2 lg:grid-cols-4 justify-between gap-8 py-8">

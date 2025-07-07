@@ -91,6 +91,7 @@ export default defineI18nConfig(() => ({
             Partenariat: "Partenariat",
             "Plan du site": "Plan du site",
             "Changelogs": "Changelogs",
+            "A propos": "A propos",
             // QRCode generator
             "Generate QR Code": "Générer le code QR",
             "Download QR Code": "Télécharger le code QR",
@@ -191,6 +192,7 @@ export default defineI18nConfig(() => ({
             Partenariat: "Partnerships",
             "Plan du site": "Sitemap",
             "Changelogs": "Changelogs",
+            "A propos": "About",
             // QRCode generator
             "Generate QR Code": "Generate QR Code",
             "Download QR Code": "Download QR Code",

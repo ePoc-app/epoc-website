@@ -317,6 +317,11 @@ export default defineAppConfig({
                     title: "Divers",
                     links: [
                         {
+                            title: "A propos",
+                            to: "/about",
+                            icon: "lucide:info",
+                        },
+                        {
                             title: "Roadmap",
                             to: "/#roadmap",
                             icon: "lucide:rocket",
