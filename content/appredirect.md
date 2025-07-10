@@ -4,6 +4,8 @@ fullpage: true
 description: You should be redirected to the ePoc app
 ---
 
+<!-- Placeholder page when using Deep Linking (Universal / App Links) to the ePoc app using /app-redirect/* (See .htaccess to check url rewriting) -->
+
 ::hero-alt
 ---
 actions:

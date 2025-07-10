@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^app-redirect(/|$) /appredirect/ [L]
+</IfModule>
