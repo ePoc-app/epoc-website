@@ -1,6 +1,6 @@
 ---
 title: Accueil
-description: ePoc (Electronic Pocket Open Course) est une solution complète de mobile learning libre et ouverte. Gratuite et open source. Développée par Inria.
+description: ePoc (electronic Pocket open course) est une solution complète de mobile learning libre et ouverte. Gratuite et open source. Développée par Inria.
 ---
 ::hero-alt
 ---
@@ -36,7 +36,7 @@ actions:
 L'apprentissage sur mobile, libre et ouvert
 
 #description
-ePoc (Electronic Pocket Open Course) est une solution complète de mobile learning libre et ouverte. Découvrez nos cours ou créez le votre à l'aide de l'éditeur. Gratuite et open source. Développée par Inria.
+ePoc (**e**lectronic **P**ocket **o**pen **c**ourse) est une solution complète de mobile learning libre et ouverte. Découvrez nos cours ou créez le votre à l'aide de l'éditeur. Gratuite et open source. Développée par Inria.
 
 #right
 ![ePoc Mobile App screenshots](/images/epoc-promo-blanc.png)

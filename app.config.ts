@@ -4,7 +4,7 @@ export default defineAppConfig({
         site: {
             name: "ePoc Mobile Learning",
             description:
-                "ePoc (Electronic Pocket Open Course) est une solution complète libre et ouverte pour l'apprentissage sur mobile. Développée par Inria.",
+                "ePoc (electronic Pocket open course) est une solution complète libre et ouverte pour l'apprentissage sur mobile. Développée par Inria.",
             ogImage: "/images/epoc-promo-blanc.png",
         },
         theme: {
