@@ -104,7 +104,7 @@ const fr = [
     {
         name: "Scénarios à embranchement",
         success: false,
-        description: "Ouverture du catalogue d'ePocs pour permettre de créer des collections tierces",
+        description: "Parcours d’apprentissage qui s'adapte selon les actions et les progrès de l’apprenant",
     },
     {
         name: "Export SCORM et HTML",
@@ -166,7 +166,7 @@ const en = [
     {
         name: "Branching scenarios",
         success: false,
-        description: "Open the ePoc catalog to allow third-party collections to be created",
+        description: "Learning path that adapts according to the actions and progress of the learner",
     },
     {
         name: "SCORM and HTML export",
