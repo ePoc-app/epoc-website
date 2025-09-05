@@ -91,7 +91,7 @@ const fr = [
         success: true,
         description: "Ouverture du catalogue d'ePocs pour permettre de créer des collections tierces",
         date: "Q3 2025",
-        url: "/en/guide/app/collections",
+        url: "/guide/developer/collection",
     },
     {
         name: "Contenu déblocable",
@@ -155,7 +155,7 @@ const en = [
         success: true,
         date: "Q3 2025",
         description: "Open the ePoc catalog to allow third-party collections to be created",
-        url: "/en/guide/app/collections",
+        url: "/en/guide/developer/collection",
     },
     {
         name: "Unlockable content",
