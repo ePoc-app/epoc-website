@@ -4,6 +4,19 @@ aside: false
 prevNext: false
 ---
 
+## Version 0.3 (4 septembre 2025)
+#### ✨ Nouvelles fonctionnalités
+- Menu des ressources
+
+#### 🛠️ Améliorations
+- Fusion de la version italienne
+
+#### 🐛 Corrections de bugs
+- Nœud non correctement supprimé lors de la suppression du dernier élément à l'intérieur
+- Sauvegarde sous Linux ne définit pas l'extension du fichier
+- État de sauvegarde ne se termine pas correctement dans certains cas
+- Erreur lors de l'ouverture de l'aperçu global
+
 ## Version 0.2 (6 mai 2025)
 
 ### ✨ Fonctionnalités

@@ -4,6 +4,23 @@ aside: false
 prevNext: false
 ---
 
+## Version 1.11.1 (4 septembre 2025)
+#### 🐛 Corrections de bugs
+- Correction du bug d'affichage des ePocs importés
+
+## Version 1.11.0 (2 septembre 2025)
+
+#### ✨ Nouvelles fonctionnalités
+- Collections ePocs de partenaires officiels
+- Collections ePocs tierces
+
+#### 🛠️ Améliorations
+- Meilleure métadonnée pour les collections ePocs
+
+#### 🧹 Maintenance technique
+- Suppression de Sentry
+- Suppression de l'ancien mode, de la connexion, du routage et des ressources
+
 ## Version 1.10.0 (6 mai 2025)
 
 ### 🛠️ Améliorations

@@ -4,6 +4,19 @@ aside: false
 prevNext: false
 ---
 
+## Version 0.3 (September 4, 2025)
+#### ✨ Features
+- Assets menu
+
+#### 🛠️ Improvements
+- Merge Italian version
+
+#### 🐛 Bug Fixes
+- Node not correctly deleted when the last item inside it is deleted
+- Linux save does not set file extension
+- Save state does not end correctly in certain cases
+- Error when opening global preview
+
 ## Version 0.2 (May 6, 2025)
 
 ### ✨ Features

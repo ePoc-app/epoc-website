@@ -4,6 +4,23 @@ aside: false
 prevNext: false
 ---
 
+## Version 1.11.1 (September 4, 2025)
+#### 🐛 Bug fix
+- Fixed imported ePocs not showing issue
+
+## Version 1.11.0 (September 2, 2025)
+
+#### ✨ Features
+- Official partner ePocs collections
+- Third-party ePocs collections
+
+#### 🛠️ Improvements
+- Better ePocs collections metadata
+
+#### 🧹 Maintenance
+- Remove Sentry
+- Remove old mode, login, routing, and resources
+
 ## Version 1.10.0 (May 6, 2025)
 ### 🛠️ Improvements
 - Better Drag & Drop question UI

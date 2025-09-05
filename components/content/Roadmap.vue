@@ -88,8 +88,10 @@ const fr = [
     },
     {
         name: "Collections d'ePocs",
-        success: false,
+        success: true,
         description: "Ouverture du catalogue d'ePocs pour permettre de créer des collections tierces",
+        date: "Q3 2025",
+        url: "/en/guide/app/collections",
     },
     {
         name: "Contenu déblocable",
@@ -150,8 +152,10 @@ const en = [
     },
     {
         name: "ePoc Collections",
-        success: false,
+        success: true,
+        date: "Q3 2025",
         description: "Open the ePoc catalog to allow third-party collections to be created",
+        url: "/en/guide/app/collections",
     },
     {
         name: "Unlockable content",
