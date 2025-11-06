@@ -28,25 +28,25 @@
   "ePocs": {
     "E006PE": {
       "id": "E006PE",
-      "download": "https://files.inria.fr/LearningLab_public/epocs-prod/E006PE/E006PE.zip",
+      "download": "https://epoc.inria.fr/dl/E006PE/E006PE.zip",
       "title": "B.A.-BA des data",
-      "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E006PE/images/mini-vignette-epoc.png",
-      "teaser": "https://files.inria.fr/LearningLab_public/epocs-prod/E006PE/videos/INRIA_Octobre.mp4",
-      "thumbnail": "https://files.inria.fr/LearningLab_public/epocs-prod/E006PE/images/vignette-epoc-home.png",
+      "image": "https://epoc.inria.fr/dl/E006PE/images/mini-vignette-epoc.png",
+      "teaser": "https://epoc.inria.fr/dl/E006PE/videos/INRIA_Octobre.mp4",
+      "thumbnail": "https://epoc.inria.fr/dl/E006PE/images/vignette-epoc-home.png",
       "authors": {
         "esxetg": {
           "name": "Laurent Romary",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E006PE/images/laurent-romary.jpg",
+          "image": "https://epoc.inria.fr/dl/E006PE/images/laurent-romary.jpg",
           "description": "<p>Chercheur Inria en informatique linguistique et en humanit&eacute;s num&eacute;riques. <span>Relecture et validation scientifique de la formation.</span></p>"
         },
         "88aeuf": {
           "name": "Pauline Eysseric",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E006PE/images/photo-Pauline.png",
+          "image": "https://epoc.inria.fr/dl/E006PE/images/photo-Pauline.png",
           "description": "<p>Ing&eacute;nieure P&eacute;dagogique Inria. Conception et sc&eacute;narisation de la formation.</p>"
         },
         "idzhcp": {
           "name": "Aurélie Laguarrigue",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E006PE/images/aurelie.jpg",
+          "image": "https://epoc.inria.fr/dl/E006PE/images/aurelie.jpg",
           "description": "<p>Ing&eacute;nieure P&eacute;dagogique Inria.</p>"
         }
       },
@@ -62,40 +62,40 @@
     },
     "E007MM": {
       "id": "E007MM",
-      "download": "https://files.inria.fr/LearningLab_public/epocs-prod/E007MM/E007MM.zip",
+      "download": "https://epoc.inria.fr/dl/E007MM/E007MM.zip",
       "title": "Le smartphone et la planète",
-      "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E007MM/images/Intro/31A58EA4-6CEA-44C2-8EF9-DA796B1979F7.jpeg",
+      "image": "https://epoc.inria.fr/dl/E007MM/images/Intro/31A58EA4-6CEA-44C2-8EF9-DA796B1979F7.jpeg",
       "teaser": "",
-      "thumbnail": "https://files.inria.fr/LearningLab_public/epocs-prod/E007MM/images/Intro/E4493DE7-C039-4A79-89E3-119FBCC1C878.jpeg",
+      "thumbnail": "https://epoc.inria.fr/dl/E007MM/images/Intro/E4493DE7-C039-4A79-89E3-119FBCC1C878.jpeg",
       "authors": {
         "mjucp2": {
           "name": "Madeline Montigny",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E007MM/images/Inria-0347-393.jpg",
+          "image": "https://epoc.inria.fr/dl/E007MM/images/Inria-0347-393.jpg",
           "description": "<p>Ing&eacute;nieure P&eacute;dagogique, Inria Learning Lab</p>\n<p>Conception et sc&eacute;narisation de la formation</p>"
         },
         "xeathp": {
           "name": "Frédéric Bordage",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E007MM/images/FredericBordage.jpg",
+          "image": "https://epoc.inria.fr/dl/E007MM/images/FredericBordage.jpg",
           "description": "<p>Sp&eacute;cialiste du num&eacute;rique responsable, fondateur du collectif <a href=\"https://www.greenit.fr\">GreenIT.</a></p>\n<p>Relecture et validation scientifique de la formation</p>"
         },
         "o4022f": {
           "name": "Servane Mouton",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E007MM/images/ServaneMoutonAvatar.jpg",
+          "image": "https://epoc.inria.fr/dl/E007MM/images/ServaneMoutonAvatar.jpg",
           "description": "<p>Neurologue, Neuville-sur-Saone</p>\n<p>Relecture et validation scientifique des contenus sur les questions d'attention&nbsp;</p>"
         },
         "hu640r": {
           "name": "Martine Olivi",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E007MM/images/MartineOlivi-carre.jpg",
+          "image": "https://epoc.inria.fr/dl/E007MM/images/MartineOlivi-carre.jpg",
           "description": "<p><span>Docteur en Math&eacute;matique, Martine Olivi est charg&eacute;e de recherche &agrave; Inria et participe au GDS&nbsp;<a href=\"http://www.ecoinfo.cnrs.fr/\">EcoInfo</a>.</span></p>\n<p>Relecture et validation scientifique de la formation</p>"
         },
         "qlk76p": {
           "name": "Laurence Farhi",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E007MM/images/LaurenceFarhi.jpeg",
+          "image": "https://epoc.inria.fr/dl/E007MM/images/LaurenceFarhi.jpeg",
           "description": "<p>Ing&eacute;nieure p&eacute;dagogique, Inria Learning Lab</p>"
         },
         "imflt9": {
           "name": "Aurelie Lagarrigue",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E007MM/images/aurelie.jpg",
+          "image": "https://epoc.inria.fr/dl/E007MM/images/aurelie.jpg",
           "description": "<p>Ing&eacute;nieure p&eacute;dagogique, Inria Learning Lab</p>"
         },
         "afmn2l": {
@@ -116,30 +116,30 @@
     },
     "E002VR": {
       "id": "E002VR",
-      "download": "https://files.inria.fr/LearningLab_public/epocs-prod/E002VR/E002VR.zip",
+      "download": "https://epoc.inria.fr/dl/E002VR/E002VR.zip",
       "title": "Smartphone et vie privée",
-      "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E002VR/images/vp-poster.png",
-      "teaser": "https://files.inria.fr/LearningLab_public/epocs-prod/E002VR/videos/E002VR-C0-S1-CARRE-v3.mp4",
-      "thumbnail": "https://files.inria.fr/LearningLab_public/epocs-prod/E002VR/images/vp-poster.png",
+      "image": "https://epoc.inria.fr/dl/E002VR/images/vp-poster.png",
+      "teaser": "https://epoc.inria.fr/dl/E002VR/videos/E002VR-C0-S1-CARRE-v3.mp4",
+      "thumbnail": "https://epoc.inria.fr/dl/E002VR/images/vp-poster.png",
       "authors": {
         "cudjef": {
           "name": "Vincent Roca",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E002VR/images/vincent-rond.png",
+          "image": "https://epoc.inria.fr/dl/E002VR/images/vincent-rond.png",
           "description": "Chercheur, responsable de l'équipe-projet Inria  \"Privatics\". Ses recherches portent sur les questions de respect de la vie privée dans le monde numérique, en particulier dans le contexte de l'usage des smartphones."
         },
         "o8wgf5": {
           "name": "Marie Collin",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E002VR/images/marie.jpg",
+          "image": "https://epoc.inria.fr/dl/E002VR/images/marie.jpg",
           "description": "<p><span>Ing&eacute;nieure p&eacute;dagogique, Inria Learning Lab</span></p>"
         },
         "7g6idf": {
           "name": "Marie-Hélène Comte",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E002VR/images/marie-helene.jpg",
+          "image": "https://epoc.inria.fr/dl/E002VR/images/marie-helene.jpg",
           "description": "<p><span>Ing&eacute;nieure p&eacute;dagogique, Inria Learning Lab</span></p>"
         },
         "h1ei9f": {
           "name": "Tatiana Khomenko",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E002VR/images/tatiana.jpg",
+          "image": "https://epoc.inria.fr/dl/E002VR/images/tatiana.jpg",
           "description": "<p><span>Ing&eacute;nieure p&eacute;dagogique, Inria Learning Lab</span></p>"
         }
       },
@@ -156,25 +156,25 @@
     },
     "E003VR": {
       "id": "E003VR",
-      "download": "https://files.inria.fr/LearningLab_public/epocs-prod/E003VR/E003VR.zip",
+      "download": "https://epoc.inria.fr/dl/E003VR/E003VR.zip",
       "title": "Internet des objets et vie privée",
-      "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E003VR/images/IOT.png",
-      "teaser": "https://files.inria.fr/LearningLab_public/epocs-prod/E003VR/videos/E003VR-C0-S1.mp4",
-      "thumbnail": "https://files.inria.fr/LearningLab_public/epocs-prod/E003VR/images/IOT.png",
+      "image": "https://epoc.inria.fr/dl/E003VR/images/IOT.png",
+      "teaser": "https://epoc.inria.fr/dl/E003VR/videos/E003VR-C0-S1.mp4",
+      "thumbnail": "https://epoc.inria.fr/dl/E003VR/images/IOT.png",
       "authors": {
         "p03v2h": {
           "name": "Vincent Roca",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E003VR/images/vincent-rond.png",
+          "image": "https://epoc.inria.fr/dl/E003VR/images/vincent-rond.png",
           "description": "Vincent Roca est chercheur à l'Inria, l'institut public de recherche français en sciences et technologies du numérique. Depuis 2013, Vincent fai parti de l'équipe Inria Privatics qui se focalise sur le respect de la vie privée. "
         },
         "yxewiu": {
           "name": "Marie-Hélène Comte",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E003VR/images/marie-helene.jpg",
+          "image": "https://epoc.inria.fr/dl/E003VR/images/marie-helene.jpg",
           "description": "<p><span>Ing&eacute;nieure p&eacute;dagogique, Inria Learning Lab</span></p>"
         },
         "jzcmso": {
           "name": "Tatiana Khomenko",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E003VR/images/tatiana.jpg",
+          "image": "https://epoc.inria.fr/dl/E003VR/images/tatiana.jpg",
           "description": "<p><span>Ing&eacute;nieure p&eacute;dagogique, Inria Learning Lab</span></p>"
         }
       },
@@ -189,27 +189,27 @@
     },
     "E009LL": {
       "id": "E009LL",
-      "download": "https://files.inria.fr/LearningLab_public/epocs-prod/E009LL/E009LL.zip",
+      "download": "https://epoc.inria.fr/dl/E009LL/E009LL.zip",
       "title": "C'est quoi l'IA ?",
-      "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E009LL/assets/image_couv_vf.png",
-      "teaser": "https://files.inria.fr/LearningLab_public/epocs-prod/E009LL/assets/E009LL_BA.mp4",
-      "thumbnail": "https://files.inria.fr/LearningLab_public/epocs-prod/E009LL/assets/image_couv_vf.png",
+      "image": "https://epoc.inria.fr/dl/E009LL/assets/image_couv_vf.png",
+      "teaser": "https://epoc.inria.fr/dl/E009LL/assets/E009LL_BA.mp4",
+      "thumbnail": "https://epoc.inria.fr/dl/E009LL/assets/image_couv_vf.png",
       "authors": [
         {
           "name": "Frédéric Alexandre",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E009LL/assets/FredericAlexandre.jpg",
+          "image": "https://epoc.inria.fr/dl/E009LL/assets/FredericAlexandre.jpg",
           "title": "Directeur de recherche, Inria",
           "description": "<p>Fr&eacute;d&eacute;ric Alexandre est directeur de recherche &agrave; l'Inria et travaille &agrave; l'interface entre neurosciences cognitives et intelligence artificielle. Il est responsable de l'&eacute;quipe Mnemosyne, &eacute;quipe de mod&eacute;lisation localis&eacute;e sur le Neurocampus de Bordeaux.</p>\n<p>Relecture et validation scientifique de la formation</p>"
         },
         {
           "name": "Sherazade Djeballah",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E009LL/assets/Sherazade_DJEBALLAH.jpg",
+          "image": "https://epoc.inria.fr/dl/E009LL/assets/Sherazade_DJEBALLAH.jpg",
           "title": "Ingénieure Pédagogique, Inria Learning Lab",
           "description": "<p>Conception et sc&eacute;narisation de la formation</p>"
         },
         {
           "name": "Madeline Montigny",
-          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E009LL/assets/Inria_MadelineMontigny_compressed.jpg",
+          "image": "https://epoc.inria.fr/dl/E009LL/assets/Inria_MadelineMontigny_compressed.jpg",
           "title": "Ingénieure Pédagogique, Inria Learning Lab",
           "description": "<p>Conception et sc&eacute;narisation de la formation</p>"
         }
