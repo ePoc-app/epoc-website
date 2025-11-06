@@ -1,0 +1,33 @@
+[
+  {
+    "id":"yrfes354w",
+    "title": "Nouvel ePoc disponible !",
+    "text": "C'est quoi l'IA ?",
+    "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E009LL/assets/image_couv_vf.png",
+    "link" : {
+      "text" : "Découvrir",
+      "url" : "/library/E009LL"
+    }
+
+  },
+  {
+    "id":"rj8u3z",
+    "title": "Bienvenue !",
+    "text": "Découvrez vos cours sur le numérique dans l'application ePoc."
+  },
+  {
+    "id":"3yadjc",
+    "title": "Toujours avec vous !",
+    "text": "Vos cours dans la poche pour une consultation hors ligne partout et tout le temps."
+  },
+  {
+    "id":"aggo5m",
+    "title": "A la pointe",
+    "text": "Des contenus élaborés par des chercheurs Inria spécialistes du domaine."
+  },
+  {
+    "id":"ctho5k",
+    "title": "Respecte votre vie privée",
+    "text": "Aucune collecte de données personnelles n'est effectuée."
+  }
+]
