@@ -48,7 +48,7 @@ Members of the design and development team for the ePoc solution.
     ::team-card{style="width:300px"}
     ---
     avatar: /images/marie.jpg
-    name: Marie Colin
+    name: Marie Collin
     title: Pedagogical Engineer / Product Owner
     links:
       - icon: simple-icons:linkedin

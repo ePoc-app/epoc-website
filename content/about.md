@@ -59,7 +59,7 @@ Membre de l'équipe de conception et de développement de la solution ePoc.
     ::team-card{style="width:300px"}
     ---
     avatar: /images/marie.jpg
-    name: Marie Colin
+    name: Marie Collin
     title: Ingénieure Pédagogique / Product Owner
     links:
       - icon: simple-icons:linkedin
@@ -215,8 +215,3 @@ Ancien membre ayant activement contribué aux développements et à la création
     ---
     ::
 ::
-
-
-
-
-
