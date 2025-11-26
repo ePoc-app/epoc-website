@@ -71,11 +71,6 @@ To improve our service and ensure its proper functioning, we collect anonymous a
     - Device type and operating system
     - Country of origin of traffic
 
-2. **Sentry**: We use Sentry for application monitoring. This helps us identify and resolve technical issues. The collected data may include:
-    - Error reports
-    - Application performance
-    - Technical environment information (app version, operating system)
-
 This data is used solely for analysis and improvement of our service. It is not used to personally identify users.
 
 ### Data Protection

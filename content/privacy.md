@@ -77,11 +77,6 @@ Pour améliorer notre service et assurer son bon fonctionnement, nous collectons
     - Type d'appareil et système d'exploitation
     - Pays d'origine du trafic
 
-2. **Sentry** : Nous utilisons Sentry pour le monitoring de l'application. Cela nous aide à identifier et résoudre les problèmes techniques. Les données collectées peuvent inclure :
-    - Rapports d'erreurs
-    - Performances de l'application
-    - Informations sur l'environnement technique (version de l'app, système d'exploitation)
-
 Ces données sont utilisées uniquement à des fins d'analyse et d'amélioration de notre service. Elles ne sont pas utilisées pour identifier personnellement les utilisateurs.
 
 ### Protection des données
