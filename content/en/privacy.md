@@ -7,7 +7,7 @@ toc:
 description: In the Privacy Policy, we explain how we collect, use, share, retain and transfer information. We also let you know your rights.
 ---
 
-**Last updated**: July 26, 2024
+**Last updated**: November 27th, 2025
 
 Inria is committed to protecting the personal data it processes for its operational needs. In this regard, Inria is committed to complying with the General Data Protection Regulation 2016/679 of April 27, 2016 ("GDPR") and the amended French Data Protection Act. This page describes the personal data processing related to the use of the inria.fr website.
 

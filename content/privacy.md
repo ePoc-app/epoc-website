@@ -9,7 +9,7 @@ description: Dans la Politique de confidentialité, nous expliquons comment nous
 ---
 
 
-**Dernière mise à jour** : 26 juillet 2024
+**Dernière mise à jour** : 27 Novembre 2025
 
 Inria est engagé dans une démarche de protection des données personnelles qu’il traite pour ses besoins d’activité. À ce 
 titre, Inria s’engage à respecter le Règlement général sur la protection des données 2016/679 du 27 avril 2016 
