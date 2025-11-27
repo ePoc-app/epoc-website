@@ -9,7 +9,7 @@ description: In the Privacy Policy, we explain how we collect, use, share, retai
 
 **Last updated**: November 27th, 2025
 
-Inria is committed to protecting the personal data it processes for its operational needs. In this regard, Inria is committed to complying with the General Data Protection Regulation 2016/679 of April 27, 2016 ("GDPR") and the amended French Data Protection Act. This page describes the personal data processing related to the use of the inria.fr website.
+Inria is committed to protecting the personal data it processes for its operational needs. In this regard, Inria is committed to complying with the General Data Protection Regulation 2016/679 of April 27, 2016 ("GDPR") and the amended French Data Protection Act. This page describes the personal data processing related to the use of the https://epoc.inria.fr website.
 
 ## epoc.inria.fr Website
 
@@ -35,7 +35,7 @@ If you believe, after contacting us, that your data protection rights are not be
 
 ### Cookies and Connection Logs
 
-When a person visits the www.inria.fr website, cookies or connection logs may be placed on their device (computer, mobile, tablet). This page helps you better understand how cookies work and how to use current tools to configure them.
+When a person visits the https://epoc.inria.fr website, cookies or connection logs may be placed on their device (computer, mobile, tablet). This page helps you better understand how cookies work and how to use current tools to configure them.
 
 #### Definition
 
@@ -53,7 +53,7 @@ The cookies we issue allow:
 
 We use analytical cookies solely for internal research purposes on how we can improve the service we offer to all our users. These cookies simply allow us to evaluate how you interact with our websites - as an anonymous user (the data collected does not allow us to personally identify you).
 
-epoc.inria.fr uses _Matomo_, a free and _open source_ web statistics software, recommended by the CNIL.
+https://epoc.inria.fr uses _Matomo_, a free and _open source_ web statistics software, recommended by the CNIL.
 
 ## ePoc Mobile Application
 

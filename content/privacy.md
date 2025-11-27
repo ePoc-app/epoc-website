@@ -14,7 +14,7 @@ description: Dans la Politique de confidentialité, nous expliquons comment nous
 Inria est engagé dans une démarche de protection des données personnelles qu’il traite pour ses besoins d’activité. À ce 
 titre, Inria s’engage à respecter le Règlement général sur la protection des données 2016/679 du 27 avril 2016 
 (« RGPD ») et la loi Informatique et Libertés modifiée. Cette page décrit les traitements de données personnelles 
-relatifs à l’utilisation du site inria.fr
+relatifs à l’utilisation du site https://epoc.inria.fr
 
 
 ## Site internet epoc.inria.fr
@@ -41,7 +41,7 @@ Si vous estimez, après nous avoir contactés, que vos droits Informatique et Li
 
 ### Cookies et témoins de connexion
 
-Lorsqu’une personne visite le site www.inria.fr, des cookies ou témoins de connexion sont susceptibles d’être déposés sur son terminal (ordinateur, mobile, tablette). Cette page vous permet de mieux comprendre comment fonctionnent les cookies et comment utiliser les outils actuels afin de les paramétrer.
+Lorsqu’une personne visite le site https://epoc.inria.fr, des cookies ou témoins de connexion sont susceptibles d’être déposés sur son terminal (ordinateur, mobile, tablette). Cette page vous permet de mieux comprendre comment fonctionnent les cookies et comment utiliser les outils actuels afin de les paramétrer.
 
 #### Définition
 
@@ -59,7 +59,7 @@ Les cookies que nous émettons permettent :
 
 Nous utilisons les cookies analytiques uniquement à des fins de recherche interne sur la manière dont nous pouvons améliorer le service que nous offrons à tous nos utilisateurs. Ces cookies permettent simplement d’évaluer la manière dont vous interagissez avec nos sites web — en tant qu’utilisateur anonyme (les données recueillies ne permettent pas de vous identifier personnellement).
 
-epoc.inria.fr utilise _Matomo_, un logiciel libre et _open source_ de mesure de statistiques web, préconisé par la CNIL.
+https://epoc.inria.fr utilise _Matomo_, un logiciel libre et _open source_ de mesure de statistiques web, préconisé par la CNIL.
 
 ## Application mobile ePoc
 
