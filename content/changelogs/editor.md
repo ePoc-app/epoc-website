@@ -4,6 +4,19 @@ aside: false
 prevNext: false
 ---
 
+## Version 0.3.1 (12 Décembre 2025)
+### ✨ Fonctionnalités
+- Imprimer l'aperçu global en tant que PDF
+- Possibilité d'ouvrir le répertoire de travail
+- Transformer les activités avec une seule question en question simple
+### 🛠️ Améliorations
+- Sélecteur de zoom déplacer en bas à gauche
+- Amélioration des phrases de description des conditions
+- Insérer un chapitre à une certaine position
+- Affichage de l'ID dans les paramètres de l'ePoc
+### 🐛 Corrections de bugs
+- Correction de la surbrillance de la page au survol de la condition.
+
 ## Version 0.3 (4 septembre 2025)
 #### ✨ Nouvelles fonctionnalités
 - Menu des ressources

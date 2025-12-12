@@ -4,6 +4,19 @@ aside: false
 prevNext: false
 ---
 
+## Version 0.3.1 (December 12, 2025)
+### ✨ Features
+- Print global preview as PDF
+- Open working directory button
+- Transform activity with a single question to a simple question
+### 🛠️ Improvements
+- Move zoom selection to the bottom left
+- Better condition description sentences
+- Insert chapter at position
+- Display ID in ePoc parameter
+### 🐛 Bug Fixes
+- Fix page highlight  on condition hover
+
 ## Version 0.3 (September 4, 2025)
 #### ✨ Features
 - Assets menu
