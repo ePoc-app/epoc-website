@@ -1,0 +1,104 @@
+{
+  "id": "fr.inria.learninglab.zrr",
+  "title": "ePocs ZRR",
+  "description": "Des formations pour les nouveaux arrivants en ZRR",
+  "publisher": {
+    "id": "fr.inria.learninglab",
+    "name": "Inria Learning Lab",
+    "description": "Spécialisés dans la production et la diffusion de formations en ligne sur le numérique, destinées au grand public, aux étudiants, aux professionnels, ainsi qu'aux enseignants et formateurs.",
+    "logo": "https://learninglab.inria.fr/files/2020/04/LearningLab-logo2020.png",
+    "email": "ill-epoc-contact@inria.fr",
+    "website": "https://learninglab.inria.fr"
+  },
+  "licence": {
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "url": "https://learninglab.gitlabpages.inria.fr/epoc/epocs/collection-zrr.json",
+  "tags": [
+    "numérique",
+    "données",
+    "vie privée",
+    "ia",
+    "environnement",
+    "smartphone",
+    "iot",
+    "technologie"
+  ],
+  "ePocs": {
+    "E001DB": {
+      "id": "E001DB",
+      "download": "https://files.inria.fr/LearningLab_public/epocs-prod/E001DB/E001DB.zip",
+      "lang": "fr",
+      "translation": {
+        "en": "E008DB"
+      },
+      "title": "Accueil des nouveaux arrivants en Zone à Régime Restrictif",
+      "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E001DB/images/VignetteZRR.png",
+      "teaser": "https://files.inria.fr/LearningLab_public/epocs-prod/E001DB/videos/MOTION_INRIA_ZRR_FR.mp4",
+      "thumbnail": "",
+      "authors": [
+        {
+          "name": "Didier Benza ",
+          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E001DB/images/Didier Benza.jpg",
+          "description": "<p>D&eacute;l&eacute;gu&eacute; &agrave; la S&eacute;curit&eacute;</p>\n<p>Fonctionnaire de S&eacute;curit&eacute; et de D&eacute;fense&nbsp;</p>"
+        },
+        {
+          "name": "Marie-Hélène Comte ",
+          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E001DB/images/MHComte.jpg",
+          "description": "Coordinatrice projet et ingénieure pédagogique Inria Learning Lab"
+        },
+        {
+          "name": "Laurence Farhi ",
+          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E001DB/images/LaurenceFarhi.png",
+          "description": "Coordinatrice projet et ingénieure pédagogique Inria Learning Lab"
+        }
+      ],
+      "summary": "<p>Cette formation permet de former les nouveaux arrivants chez Inria aux règles de fonctionnement spécifiques aux ZRR.<br/><strong>Pour valider la formation, il faut obtenir un score de 100 points</strong> en répondant correctement aux 17 questions réparties au fil des chapitres. Chaque quiz peut être recommencé autant de fois que nécessaire.",
+      "objectives": [
+        "Comprendre dans quel dispositif s’inscrivent les Zones à Régime Restrictif (ZRR)",
+        "Connaitre les règles à respecter et les risques encourus en cas de non respect des règles."
+      ],
+      "chaptersCount": 6,
+      "assessmentsCount": 17,
+      "lastModified": "2024-06-19T09:04:40.562Z"
+    },
+    "E008DB": {
+      "id": "E008DB",
+      "download": "https://files.inria.fr/LearningLab_public/epocs-prod/E008DB/E008DB.zip",
+      "lang": "en",
+      "translation": {
+        "fr": "E001DB"
+      },
+      "title": "Onboarding process in a Restricted Area (ZRR)",
+      "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E008DB/images/VignetteZRR.png",
+      "teaser": "https://files.inria.fr/LearningLab_public/epocs-prod/E008DB/videos/MOTION_INRIA_ZRR_EN.mp4",
+      "thumbnail": "",
+      "authors": [
+        {
+          "name": "Didier Benza ",
+          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E008DB/images/Didier Benza.jpg",
+          "description": "Security and Defence Official and Head of Information Systems Security"
+        },
+        {
+          "name": "Marie-Hélène Comte ",
+          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E008DB/images/MHComte.jpg",
+          "description": "<p>Inria Learning Lab&nbsp;Project Coordinator and Pedagogical Engineer</p>"
+        },
+        {
+          "name": "Laurence Farhi ",
+          "image": "https://files.inria.fr/LearningLab_public/epocs-prod/E008DB/images/LaurenceFarhi.png",
+          "description": "<p>Inria Learning Lab Project Coordinator and Pedagogical Engineer</p>"
+        }
+      ],
+      "summary": "<p>This course is designed to explain to newcomers the Scientific Protective Security Policy framework the Restricted Areas, ZRR are part to.<br /><strong>To validate the training, a score of 100 points must be obtained</strong> by correctly answering the 17 questions spread over the chapters. Each quiz can be repeated as many times as necessary</p>",
+      "objectives": [
+        "To understand the system of the Restricted Zones (ZRR)",
+        "Know the rules to be respected and the risks incurred in case of non-compliance"
+      ],
+      "chaptersCount": 5,
+      "assessmentsCount": 17,
+      "lastModified": "2024-06-19T09:07:48.171Z"
+    }
+  }
+}
