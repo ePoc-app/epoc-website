@@ -4,6 +4,10 @@ aside: false
 prevNext: false
 ---
 
+## Version 1.11.2 (November 6, 2025)
+#### 🧹 Maintenance
+- Migration of the official collection to `epoc.inria.fr` to avoid GitLab protection blocking
+
 ## Version 1.11.1 (September 4, 2025)
 #### 🐛 Bug fix
 - Fixed imported ePocs not showing issue
