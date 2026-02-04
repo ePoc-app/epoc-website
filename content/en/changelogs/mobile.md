@@ -3,6 +3,30 @@ title: Changelog mobile app
 aside: false
 prevNext: false
 ---
+## Version 2.0.0 (February 4, 2026)
+
+#### 🔄 Migration
+- Full migration to Ionic/Vue
+- Global code refactor
+
+#### ✨ New features
+- Added content and chapters unlockable under conditions
+- Web support for the app
+
+#### 🛠️ Improvements
+- Improved learning event logs
+- Improved display of unlocked badges
+- Open imported ePoc overview page when clicked from library
+
+#### 🐛 Bug fixes
+- Fixed display issue for imported ePocs
+- Fixed display of the attestation modal
+
+#### 🧹 Maintenance
+- Updated to Ionic 8 and Capacitor 7
+- Dependency cleanup
+- Replaced community Capacitor plugin with official plugins
+
 
 ## Version 1.11.2 (November 6, 2025)
 #### 🧹 Maintenance

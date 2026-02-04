@@ -3,6 +3,29 @@ title: Changelogs application mobile
 aside: false
 prevNext: false
 ---
+## Version 2.0.0 (4 février 2026)
+
+#### 🔄 Migration
+- Migration complète vers Ionic/Vue
+- Refactoring global du code
+
+#### ✨ Nouvelles fonctionnalités
+- Ajout des contenus et chapitres déblocables sous conditions
+- Support web de l'application
+
+#### 🛠️ Améliorations
+- Amélioration des logs d'événements d'apprentissage
+- Amélioration de l'affichage des bagdes débloqués
+- Ouverture de la page d'aperçu de l'ePoc importé lorsqu'on clique depuis la bibliothèque
+
+#### 🐛 Corrections de bugs
+- Correction du bug d'affichage des ePocs importés
+- Correction de l'affichage de la modal d'attestation
+
+#### 🧹 Maintenance
+- Mise à jour vers Ionic 8 et Capacitor 7
+- Nettoyage des dépendances
+- Remplacement de plugin Capacitor communautaire par les plugins officiels
 
 ## Version 1.11.2 (6 novembre 2025)
 #### 🧹 Maintenance
