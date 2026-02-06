@@ -4,6 +4,13 @@ aside: false
 prevNext: false
 ---
 
+
+## Version 0.4.0 (4 février 2026)
+### ✨ **Nouvelles fonctionnalités**
+- Ajout de balises aux métadonnées ePoc.
+- Ajout des champs de formulaire Éditeur aux métadonnées ePoc.
+- Prise en charge du contenu et des chapitres déverrouillables.
+
 ## Version 0.3.1 (December 12, 2025)
 ### ✨ Features
 - Print global preview as PDF
