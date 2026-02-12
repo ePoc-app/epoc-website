@@ -4,12 +4,12 @@ aside: false
 prevNext: false
 ---
 
-## Version 0.4.0 (February 4, 2026)
-
-### ✨ **New Features**
-- Added tags to ePoc metadata.
-- Added Publisher form fields to ePoc metadata.
-- Enabled support for unlockable content and chapters.
+## Version 0.4.0 (4 février 2026)
+### ✨ Fonctionnalités
+- Ajout de balises aux métadonnées ePoc.
+- Ajout du support des sous-titres pour le teaser.
+- Ajout des champs de formulaire Éditeur aux métadonnées ePoc.
+- Prise en charge du contenu et des chapitres déverrouillables.
 
 ## Version 0.3.1 (12 Décembre 2025)
 ### ✨ Fonctionnalités
