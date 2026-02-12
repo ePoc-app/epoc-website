@@ -6,14 +6,14 @@ prevNext: false
 
 
 ## Version 0.4.0 (February 4, 2026)
-### ✨ Fonctionnalités
+#### ✨ Features
 - Added tags to ePoc metadata.
 - Added ePoc teaser subtitles support.
 - Added Publisher form fields to ePoc metadata.
 - Enabled support for unlockable content and chapters.
 
 ## Version 0.3.1 (December 12, 2025)
-### ✨ Fonctionnalités
+#### ✨ Features
 - Print global preview as PDF
 - Open working directory button
 - Transform activity with a single question to a simple question
