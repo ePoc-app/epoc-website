@@ -3,6 +3,23 @@ title: Changelog mobile app
 aside: false
 prevNext: false
 ---
+
+## Version 2.0.1 (February 12, 2026)
+
+### ✨ Improvements
+- Lazy load iframes for current page only
+- Added subtitles for teasers
+
+### 🐛 Fixes
+- Fixed fullscreen video display
+- Resolved concurrent range request issue blocking video playback
+- Fixed unlocking of conditional content
+- Fixed back button and publisher modal in collection details
+- Fixed filtering of content without title and TOC impacting player contents
+- Fixed subtitles not working
+- Fixed permission issue for old Android versions
+- Fixed status bar safe area
+
 ## Version 2.0.0 (February 4, 2026)
 
 #### 🔄 Migration

@@ -3,6 +3,24 @@ title: Changelogs application mobile
 aside: false
 prevNext: false
 ---
+
+## Version 2.0.1 (12 février 2026)
+
+### ✨ Améliorations
+- Chargement paresseux des iframes pour la page courante uniquement
+- Ajout de sous-titres pour les teasers
+
+### 🐛 Correctifs
+- Correction de l'affichage plein écran des vidéos
+- Résolution d'un problème de requêtes simultanées bloquant la lecture vidéo
+- Correction du déverrouillage des contenus conditionnels
+- Correction du bouton retour et de la modale éditeur dans les détails des collections
+- Correction du filtrage des contenus sans titre et de la table des matières impactant le lecteur
+- Résolution d'un problème de fonctionnement des sous-titres
+- Correction d'un problème de permissions pour les anciennes versions d'Android
+- Correction de la zone sécurisée de la barre de statut
+
+
 ## Version 2.0.0 (4 février 2026)
 
 #### 🔄 Migration
