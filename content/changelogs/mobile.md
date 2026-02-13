@@ -6,7 +6,7 @@ prevNext: false
 
 ## Version 2.0.1 (12 février 2026)
 
-### ✨ Améliorations
+### 🛠️ Améliorations
 - Chargement paresseux des iframes pour la page courante uniquement
 - Ajout de sous-titres pour les teasers
 

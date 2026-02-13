@@ -6,7 +6,7 @@ prevNext: false
 
 ## Version 2.0.1 (February 12, 2026)
 
-### ✨ Improvements
+### 🛠️ Improvements
 - Lazy load iframes for current page only
 - Added subtitles for teasers
 
