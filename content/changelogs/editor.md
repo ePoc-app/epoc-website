@@ -4,7 +4,7 @@ aside: false
 prevNext: false
 ---
 
-## Version 0.4.0 (4 février 2026)
+## Version 0.4.0 (13 février 2026)
 ### ✨ Fonctionnalités
 - Ajout de balises aux métadonnées ePoc.
 - Ajout du support des sous-titres pour le teaser.

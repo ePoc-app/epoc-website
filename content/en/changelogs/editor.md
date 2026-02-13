@@ -5,7 +5,7 @@ prevNext: false
 ---
 
 
-## Version 0.4.0 (February 4, 2026)
+## Version 0.4.0 (February 13, 2026)
 #### ✨ Features
 - Added tags to ePoc metadata.
 - Added ePoc teaser subtitles support.
