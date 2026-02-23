@@ -4,6 +4,37 @@ aside: false
 prevNext: false
 ---
 
+## Version 2.0.3 (25 février 2026)
+### 🐛 Corrections de bugs
+- Masquage du marqueur de score de certificat en mode badge.
+- Correction de l'affichage intempestif de la modale de certificat au premier badge obtenu.
+- Correction de la taille du titre dans la modale de certificat.
+- Correction des libellés dans la modale de certificat.
+- Correction de la navigation du bouton de retour dans la modale de certificat depuis la page d'évaluation.
+- Correction de l'affichage des licences en cas d'URL manquante.
+- Correction du lien manquant dans l'aperçu et de l'ordre des liens dans le menu principal.
+- Correction de la suppression des ePocs.
+- Correction du menu de miniature pour les ePoc locaux.
+- Correction des libellés de suppression des données.
+
+## Version 2.0.2 (23 février 2026)
+### 🐛 Corrections de bugs
+- Suppression de la numérotation des chapitres dans la table des matières.
+- Correction du rendu mathématique.
+- Correction du débordement de la miniature des vidéos.
+- Correction de la taille de police du bouton d'évaluation.
+- Correction des badges sans icône et des traductions manquantes pour les questions à choix multiples.
+- Correction de l'affichage des diagrammes Mermaid dans le contenu HTML.
+- Correction des traductions manquantes pour les questions simples.
+- Gestion de l'erreur "entité non trouvée" dans la modale des badges.
+- Correction du passage du contexte des plugins.
+- Correction du bouton de retour lors de l'ouverture de la page de score depuis une évaluation.
+- Correction du problème de permission lors de l'import ePoc sur Android.
+- Correction de la page de retour après avoir quitté une évaluation.
+
+### 🛠️ Améliorations
+- Ajout d'un événement de clic pour les liens externes.
+
 ## Version 2.0.1 (12 février 2026)
 
 ### 🛠️ Améliorations

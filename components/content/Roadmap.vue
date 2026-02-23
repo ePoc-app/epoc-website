@@ -95,8 +95,10 @@ const fr = [
     },
     {
         name: "Contenu déblocable",
-        success: false,
+        success: true,
         description: "Chapitre ou contenu déblocable sous condition en fonction des actions de l'apprenant",
+        date: "Q1 2026",
+        url: "/guide/user/unlock-conditions",
     },
     {
         name: "ePoc Hub",
@@ -159,8 +161,10 @@ const en = [
     },
     {
         name: "Unlockable content",
-        success: false,
+        success: true,
         description: "Chapter or unlockable content based on learner actions",
+        date: "Q1 2026",
+        url: "/en/guide/user/unlock-conditions",
     },
     {
         name: "ePoc Hub",

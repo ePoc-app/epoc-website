@@ -4,6 +4,12 @@ aside: false
 prevNext: false
 ---
 
+## Version 0.4.1 (February 23, 2026)
+### 🐛 Bug Fixes
+- Fixed metadata import.
+- Fixed badge export to simple questions.
+- Fixed simple question import.
+- Fixed certificate badge count during import.
 
 ## Version 0.4.0 (February 13, 2026)
 #### ✨ Features

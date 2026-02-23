@@ -4,8 +4,39 @@ aside: false
 prevNext: false
 ---
 
-## Version 2.0.1 (February 12, 2026)
 
+## Version 2.0.3 (February 25, 2026)
+### 🐛 Bug Fixes
+- Hidden certificate score marker in badge mode.
+- Fixed certificate modal showing on the first badge.
+- Fixed certificate modal title size.
+- Fixed wording in the certificate modal.
+- Fixed back button navigation in the certificate modal from the assessment page.
+- Fixed license display when URL is missing.
+- Fixed missing overview link and main menu links order.
+- Fixed ePocs not deleting.
+- Fixed local ePoc thumbnail menu.
+- Fixed wording for data deletion.
+
+## Version 2.0.2 (February 23, 2026)
+### 🐛 Bug Fixes
+- Removed chapter numbering in the table of contents page.
+- Fixed math rendering.
+- Fixed video poster overflow.
+- Fixed assessment button font size.
+- Fixed badges without icons and missing translations for multiple-choice questions.
+- Fixed Mermaid diagrams in HTML content.
+- Fixed missing translations for simple questions.
+- Handled "entity not found" error in badge modal.
+- Fixed plugin context passing.
+- Fixed back button when opening the score page from an assessment.
+- Fixed ePoc import permission issue on Android.
+- Fixed return page after quitting an assessment.
+
+### 🛠️ Improvements
+- Added external link clicked event tracking.
+
+## Version 2.0.1 (February 12, 2026)
 ### 🛠️ Improvements
 - Lazy load iframes for current page only
 - Added subtitles for teasers

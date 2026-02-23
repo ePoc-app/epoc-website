@@ -4,6 +4,13 @@ aside: false
 prevNext: false
 ---
 
+## Version 0.4.1 (23 février 2026)
+### 🐛 Corrections de bugs
+- Correction de l'import des métadonnées.
+- Correction de l'export des badges pour les questions simples.
+- Correction de l'import des questions simples.
+- Correction du décompte des badges de certificats lors de l'import.
+
 ## Version 0.4.0 (13 février 2026)
 ### ✨ Fonctionnalités
 - Ajout de balises aux métadonnées ePoc.
