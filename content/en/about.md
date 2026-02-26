@@ -49,7 +49,7 @@ Members of the design and development team for the ePoc solution.
     ---
     avatar: /images/marie.jpg
     name: Marie Collin
-    title: Pedagogical Engineer / Product Owner
+    title: Learning designer / Product Owner
     links:
       - icon: simple-icons:linkedin
         to: https://www.linkedin.com/in/marie-collin-ba6b553b/
@@ -88,7 +88,7 @@ Members of the ePoc pedagogical team who have contributed to the creation of ePo
     ---
     avatar: /images/sherazade.jpg
     name: Sherazade Djeballah
-    title: Pedagogical Engineer
+    title: Learning designer
     links:
         - icon: simple-icons:linkedin
           to: https://www.linkedin.com/in/sherazade-djeballah-6a8759233/
@@ -99,7 +99,7 @@ Members of the ePoc pedagogical team who have contributed to the creation of ePo
     ---
     avatar: /images/sabah.jpg
     name: Sabah Khalfa
-    title: Pedagogical Engineer
+    title: Learning designer
     links:
       - icon: simple-icons:linkedin
         to: https://www.linkedin.com/in/sabah-khalfa-ab24749/
@@ -109,7 +109,7 @@ Members of the ePoc pedagogical team who have contributed to the creation of ePo
     ---
     avatar: /images/madeline.jpg
     name: Madeline Montigny
-    title: Pedagogical Engineer
+    title: Learning designer
     links:
       - icon: simple-icons:linkedin
         to: https://www.linkedin.com/in/madelinemontigny/
@@ -119,7 +119,7 @@ Members of the ePoc pedagogical team who have contributed to the creation of ePo
     ---
     avatar: /images/aurelie.jpg
     name: Aurélie Lagarrigue
-    title: Pedagogical Engineer
+    title: Learning designer
     links:
       - icon: simple-icons:linkedin
         to: https://www.linkedin.com/in/aurélie-lagarrigue-631b5112a/
@@ -129,7 +129,7 @@ Members of the ePoc pedagogical team who have contributed to the creation of ePo
     ---
     avatar: /images/laurence.jpg
     name: Laurence Farhi
-    title: Pedagogical Engineer
+    title: Learning designer
     links:
       - icon: simple-icons:linkedin
         to: https://www.linkedin.com/in/laurence-farhi-760981ba/
@@ -139,7 +139,7 @@ Members of the ePoc pedagogical team who have contributed to the creation of ePo
     ---
     avatar: /images/christelle.jpg
     name: Christelle Mariais
-    title: Pedagogical Engineer
+    title: Learning designer
     links:
       - icon: simple-icons:linkedin
         to: https://www.linkedin.com/in/cmariais/
@@ -166,7 +166,7 @@ Former members who actively contributed to the developments and creation of ePoc
     ---
     avatar: /images/mhc.jpg
     name: Marie-Hélène Comte
-    title: Pedagogical Engineer
+    title: Learning designer
     links:
         - icon: simple-icons:linkedin
           to: https://www.linkedin.com/in/marie-helene-comte-73a52a4b/
@@ -176,7 +176,7 @@ Former members who actively contributed to the developments and creation of ePoc
     ---
     avatar: /images/tatiana.jpg
     name: Tatiana Khomenko
-    title: Pedagogical Engineer
+    title: Learning designer
     links:
         - icon: simple-icons:linkedin
           to: https://www.linkedin.com/in/tatiana-khomenko-146aa117a/
@@ -186,7 +186,7 @@ Former members who actively contributed to the developments and creation of ePoc
     ---
     avatar: /images/pauline.jpg
     name: Pauline Eysseric
-    title: Pedagogical Engineer
+    title: Learning designer
     links:
         - icon: simple-icons:linkedin
           to: https://www.linkedin.com/in/pauline-eysseric-9151121b8/
