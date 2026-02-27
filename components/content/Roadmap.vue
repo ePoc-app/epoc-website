@@ -101,6 +101,16 @@ const fr = [
         url: "/guide/user/unlock-conditions",
     },
     {
+      name: "Player web",
+      success: false,
+      description: "Player ePoc web pour lire un ePoc directement dans un navigateur sans passer par l'application",
+    },
+    {
+      name: "Export SCORM et HTML",
+      success: false,
+      description: "Export d'un ePoc au format SCORM et HTML",
+    },
+    {
         name: "ePoc Hub",
         success: false,
         description: "Service d'hébergement d'ePocs et de collections d'ePocs pour la communauté",
@@ -109,11 +119,6 @@ const fr = [
         name: "Scénarios à embranchement",
         success: false,
         description: "Parcours d’apprentissage qui s'adapte selon les actions et les progrès de l’apprenant",
-    },
-    {
-        name: "Export SCORM et HTML",
-        success: false,
-        description: "Export d'un ePoc au format SCORM et HTML",
     },
 ];
 
@@ -167,6 +172,16 @@ const en = [
         url: "/en/guide/user/unlock-conditions",
     },
     {
+      name: "Web Player",
+      success: false,
+      description: "ePoc web player to read an ePoc directly in a browser without going through the application",
+    },
+    {
+      name: "SCORM and HTML export",
+      success: false,
+      description: "Export an ePoc in SCORM and HTML format",
+    },
+    {
         name: "ePoc Hub",
         success: false,
         description: "Hosting service for ePocs and collections of ePocs for the community",
@@ -175,11 +190,6 @@ const en = [
         name: "Branching scenarios",
         success: false,
         description: "Learning path that adapts according to the actions and progress of the learner",
-    },
-    {
-        name: "SCORM and HTML export",
-        success: false,
-        description: "Export an ePoc in SCORM and HTML format",
     },
 ];
 
