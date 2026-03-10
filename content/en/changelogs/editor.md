@@ -4,6 +4,13 @@ aside: false
 prevNext: false
 ---
 
+## Version 0.4.2 (March 9, 2026)
+### 🐛 Bug Fixes
+- Fixed epoc objectives, Thanks  Guillaume Montagné
+
+### 🛠️ Improvements
+- Display content id in form
+
 ## Version 0.4.1 (February 23, 2026)
 ### 🐛 Bug Fixes
 - Fixed metadata import.
