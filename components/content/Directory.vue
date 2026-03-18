@@ -24,6 +24,15 @@ const { locale, defaultLocale } = useI18nDocs();
 
 const en = [
   {
+    "title": "Fundamentals of Manipulation Robotics",
+    "description": "Find out what a robot is, how it has evolved, and its main technical components.",
+    "short": "Find out what a robot is, how it has evolved, and its main technical components.",
+    "img": "/images/accueil-E013JM.png",
+    "thumb": "/images/thumb-E013JM.png",
+    "fullpage": true,
+    "path": "/en/epocs/e013jm"
+  },
+  {
     "title": "What is AI?",
     "description": "This discovery course is for anyone who wants to understand the principles of artificial intelligence (AI) compared to biological intelligence, where to find AI and its main approaches.",
     "short": "The principles of artificial intelligence (AI) compared to biological intelligence",
@@ -93,6 +102,15 @@ const en = [
 ];
 
 const fr = [
+  {
+    "title": "Fondamentaux de la robotique de manipulation",
+    "description": "Découvrez ce qu’est un robot, son évolution et ses principaux composants techniques.",
+    "short": "Découvrez ce qu’est un robot, son évolution et ses principaux composants techniques.",
+    "img": "/images/accueil-E013JM.png",
+    "thumb": "/images/thumb-E013JM.png",
+    "fullpage": true,
+    "path": "/epocs/e013jm"
+  },
   {
     "title": "C'est quoi l'IA ?",
     "description": "Ce parcours d\u00e9couverte s'adresse \u00e0 toutes celles et tous ceux qui souhaitent comprendre les principes de l'intelligence artificielle (IA) par rapport \u00e0 l'intelligence biologique, o\u00f9 trouve-t-on de l'IA et ses principales approches.",

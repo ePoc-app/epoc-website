@@ -28,6 +28,8 @@ export default defineI18nConfig(() => ({
             "C'est quoi l'IA ?": "C'est quoi l'IA ?",
             "Les principes de l'intelligence artificielle (IA) par rapport à l'intelligence biologique":
                 "Les principes de l'intelligence artificielle (IA) par rapport à l'intelligence biologique",
+            "Fondamentaux de la robotique de manipulation": "Fondamentaux de la robotique de manipulation",
+            "Découvrez ce qu’est un robot, son évolution et ses principaux composants techniques.": "Découvrez ce qu’est un robot, son évolution et ses principaux composants techniques.",
             "Produire mon 1er ePoc": "Produire mon 1er ePoc",
             "Découvrez comment créer votre première formation mobile learning, courte, ludique, en quelques clics.":
                 "Découvrez comment créer votre première formation mobile learning, courte, ludique, en quelques clics.",
@@ -130,6 +132,8 @@ export default defineI18nConfig(() => ({
             "C'est quoi l'IA ?": "What is AI?",
             "Les principes de l'intelligence artificielle (IA) par rapport à l'intelligence biologique":
                 "The principles of artificial intelligence (AI) compared to biological intelligence",
+            "Fondamentaux de la robotique de manipulation": "Fundamentals of Manipulation Robotics",
+            "Découvrez ce qu’est un robot, son évolution et ses principaux composants techniques.": "Find out what a robot is, how it has evolved, and its main technical components.",
             "Produire mon 1er ePoc": "Create My First ePoc",
             "Découvrez comment créer votre première formation mobile learning, courte, ludique, en quelques clics.":
                 "Discover how to create your first mobile learning course, short, fun, in just a few clicks.",

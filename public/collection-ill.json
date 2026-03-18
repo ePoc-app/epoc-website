@@ -26,6 +26,74 @@
     "technologie"
   ],
   "ePocs": {
+    "E013JM": {
+      "download": "https://epoc.inria.fr/dl/E013JM/E013JM.epoc",
+      "id": "E013JM",
+      "editorVersion": "0.4.2",
+      "lang": "fr-FR",
+      "title": "Fondamentaux de la robotique de manipulation",
+      "image": "https://epoc.inria.fr/dl/E013JM/assets/robotVF.png",
+      "objectives": [
+        "Acquérir des connaissances théoriques sur la genèse de la robotique",
+        "Explorer les méthodes de mouvement",
+        "Identifier de manière sommaire comment un robot perçoit son environnement et l'utilisation possible de l'intelligence artificielle",
+        "Examiner les défis technologiques et éthiques liés à leur développement\n"
+      ],
+      "summary": "<p>Ce cours propose une introduction &agrave; la robotique &agrave; travers une approche progressive et accessible.</p>\n<p>Les apprenants d&eacute;couvriront ce qu&rsquo;est un robot, son &eacute;volution et ses principaux composants techniques. Ils apprendront &agrave; identifier les types de mouvements, &agrave; comprendre comment un robot per&ccedil;oit son environnement et le r&ocirc;le de l&rsquo;intelligence artificielle.</p>\n<p>Enfin, le cours invite &agrave; r&eacute;fl&eacute;chir aux limites technologiques, ainsi qu&rsquo;aux enjeux soci&eacute;taux, &eacute;thiques et aux perspectives futures de la robotique.</p>",
+      "teaser": "https://epoc.inria.fr/dl/E013JM/assets/Teaser_FR_v3_min.mp4",
+      "teaserSubtitles": [
+        {
+          "label": "Français",
+          "lang": "fr",
+          "src": "https://epoc.inria.fr/dl/E013JM/assets/Teaser_FR.vtt"
+        }
+      ],
+      "thumbnail": "https://epoc.inria.fr/dl/E013JM/assets/robotVF.png",
+      "version": "1",
+      "edition": 2026,
+      "lastModif": "2026-03-17T10:20:11.939Z",
+      "authors": [
+        {
+          "name": "Jean-Pierre Merlet",
+          "image": "https://epoc.inria.fr/dl/E013JM/assets/A_Merlet_inria_0207_111_1826x1027.png",
+          "title": "Directeur de recherche, Inria",
+          "description": ""
+        },
+        {
+          "name": "Clara Thomas",
+          "image": "https://epoc.inria.fr/dl/E013JM/assets/photoclara.jpg",
+          "title": "Doctorante (équipe Héphaïstos), Inria/3IA",
+          "description": ""
+        },
+        {
+          "name": "Sherazade Djeballah",
+          "image": "https://epoc.inria.fr/dl/E013JM/assets/Sherazade.jpeg",
+          "title": "Ingénieure pédagogique, Inria Learning Lab",
+          "description": ""
+        },
+        {
+          "name": "Sabah Khalfa",
+          "image": "https://epoc.inria.fr/dl/E013JM/assets/SabahKhalfa.jpeg",
+          "title": "Ingénieure pédagogique, Inria Learning Lab",
+          "description": ""
+        },
+        {
+          "name": "Laetitia Ecrement",
+          "image": "https://epoc.inria.fr/dl/E013JM/assets/LaetitiaEcrement.jpeg",
+          "title": "Apprentie ingénieure pédagogique, Inria Learning Lab",
+          "description": ""
+        },
+        {
+          "name": "Tristan Rollet",
+          "image": "https://epoc.inria.fr/dl/E013JM/assets/Tristan_Rollet.png",
+          "title": "Apprenti développeur, Inria Learning Lab",
+          "description": ""
+        }
+      ],
+      "chaptersCount": 5,
+      "assessmentsCount": 4,
+      "lastModified": "2026-03-12 11:56:00"
+    },
     "E006PE": {
       "id": "E006PE",
       "download": "https://epoc.inria.fr/dl/E006PE/E006PE.zip",
@@ -152,7 +220,7 @@
       ],
       "chaptersCount": 8,
       "assessmentsCount": 27,
-      "lastModified": "2022-11-09 16:48:35"
+      "lastModified": "2026-03-12 11:56:00"
     },
     "E003VR": {
       "id": "E003VR",
@@ -185,7 +253,7 @@
       ],
       "chaptersCount": 7,
       "assessmentsCount": 17,
-      "lastModified": "2022-11-09 16:46:33"
+      "lastModified": "2026-03-12 11:56:00"
     },
     "E009LL": {
       "id": "E009LL",

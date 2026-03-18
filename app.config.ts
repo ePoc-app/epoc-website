@@ -74,6 +74,12 @@ export default defineAppConfig({
                                 "Les principes de l'intelligence artificielle (IA) par rapport à l'intelligence biologique",
                         },
                         {
+                            icon: "lucide:bot",
+                            title: "Fondamentaux de la robotique de manipulation",
+                            description: "Découvrez ce qu’est un robot, son évolution et ses principaux composants techniques.",
+                            to: "/epocs/e013jm"
+                        },
+                        {
                             icon: "lucide:monitor-cog",
                             title: "Produire mon 1er ePoc",
                             to: "/epocs/e012mc",
