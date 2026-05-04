@@ -46,7 +46,7 @@ Membre de l'équipe de conception et de développement de la solution ePoc.
 
     ::team-card{style="width:300px"}
     ---
-    avatar: https://github.com/NathanViaud.png
+    avatar: /images/nathan.jpg
     name: Nathan Viaud
     title: Développeur
     links:
