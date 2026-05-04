@@ -58,12 +58,12 @@ Membre de l'équipe de conception et de développement de la solution ePoc.
 
     ::team-card{style="width:300px"}
     ---
-    avatar: /images/marie.jpg
-    name: Marie Collin
+    avatar: /images/sherazade.jpg
+    name: Sherazade Djeballah
     title: Ingénieure Pédagogique / Product Owner
     links:
-      - icon: simple-icons:linkedin
-        to: https://www.linkedin.com/in/marie-collin-ba6b553b/
+        - icon: simple-icons:linkedin
+          to: https://www.linkedin.com/in/sherazade-djeballah-6a8759233/
     ---
     ::
 
