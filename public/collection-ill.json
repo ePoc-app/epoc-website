@@ -6,12 +6,12 @@
     "id": "fr.inria.learninglab",
     "name": "Inria Learning Lab",
     "description": "Spécialisés dans la production et la diffusion de formations en ligne sur le numérique, destinées au grand public, aux étudiants, aux professionnels, ainsi qu'aux enseignants et formateurs.",
-    "logo": "https://learninglab.inria.fr/files/2020/04/LearningLab-logo2020.png",
+    "logo": "https://learninglab.inria.fr/_ipx/_/logo/ill-logo.svg",
     "email": "ill-epoc-contact@inria.fr",
     "website": "https://learninglab.inria.fr"
   },
   "licence": {
-    "name": "Creative Commons Attribution 4.0 International",
+    "name": "CC BY 4.0",
     "url": "https://creativecommons.org/licenses/by/4.0/"
   },
   "url": "https://epoc.inria.fr/collection-ill.json",
