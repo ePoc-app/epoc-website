@@ -1,6 +1,6 @@
 ---
 title: Accueil
-description: ePoc (electronic Pocket open course) est une solution complète de mobile learning libre et ouverte. Gratuite et open source. Développée par Inria.
+description: ePoc (electronic Pocket open course) est une solution complète de micro-apprentissage libre et ouverte. Des formations courtes et ludiques, pensées pour le mobile. Gratuite et open source. Développée par Inria.
 ---
 ::hero-alt
 ---
@@ -33,18 +33,18 @@ actions:
 ---
 
 #title
-L'apprentissage sur mobile, libre et ouvert
+Solution libre pour le micro-apprentissage
 
 #description
-ePoc (**e**lectronic **P**ocket **o**pen **c**ourse) est une solution complète de mobile learning libre et ouverte. Découvrez nos cours ou créez le votre à l'aide de l'éditeur. Gratuite et open source. Développée par Inria.
+ePoc (**e**lectronic **P**ocket **o**pen **c**ourse) est une solution complète de micro-apprentissage libre et ouverte. Découvrez nos formations courtes et ludiques, pensées pour le mobile, ou créez les vôtres à l'aide de l'éditeur. Diffusez-les dans l'application, sur le web ou sur votre plateforme d'apprentissage. Gratuite et open source. Développée par Inria.
 
 #right
-![ePoc Mobile App screenshots](/images/epoc-promo-blanc.png)
+![Captures d'écran de l'application mobile ePoc](/images/epoc-promo-blanc.png)
 ::
 
 ::card
 #title
-Inscrivez-vous à notre Newsletter 💌
+Inscrivez-vous à notre lettre d'information 💌
 
 #description
 Pour recevoir les actualités à propos de l'application, de l'éditeur et des formations ePoc.
@@ -63,7 +63,7 @@ Pour recevoir les actualités à propos de l'application, de l'éditeur et des f
 #title
 Pourquoi ePoc ?
 #description
-Vos **cours** dans la poche pour une consultation **hors ligne** partout et tout le temps dans le **respect** de votre **vie privée**.
+Des **formations courtes** à consulter **hors ligne**, partout et tout le temps, dans le **respect** de votre **vie privée**. Hébergez-les où vous le souhaitez : une solution **décentralisée**, sans dépendre d'une plateforme propriétaire.
 ::
 
 ::key-features
@@ -71,7 +71,7 @@ Vos **cours** dans la poche pour une consultation **hors ligne** partout et tout
 ![Image d'exemple de contenu vidéo](/images/video.png)
 
 #side2
-### Des contenus riches et variés spécialement conçu pour le mobile
+### Des contenus riches et variés, pensés pour le mobile
 
 #side2Desc
 - Des séquences courtes et scénarisées.
@@ -88,8 +88,8 @@ reverse: true
 ### Engagement actif
 
 #side1Desc
-Une alternance entre apprentissage et activités au sein d'un parcours pédagogique engageant et spécialement conçu pour le mobile..
-Profitez d'exercices variés et ludiques comme des glisser-déposer, des swipes, qcm et plein d'autres.
+Une alternance entre apprentissage et activités au sein d'un parcours pédagogique engageant, pensé pour le mobile.
+Profitez d'exercices variés et ludiques comme des glisser-déposer, des QCM et plein d'autres.
 
 #side2
 ![Image d'exemple de contenu quiz](/images/quiz.png)
@@ -103,11 +103,18 @@ Profitez d'exercices variés et ludiques comme des glisser-déposer, des swipes,
 ### Apprendre à son rythme
 
 #side2Desc
-Les formations spécialement conçues pour un usage nomade sont découpées en modules courts et ludiques pour une progression pas à pas.
+Les formations sont découpées en modules courts et ludiques, pensés pour un usage nomade, pour une progression pas à pas.
 <br/><br/>
 Répétez les activités autant de fois que nécessaire pour obtenir l'attestation.
 ::
 
+
+::section-title
+#title
+Diffusez vos formations partout 📦
+#description
+Un seul format, trois façons de diffuser : dans l'**application mobile** ePoc, sur le **web** (export HTML, par exemple sur GitLab Pages ou GitHub Pages) ou dans votre **plateforme d'apprentissage** (export SCORM).
+::
 
 ::section-title
 #title
@@ -123,7 +130,7 @@ Appréciée des apprenants mais aussi des formateurs et enseignants
 
 ::section-title
 #title
-Roadmap 🚀
+Feuille de route 🚀
 #description
 ePoc est un projet en développement actif.  
 Retrouvez ci-dessous les fonctionnalités à venir et déjà implémentées.  

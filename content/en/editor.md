@@ -1,7 +1,7 @@
 ---
 title: Editor
 fullpage: true
-description: The ePoc editor is a desktop application that allows you to design, build, and publish your own mobile learning training in ePoc format. Free and open source. Developed by Inria.
+description: The ePoc editor is a desktop application that allows you to design, build, and publish your own microlearning courses, designed with mobile in mind. Export them for the ePoc application, the web (HTML) or your learning platform (SCORM). Free and open source. Developed by Inria.
 ---
 
 ::hero-alt
@@ -38,7 +38,7 @@ actions:
 Your training in just a few clicks
 
 #description
-The ePoc editor is a desktop application that allows you to design, build, and publish your own mobile learning training in ePoc format. Free and open source. Developed by Inria.
+The ePoc editor is a desktop application that allows you to design, build, and publish your own microlearning courses, designed with mobile in mind. Export them for the ePoc application, the web (HTML) or your learning platform (SCORM). Free and open source. Developed by Inria.
 
 #right
 <iframe class="shadow-xl outline-none w-full aspect-video" src="https://www.youtube.com/embed/86lbMmM03FU?modestbranding=1&amp;autohide=1&amp;rel=0&amp;showinfo=0" title="YouTube video player" allowfullscreen=""></iframe>

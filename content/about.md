@@ -5,18 +5,18 @@ aside: false
 prevNext: false
 toc:
     links: []
-description: ePoc, la solution d'apprentissage mobile libre et respectueuse de la vie privée. Découvrez notre historique et l'équipe.
+description: ePoc, la solution de micro-apprentissage libre et respectueuse de la vie privée. Découvrez notre historique et l'équipe.
 ---
 
 
-ePoc est un projet open source et libre qui vise à rendre l'apprentissage sur mobile accessible à tous.
-Notre offrons une solution complète pour l'apprentissage sur mobile, permettant aux utilisateurs de construire et
-d'accéder à des ressources éducatives sur mobile.
+ePoc est un projet open source et libre qui vise à rendre le micro-apprentissage accessible à tous.
+Nous proposons une solution complète, permettant de construire et de diffuser des formations courtes et ludiques,
+pensées pour le mobile, et d'y accéder sur l'application mobile, sur le web ou depuis une plateforme d'apprentissage.
 
 ## Historique
 
 Projet démarré en 2020 par Benoit Rospars, développeur, et Jean-Marc Hasenfratz responsable d'[Inria Learning Lab](https://learninglab.inria.fr), notre mission est de proposer une solution
-complète, non propriétaire et décentralisée pour l'apprentissage sur mobile.
+complète, non propriétaire et décentralisée pour le micro-apprentissage.
 
 Parallèlement, la conception et le développement de l’éditeur ont commencé, et la première version de l’éditeur est sortie 
 pour un usage interne uniquement. Les spécifications du format ayant évolué, l’éditeur a lui aussi bénéficié d’une refonte, 

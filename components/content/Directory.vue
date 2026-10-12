@@ -64,8 +64,8 @@ const en = [
   },
   {
     "title": "Create My First ePoc",
-    "description": "Discover the \"ePoc Editor\" and create your first mobile learning training, short, engaging, in just a few clicks.",
-    "short": "Discover how to create your first mobile learning training, short, engaging, in just a few clicks.",
+    "description": "Discover the \"ePoc Editor\" and create your first microlearning course, short and engaging, in just a few clicks.",
+    "short": "Discover how to create your first microlearning course, short and engaging, in just a few clicks.",
     "img": "/images/accueil-E012MC.png",
     "thumb": "/images/thumb-E012MC.png",
     "qrcode": "/images/qr-E012MC.png",
@@ -143,8 +143,8 @@ const fr = [
   },
   {
     "title": "Produire mon 1er ePoc",
-    "description": "D\u00e9couvrez l'\u00e9diteur \"ePoc Editor\" et cr\u00e9ez votre premi\u00e8re formation mobile learning, courte, ludique, en quelques clics. ",
-    "short": "D\u00e9couvrez comment cr\u00e9er votre premi\u00e8re formation mobile learning, courte, ludique, en quelques clics.",
+    "description": "D\u00e9couvrez l'\u00e9diteur \"ePoc Editor\" et cr\u00e9ez votre premi\u00e8re formation de micro-apprentissage, courte et ludique, en quelques clics.",
+    "short": "D\u00e9couvrez comment cr\u00e9er votre premi\u00e8re formation de micro-apprentissage, courte et ludique, en quelques clics.",
     "img": "/images/accueil-E012MC.png",
     "thumb": "/images/thumb-E012MC.png",
     "qrcode": "/images/qr-E012MC.png",

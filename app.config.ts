@@ -2,9 +2,9 @@ import envConfig from "./env.config";
 export default defineAppConfig({
     shadcnDocs: {
         site: {
-            name: "ePoc Mobile Learning",
+            name: "ePoc Micro-apprentissage",
             description:
-                "ePoc (electronic Pocket open course) est une solution complète libre et ouverte pour l'apprentissage sur mobile. Développée par Inria.",
+                "ePoc (electronic Pocket open course) est une solution complète, libre et ouverte, de micro-apprentissage : des formations courtes et ludiques pensées pour le mobile. Développée par Inria.",
             ogImage: "/images/epoc-promo-blanc.png",
         },
         theme: {
@@ -84,7 +84,7 @@ export default defineAppConfig({
                             title: "Produire mon 1er ePoc",
                             to: "/epocs/e012mc",
                             description:
-                                "Découvrez comment créer votre première formation mobile learning, courte, ludique, en quelques clics.",
+                                "Découvrez comment créer votre première formation de micro-apprentissage, courte et ludique, en quelques clics.",
                         },
                         {
                             icon: "lucide:lock",
@@ -133,7 +133,7 @@ export default defineAppConfig({
                             title: "Guide Editeur",
                             to: "/guide/user/install",
                             description:
-                                "Guide pour créer une formation mobile learning, courte, ludique, en quelques clics grâce à notre éditeur ePoc.",
+                                "Guide pour créer une formation de micro-apprentissage, courte et ludique, en quelques clics grâce à notre éditeur ePoc.",
                             icon: "lucide:monitor-cog",
                         },
                         {

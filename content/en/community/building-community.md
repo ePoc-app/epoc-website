@@ -4,7 +4,7 @@ aside: false
 prevNext: false
 ---
 
-We strive to promote the creation and animation of communities around our ePoc mobile learning solution, by encouraging communication, participation, and meetings.
+We strive to promote the creation and animation of communities around our ePoc microlearning solution, by encouraging communication, participation, and meetings.
 
 ## Tchap and Discord channels for communication
 

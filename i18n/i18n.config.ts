@@ -4,7 +4,7 @@ export default defineI18nConfig(() => ({
     messages: {
         fr: {
             // Header nav
-            "ePoc Mobile Learning": "ePoc Mobile Learning",
+            "ePoc Micro-apprentissage": "ePoc Micro-apprentissage",
             ePoc: "ePoc",
             Editeur: "Éditeur",
             Éditeur: "Éditeur",
@@ -31,8 +31,8 @@ export default defineI18nConfig(() => ({
             "Fondamentaux de la robotique de manipulation": "Fondamentaux de la robotique de manipulation",
             "Découvrez ce qu’est un robot, son évolution et ses principaux composants techniques.": "Découvrez ce qu’est un robot, son évolution et ses principaux composants techniques.",
             "Produire mon 1er ePoc": "Produire mon 1er ePoc",
-            "Découvrez comment créer votre première formation mobile learning, courte, ludique, en quelques clics.":
-                "Découvrez comment créer votre première formation mobile learning, courte, ludique, en quelques clics.",
+            "Découvrez comment créer votre première formation de micro-apprentissage, courte et ludique, en quelques clics.":
+                "Découvrez comment créer votre première formation de micro-apprentissage, courte et ludique, en quelques clics.",
             "Zone à Régime Restrictif": "Zone à Régime Restrictif",
             "Formation ePoc des nouveaux arrivants Inria en Zone à Régime Restrictif.":
                 "Formation ePoc des nouveaux arrivants Inria en Zone à Régime Restrictif.",
@@ -40,8 +40,8 @@ export default defineI18nConfig(() => ({
             "Guide d'utilisation l'application mobile sur iOS et Android":
                 "Guide d'utilisation l'application mobile sur iOS et Android",
             "Guide Editeur": "Guide Editeur",
-            "Guide pour créer une formation mobile learning, courte, ludique, en quelques clics grâce à notre éditeur ePoc.":
-                "Guide pour créer une formation mobile learning, courte, ludique, en quelques clics grâce à notre éditeur ePoc.",
+            "Guide pour créer une formation de micro-apprentissage, courte et ludique, en quelques clics grâce à notre éditeur ePoc.":
+                "Guide pour créer une formation de micro-apprentissage, courte et ludique, en quelques clics grâce à notre éditeur ePoc.",
             "Guide Développeur": "Guide Développeur",
             "Guide pour contribuer et participer aux développements de la solution ePoc":
                 "Guide pour contribuer et participer aux développements de la solution ePoc",
@@ -108,7 +108,7 @@ export default defineI18nConfig(() => ({
         },
         en: {
             // Header nav
-            "ePoc Mobile Learning": "ePoc Mobile Learning",
+            "ePoc Micro-apprentissage": "ePoc Microlearning",
             ePoc: "ePoc",
             Editeur: "Editor",
             Éditeur: "Editor",
@@ -135,8 +135,8 @@ export default defineI18nConfig(() => ({
             "Fondamentaux de la robotique de manipulation": "Fundamentals of Manipulation Robotics",
             "Découvrez ce qu’est un robot, son évolution et ses principaux composants techniques.": "Find out what a robot is, how it has evolved, and its main technical components.",
             "Produire mon 1er ePoc": "Create My First ePoc",
-            "Découvrez comment créer votre première formation mobile learning, courte, ludique, en quelques clics.":
-                "Discover how to create your first mobile learning course, short, fun, in just a few clicks.",
+            "Découvrez comment créer votre première formation de micro-apprentissage, courte et ludique, en quelques clics.":
+                "Discover how to create your first microlearning course, short and fun, in just a few clicks.",
             "Zone à Régime Restrictif": "Restricted Area",
             "Formation ePoc des nouveaux arrivants Inria en Zone à Régime Restrictif.":
                 "ePoc training for new Inria arrivals in Restricted Areas.",
@@ -144,8 +144,8 @@ export default defineI18nConfig(() => ({
             "Guide d'utilisation l'application mobile sur iOS et Android":
                 "User guide for the mobile app on iOS and Android",
             "Guide Editeur": "Editor Guide",
-            "Guide pour créer une formation mobile learning, courte, ludique, en quelques clics grâce à notre éditeur ePoc.":
-                "Guide to creating a short, fun mobile learning course in just a few clicks with our ePoc editor.",
+            "Guide pour créer une formation de micro-apprentissage, courte et ludique, en quelques clics grâce à notre éditeur ePoc.":
+                "Guide to creating a short, fun microlearning course in just a few clicks with our ePoc editor.",
             "Guide Développeur": "Developer Guide",
             "Guide pour contribuer et participer aux développements de la solution ePoc":
                 "Guide to contributing and participating in the development of the ePoc solution",

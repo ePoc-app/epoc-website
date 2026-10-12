@@ -5,14 +5,14 @@ aside: false
 prevNext: false
 toc:
   links: []
-description: ePoc, the free mobile learning solution that respects privacy. Discover our history and the team.
+description: ePoc, the free microlearning solution that respects privacy. Discover our history and the team.
 ---
 
-ePoc is an open-source and free project aimed at making mobile learning accessible to everyone. We offer a comprehensive solution for mobile learning, enabling users to build and access educational resources on mobile devices.
+ePoc is an open-source and free project aimed at making microlearning accessible to everyone. We offer a comprehensive solution to build and share short and fun courses, designed with mobile in mind, and to access them in the mobile application, on the web or from a learning platform.
 
 ## History
 
-The project was started in 2020 by Benoit Rospars, a developer, and Jean-Marc Hasenfratz, head of [Inria Learning Lab](https://learninglab.inria.fr). Our mission is to provide a complete, non-proprietary, and decentralized solution for mobile learning.
+The project was started in 2020 by Benoit Rospars, a developer, and Jean-Marc Hasenfratz, head of [Inria Learning Lab](https://learninglab.inria.fr). Our mission is to provide a complete, non-proprietary, and decentralized solution for microlearning.
 
 Simultaneously, the design and development of the editor began, and the first version of the editor was released for internal use only. As the format specifications evolved, the editor also underwent a redesign, and the public version of the editor was published in mid-2023. Since then, this editor has been widely adopted: hundreds of ePocs have been created by teachers and other training professionals.
 

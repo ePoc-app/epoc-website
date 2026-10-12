@@ -1,7 +1,7 @@
 ---
 title: Home
 fullpage: true
-description: ePoc (electronic Pocket open course) is a complete free and open mobile learning solution. Free and open source. Developed by Inria.
+description: ePoc (electronic Pocket open course) is a complete free and open microlearning solution. Short and fun courses, designed with mobile in mind. Free and open source. Developed by Inria.
 ---
 ::hero-alt
 ---
@@ -34,10 +34,10 @@ actions:
 ---
 
 #title
-Free and open<br/>mobile learning
+Free software for microlearning
 
 #description
-ePoc (**e**lectronic **P**ocket **o**pen **c**ourse) is a complete free and open mobile learning solution. Discover our courses or create your own using the editor. Free and open source. Developed by Inria.
+ePoc (**e**lectronic **P**ocket **o**pen **c**ourse) is a complete free and open microlearning solution. Discover our short and fun courses, designed with mobile in mind, or create your own using the editor. Share them in the application, on the web or on your learning platform. Free and open source. Developed by Inria.
 
 #right
 ![ePoc Mobile App screenshots](/images/epoc-promo-blanc.png)
@@ -64,7 +64,7 @@ To receive news about the application, editor, and ePoc training.
 #title
 Why ePoc?
 #description
-Your **courses** in your pocket for **offline** consultation anywhere and anytime while **respecting** your **privacy**.
+Short **courses** available **offline**, anywhere and anytime, while **respecting** your **privacy**. Host them wherever you want: a **decentralized** solution that does not depend on a proprietary platform.
 ::
 
 ::key-features
@@ -72,7 +72,7 @@ Your **courses** in your pocket for **offline** consultation anywhere and anytim
 ![Example video content image](/images/video.png)
 
 #side2
-### Rich and varied content specially designed for mobile
+### Rich and varied content, designed with mobile in mind
 
 #side2Desc
 - Short and scripted sequences
@@ -89,7 +89,7 @@ reverse: true
 ### Active engagement
 
 #side1Desc
-An alternation between learning and activities within an engaging pedagogical path specially designed for mobile.
+An alternation between learning and activities within an engaging pedagogical path designed with mobile in mind.
 Enjoy various fun exercises like drag-and-drop, swipes, multiple choice questions, and many more.
 
 #side2
@@ -104,9 +104,16 @@ Enjoy various fun exercises like drag-and-drop, swipes, multiple choice question
 ### Learn at your own pace
 
 #side2Desc
-Training specially designed for mobile use is broken down into short and fun modules for step-by-step progression.
+Courses are broken down into short and fun modules, designed for on-the-go use, for step-by-step progression.
 <br/><br/>
 Repeat activities as many times as needed to obtain the certification.
+::
+
+::section-title
+#title
+Share your courses anywhere 📦
+#description
+One format, three ways to share: in the ePoc **mobile application**, on the **web** (HTML export, for example on GitLab Pages or GitHub Pages) or on your **learning platform** (SCORM export).
 ::
 
 ::section-title

@@ -4,7 +4,7 @@ aside: false
 prevNext: false
 ---
 
-Nous nous efforçons de promouvoir la création et l'animation de communautés autour de notre solution de mobile learning 
+Nous nous efforçons de promouvoir la création et l'animation de communautés autour de notre solution de micro-apprentissage 
 ePoc, en encourageant la communication, la participation et les rencontres.
 
 ## Les canaux de discussion Tchap et Discord pour communiquer

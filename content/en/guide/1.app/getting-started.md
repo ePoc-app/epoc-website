@@ -4,7 +4,7 @@ icon: lucide:rocket
 description: Guide to get started with the mobile application
 ---
 
-Welcome to ePoc, the mobile learning application offered by Inria. This page will guide you through the main features of the application.
+Welcome to ePoc, the microlearning application offered by Inria. This page will guide you through the main features of the application.
 
 ## Home Page
 

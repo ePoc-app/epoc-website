@@ -5,12 +5,12 @@ aside: false
 prevNext: false
 toc:
     links: []
-description: Discover how to partner with ePoc and contribute to our mission of making mobile learning accessible to everyone.
+description: Discover how to partner with ePoc and contribute to our mission of making microlearning accessible to everyone.
 ---
 
 ## About ePoc
 
-ePoc is an open-source and free project aimed at making learning accessible to everyone, everywhere. Our platform offers a comprehensive solution for mobile learning, allowing users to build and access educational resources on mobile devices. Started in 2020 by [Inria Learning Lab](https://learninglab.inria.fr), our mission is to provide a complete, non-proprietary, and decentralized solution for mobile learning. We are open to partnerships that benefit the ePoc community and help grow the ecosystem.
+ePoc is an open-source and free project aimed at making learning accessible to everyone, everywhere. Our solution makes it possible to build and share short and fun microlearning courses, designed with mobile in mind, and to access them in the mobile application, on the web or from a learning platform. Started in 2020 by [Inria Learning Lab](https://learninglab.inria.fr), our mission is to provide a complete, non-proprietary, and decentralized solution for microlearning. We are open to partnerships that benefit the ePoc community and help grow the ecosystem.
 
 ## Partnership Opportunities
 
@@ -45,4 +45,4 @@ To discuss partnership opportunities, please contact our team:
 
 ---
 
-Join us in this adventure to make mobile learning accessible to everyone!
+Join us in this adventure to make microlearning accessible to everyone!

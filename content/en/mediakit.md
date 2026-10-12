@@ -10,7 +10,7 @@ description: All resources to talk about our ePoc brand accurately and consisten
 
 ## About ePoc
 
-ePoc is an open-source and free project aimed at making learning accessible to everyone, everywhere. Our platform offers a comprehensive solution for mobile learning, allowing users to build and access educational resources on mobile devices. Started in 2020 by [Inria Learning Lab](https://learninglab.inria.fr), our mission is to provide a complete, non-proprietary, and decentralized solution for mobile learning.
+ePoc is an open-source and free project aimed at making learning accessible to everyone, everywhere. Our solution makes it possible to build and share short and fun microlearning courses, designed with mobile in mind, and to access them in the mobile application, on the web or from a learning platform. Started in 2020 by [Inria Learning Lab](https://learninglab.inria.fr), our mission is to provide a complete, non-proprietary, and decentralized solution for microlearning.
 
 ## Inria
 
