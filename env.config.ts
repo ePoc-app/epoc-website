@@ -6,6 +6,7 @@ export default {
     mobile_version: mobile_version,
     apple_link: 'https://apps.apple.com/app/epoc/id1596317383',
     google_link: 'https://play.google.com/store/apps/details?id=fr.inria.epoc',
+    turnstile_site_key: '0x4AAAAAAFg8d7DCO4LWc6Pv',
     editor_version: editor_version,
     editor_link_windows: `https://github.com/ePoc-App/epoc-editor/releases/download/${editor_version}/epoc-editor_${editor_version}_win_x64.exe`,
     editor_link_macos: `https://github.com/ePoc-App/epoc-editor/releases/download/${editor_version}/epoc-editor_${editor_version}_mac_x64.dmg`,
