@@ -45,6 +45,9 @@ export default defineI18nConfig(() => ({
             "Guide Développeur": "Guide Développeur",
             "Guide pour contribuer et participer aux développements de la solution ePoc":
                 "Guide pour contribuer et participer aux développements de la solution ePoc",
+            "Ressources de la communauté": "Ressources de la communauté",
+            "Tutoriels et ressources créés par la communauté ePoc.":
+                "Tutoriels et ressources créés par la communauté ePoc.",
             "Editeur de diagramme mermaid": "Editeur de diagramme mermaid",
             "Outil pour générer le code d'un diagramme mermaid": "Outil pour générer le code d'un diagramme mermaid",
             "Générateur de QR Code": "Générateur de QR Code",
@@ -149,6 +152,9 @@ export default defineI18nConfig(() => ({
             "Guide Développeur": "Developer Guide",
             "Guide pour contribuer et participer aux développements de la solution ePoc":
                 "Guide to contributing and participating in the development of the ePoc solution",
+            "Ressources de la communauté": "Community Resources",
+            "Tutoriels et ressources créés par la communauté ePoc.":
+                "Tutorials and resources created by the ePoc community.",
             "Editeur de diagramme mermaid": "Mermaid Diagram Editor",
             "Outil pour générer le code d'un diagramme mermaid": "Tool to generate the code for a mermaid diagram",
             "Générateur de QR Code": "QR Code Generator",

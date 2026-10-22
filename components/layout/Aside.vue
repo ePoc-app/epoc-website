@@ -6,7 +6,7 @@
       <li v-for="link in navigation" :key="link.id">
         <NuxtLink
             :to="link.redirect ?? link._path"
-            class="flex h-8 items-center gap-2 rounded-md p-2 text-sm text-foreground/80 hover:bg-muted hover:text-primary"
+            class="flex min-h-8 items-center gap-2 rounded-md px-2 py-1.5 text-sm leading-tight text-foreground/80 hover:bg-muted hover:text-primary"
             :class="[
             path.startsWith(link._path) && 'bg-muted !text-primary',
           ]"
@@ -14,7 +14,7 @@
           <SmartIcon
               v-if="link.icon"
               :name="link.icon"
-              class="self-center"
+              class="shrink-0 self-center"
               :size="16"
           />
           {{ link.title }}
@@ -44,8 +44,11 @@ const { navDirFromPath } = useContentHelpers();
 const config = useConfig();
 const { locale, defaultLocale, navigation: nav } = useI18nDocs();
 
+// Sidebar levels: the guide sections, plus the community section
 const navigation = computed(() => {
-  return nav.value.find((node: NavItem) => node._path.includes('/guide')).children;
+  const guide = nav.value.find((node: NavItem) => node._path.includes('/guide'));
+  const community = nav.value.find((node: NavItem) => node._path.endsWith('/community'));
+  return [...(guide?.children ?? []), ...(community ? [community] : [])];
 })
 
 
@@ -54,7 +57,10 @@ const tree = computed(() => {
   const route = useRoute();
   const path = route.path.split('/');
   if (config.value.aside.useLevel) {
-    const leveledPath = path.splice(0, locale.value === defaultLocale ? 3 : 4).join('/');
+    const localeDepth = locale.value === defaultLocale ? 1 : 2;
+    // The community section is a single level, guide sections are one level deeper
+    const isCommunity = path[localeDepth] === 'community';
+    const leveledPath = path.splice(0, localeDepth + (isCommunity ? 1 : 2)).join('/');
 
     const dir = navDirFromPath(leveledPath, navigation.value);
     return dir ?? [];

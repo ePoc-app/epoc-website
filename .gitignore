@@ -25,3 +25,4 @@ logs
 
 # Mkdocs output
 site/
+public/dl/

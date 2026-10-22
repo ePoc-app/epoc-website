@@ -173,6 +173,12 @@ export default defineAppConfig({
                             icon: "lucide:share",
                         },
                         {
+                            title: "Ressources de la communauté",
+                            to: "/community/resources",
+                            description: "Tutoriels et ressources créés par la communauté ePoc.",
+                            icon: "lucide:book-heart",
+                        },
+                        {
                             title: "Forum",
                             to: "https://mooc-forums.inria.fr/laforgeedu/c/epoc",
                             target: "_blank",
@@ -298,6 +304,11 @@ export default defineAppConfig({
                             title: "Soumettre un ePoc",
                             to: "/community/submitting",
                             icon: "lucide:share",
+                        },
+                        {
+                            title: "Ressources de la communauté",
+                            to: "/community/resources",
+                            icon: "lucide:book-heart",
                         },
                         {
                             title: "Forum",
