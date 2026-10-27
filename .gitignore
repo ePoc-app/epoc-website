@@ -26,3 +26,6 @@ logs
 # Mkdocs output
 site/
 public/dl/
+
+# Communication (brouillons, non versionnés pour le moment)
+communication/
