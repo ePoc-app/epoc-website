@@ -1,0 +1,22 @@
+{
+  "id": "fr.reseau-canope.tne.epocs",
+  "title": "ePocs TNE – Réseau Canopé",
+  "description": "Explorez les grands enjeux du numérique en éducation à travers des formations courtes et accessibles. Elle encourage la réflexion sur les pratiques éducatives et accompagne la communauté éducative vers des usages plus inclusifs, équitables et responsables du numérique.",
+  "publisher": {
+    "id": "fr.reseau-canope.tne",
+    "name": "Réseau Canopé - TNE",
+    "description": "Réseau Canopé conçoit et diffuse des formations pour accompagner la communauté éducative dans leurs pratiques et usages du numérique. Son équipe Territoires Numériques Educatifs (TNE) développe des dispositifs de formation diversifiés, accessibles et adaptés aux besoins de chaque public.",
+    "logo": "https://epoc.inria.fr/partners/fr/reseau-canope/tne/ePoc-canope-transparent-clair-detoure.png",
+    "email": "epoc.tne@reseau-canope.fr",
+    "website": "https://tne.reseau-canope.fr/"
+  },
+  "licence": {
+    "name": "CC-BY-NC-ND-4.0",
+    "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  "tags": [
+    "Numérique éducatif"
+  ],
+  "ePocs": {},
+  "url": "https://epoc.inria.fr/partners/fr/reseau-canope/tne/epocs.json"
+}
