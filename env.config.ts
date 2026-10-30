@@ -1,5 +1,5 @@
-const mobile_version = 'v3.0.0';
-const editor_version = 'v0.5.0';
+const mobile_version = 'v3.0.1';
+const editor_version = 'v0.5.1';
 
 export default {
     repo: 'https://github.com/ePoc-app',
