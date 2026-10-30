@@ -4,6 +4,49 @@ aside: false
 prevNext: false
 ---
 
+## Version 3.0.1 (30 octobre 2026)
+### 🛠️ Améliorations
+- Affichage de la description, de l'email et du site web des collections sur mobile.
+- Logo de l'éditeur de l'ePoc sur l'attestation (le logo Inria Learning Lab est réservé aux ePocs Inria).
+- Mention d'attribution de la licence plus complète (éditeur ou auteurs, lien vers la licence).
+- Suivi des sessions, des démarrages et des reprises d'ePoc.
+- Suivi Matomo actif dans les exports HTML et SCORM.
+
+### 🐛 Corrections de bugs
+- Correction de la traduction du message d'ajout d'une collection personnalisée.
+- Correction de la page « Voir tous » des collections personnalisées.
+- Correction de la page blanche à l'ouverture d'un ePoc d'une collection personnalisée.
+- Correction de l'initialisation SCORM et envoi du score en pourcentage.
+- Correction de la mise à jour du score après un quiz.
+- Correction du calcul de la durée de l'ePoc.
+
+## Version 3.0.0 (21 octobre 2026)
+### ✨ Fonctionnalités
+- Nouvelle interface web : barre latérale, pages bibliothèque, à propos, paramètres et présentation des ePocs adaptées aux grands écrans.
+- Menu principal de l'ePoc dans la barre latérale du player web, avec la page en cours mise en évidence.
+- Support de l'API SCORM et des exports web et SCORM autonomes.
+- Ouverture d'un ePoc par défaut depuis un paramètre d'URL.
+- Lecteurs audio et vidéo détachables (Picture-in-Picture).
+- Sélection des réponses améliorée dans les listes déroulantes.
+
+### 🛠️ Améliorations
+- Affichage de la licence sur la page de présentation, avec la licence de la collection par défaut si l'ePoc n'en a pas.
+- Résumé de l'ePoc sélectionné par défaut sur la page de présentation.
+- Affichage du score même dans les ePocs à badges.
+- Durée globale de l'ePoc à la place de la durée moyenne des chapitres.
+- Meilleure correction des listes déroulantes.
+- « Auteurs » renommé en « Crédits ».
+- Mise à jour vers Ionic 8 et Capacitor 8.
+
+### 🐛 Corrections de bugs
+- Correction de l'affichage bord à bord et des zones de sécurité sur Android.
+- Correction des liens universels et des liens profonds.
+- Correction des chapitres non terminés dans la table des matières.
+- Correction de la page de fin de chapitre lorsque le chapitre suivant est verrouillé.
+- Correction de la modale des badges dans la version web.
+- Correction du lien vers la bibliothèque dans le menu principal.
+- Correction du suivi du téléchargement des ePocs officiels.
+
 ## Version 2.0.3 (25 février 2026)
 ### 🐛 Corrections de bugs
 - Masquage du marqueur de score de certificat en mode badge.

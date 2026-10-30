@@ -5,6 +5,49 @@ prevNext: false
 ---
 
 
+## Version 3.0.1 (October 30, 2026)
+### 🛠️ Improvements
+- Displayed the collection description, email and website on mobile.
+- Displayed the ePoc publisher logo on the certificate (the Inria Learning Lab logo is reserved for Inria ePocs).
+- More complete license attribution (publisher or authors, link to the license).
+- Tracked ePoc sessions, starts and resumes.
+- Enabled Matomo tracking in HTML and SCORM exports.
+
+### 🐛 Bug Fixes
+- Fixed missing translation when adding a custom collection.
+- Fixed the "See all" page of custom collections.
+- Fixed blank page when opening an ePoc from a custom collection.
+- Fixed SCORM initialization and sent the score as a percentage.
+- Fixed score not updating after a quiz.
+- Fixed ePoc duration calculation.
+
+## Version 3.0.0 (October 21, 2026)
+### ✨ Features
+- New web interface: sidebar, library, about, settings and ePoc overview pages adapted to large screens.
+- ePoc main menu in the web player sidebar, highlighting the current page.
+- Support for the SCORM API and standalone web and SCORM exports.
+- Open a default ePoc from a URL parameter.
+- Detachable audio and video players (Picture-in-Picture).
+- Improved answer selection in dropdown lists.
+
+### 🛠️ Improvements
+- Displayed the license on the overview page, falling back to the collection license if the ePoc has none.
+- ePoc summary selected by default on the overview page.
+- Displayed the score even in badge-based ePocs.
+- Global ePoc duration instead of the mean chapter duration.
+- Better dropdown list correction.
+- Renamed "Authors" to "Credits".
+- Upgraded to Ionic 8 and Capacitor 8.
+
+### 🐛 Bug Fixes
+- Fixed edge-to-edge display and safe areas on Android.
+- Fixed universal and deep links.
+- Fixed chapters not marked as finished in the table of contents.
+- Fixed the end of chapter page when the next chapter is locked.
+- Fixed the badge modal in the web version.
+- Fixed the library link in the main menu.
+- Fixed official ePoc download tracking.
+
 ## Version 2.0.3 (February 25, 2026)
 ### 🐛 Bug Fixes
 - Hidden certificate score marker in badge mode.

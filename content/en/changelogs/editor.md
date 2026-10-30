@@ -4,6 +4,31 @@ aside: false
 prevNext: false
 ---
 
+## Version 0.5.1 (October 30, 2026)
+### ✨ Features
+- Added a button to cancel video compression.
+
+### 🛠️ Improvements
+- "ePoc duration" field instead of the chapter duration (deprecated).
+- Better detection of video compression errors (the original video is imported on failure).
+- Updated the player for the preview and the HTML and SCORM exports.
+
+### 🐛 Bug Fixes
+- Fixed video compression stuck at 0%.
+- Disabled analytics in the preview.
+
+## Version 0.5.0 (October 23, 2026)
+### ✨ Features
+- Export ePocs to HTML and SCORM.
+- Automatic compression of imported videos (can be disabled in the settings).
+
+### 🛠️ Improvements
+- More visible ePoc ID.
+- Renamed "Authors" to "Credits".
+
+### 🐛 Bug Fixes
+- Fixed badge form not displaying.
+
 ## Version 0.4.2 (March 9, 2026)
 ### 🐛 Bug Fixes
 - Fixed epoc objectives, Thanks  Guillaume Montagné

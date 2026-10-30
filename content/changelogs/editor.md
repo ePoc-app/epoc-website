@@ -4,6 +4,31 @@ aside: false
 prevNext: false
 ---
 
+## Version 0.5.1 (30 octobre 2026)
+### ✨ Fonctionnalités
+- Ajout d'un bouton pour annuler la compression d'une vidéo.
+
+### 🛠️ Améliorations
+- Champ « Durée de l'ePoc » à la place de la durée des chapitres (dépréciée).
+- Meilleure détection des erreurs de compression vidéo (la vidéo originale est importée en cas d'échec).
+- Mise à jour du player pour la prévisualisation et les exports HTML et SCORM.
+
+### 🐛 Corrections de bugs
+- Correction de la compression des vidéos bloquée à 0 %.
+- Désactivation des statistiques dans la prévisualisation.
+
+## Version 0.5.0 (23 octobre 2026)
+### ✨ Fonctionnalités
+- Export des ePocs en HTML et en SCORM.
+- Compression automatique des vidéos importées (désactivable dans les paramètres).
+
+### 🛠️ Améliorations
+- Identifiant de l'ePoc plus visible.
+- « Auteurs » renommé en « Crédits ».
+
+### 🐛 Corrections de bugs
+- Correction du formulaire des badges qui ne s'affichait pas.
+
 ## Version 0.4.2 (9 mars 2026)
 ### 🐛 Bug Fixes
 - Fix epoc objectives, Thanks  Guillaume Montagné
