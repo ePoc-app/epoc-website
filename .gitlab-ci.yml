@@ -3,7 +3,7 @@ stages:
   - deploy
 
 variables:
-  DEPLOY_HOST: epoc.inria.fr
+  DEPLOY_HOST: mooc-epoc.inria.fr
   DEPLOY_PATH: /var/www/html
 
 build:
