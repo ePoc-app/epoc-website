@@ -47,5 +47,19 @@ export default defineNuxtConfig({
     join(currentDir, './assets/css/theme-inria.css'),
   ],
 
-  modules: ['@nuxtjs/sitemap']
+  modules: [
+    '@nuxtjs/sitemap',
+    // i18n duplique la route de redirection /sitemap.xml (ajoutée par le module sitemap) en /en/sitemap.xml,
+    // rendue sinon comme une page de contenu inexistante (404 au prerender) : on retire cette copie
+    (_, nuxt) => {
+      nuxt.hook('modules:done', () => {
+        for (const hook of ['pages:extend', 'pages:resolved'] as const) {
+          nuxt.hook(hook, (pages) => {
+            const index = pages.findIndex((page) => page.path === '/en/sitemap.xml');
+            if (index !== -1) pages.splice(index, 1);
+          });
+        }
+      });
+    },
+  ]
 });
