@@ -1,0 +1,45 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  DEPLOY_HOST: epoc.inria.fr
+  DEPLOY_PATH: /var/www/html
+
+build:
+  stage: build
+  image: node:22
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - .npm/
+  script:
+    - npm ci --cache .npm --prefer-offline
+    - npm run generate
+  artifacts:
+    paths:
+      - .output/public/
+    expire_in: 1 week
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+
+deploy:
+  stage: deploy
+  image: alpine:3.20
+  needs: [build]
+  environment:
+    name: production
+    url: https://epoc.inria.fr
+  before_script:
+    - apk add --no-cache openssh-client rsync
+    - mkdir -p ~/.ssh && chmod 700 ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" | base64 -d > ~/.ssh/id_deploy && chmod 600 ~/.ssh/id_deploy
+    - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts && chmod 644 ~/.ssh/known_hosts
+  script:
+    # Pas de --delete : le serveur contient des fichiers hors dépôt (dossier site/, APK, .well-known…)
+    - rsync -rlzv --checksum -e "ssh -i ~/.ssh/id_deploy" .output/public/ "${DEPLOY_USER:-brospars}@${DEPLOY_HOST}:${DEPLOY_PATH}/"
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
