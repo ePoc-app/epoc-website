@@ -44,21 +44,15 @@ The ePoc editor is a desktop application that allows you to design, build, and p
 <iframe class="shadow-xl outline-none w-full aspect-video" src="https://www.youtube.com/embed/86lbMmM03FU?modestbranding=1&amp;autohide=1&amp;rel=0&amp;showinfo=0" title="YouTube video player" allowfullscreen=""></iframe>
 ::
 
-::card
+::newsletter-box
 #title
 Subscribe to our Newsletter 💌
 
 #description
 To receive news about the application, editor, and ePoc training.
 
-#content
-::newsletter-box
----
-placeholder: Enter your email
----
 #button
 Subscribe
-::
 ::
 
 ::section-title

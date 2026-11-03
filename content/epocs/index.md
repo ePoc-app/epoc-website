@@ -31,21 +31,15 @@ Les ePocs [Inria Learning lab](https://learninglab.inria.fr/), des formations co
 ::directory
 ::
 
-::card
+::newsletter-box
 #title
 Inscrivez-vous à notre Newsletter 💌
 
 #description
 Pour recevoir les actualités à propos de l'application, de l'éditeur et des formations ePoc.
 
-#content
-::newsletter-box
----
-placeholder: Entrez votre email
----
 #button
 S'abonner
-::
 ::
 
 

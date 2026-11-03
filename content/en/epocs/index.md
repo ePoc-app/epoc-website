@@ -31,19 +31,13 @@ The ePocs from [Inria Learning lab](https://learninglab.inria.fr/), short and en
 ::directory
 ::
 
-::card
+::newsletter-box
 #title
 Subscribe to our Newsletter 💌
 
 #description
 To receive news about the application, editor, and ePoc trainings.
 
-#content
-::newsletter-box
----
-placeholder: Enter your email
----
 #button
 Subscribe
-::
 ::

@@ -43,21 +43,15 @@ ePoc (**e**lectronic **P**ocket **o**pen **c**ourse) is a complete free and open
 ![ePoc Mobile App screenshots](/images/epoc-promo-blanc.png)
 ::
 
-::card
+::newsletter-box
 #title
 Subscribe to our Newsletter 💌
 
 #description
 To receive news about the application, editor, and ePoc training.
 
-#content
-    ::newsletter-box
-    ---
-    placeholder: Enter your email
-    ---
-    #button
-    Subscribe
-    ::
+#button
+Subscribe
 ::
 
 ::section-title 

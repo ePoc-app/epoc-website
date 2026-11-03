@@ -42,21 +42,15 @@ ePoc (**e**lectronic **P**ocket **o**pen **c**ourse) est une solution complète 
 ![Captures d'écran de l'application mobile ePoc](/images/epoc-promo-blanc.png)
 ::
 
-::card
+::newsletter-box
 #title
 Inscrivez-vous à notre lettre d'information 💌
 
 #description
 Pour recevoir les actualités à propos de l'application, de l'éditeur et des formations ePoc.
 
-#content
-    ::newsletter-box
-    ---
-    placeholder: Entrez votre email
-    ---
-    #button
-    S'abonner
-    ::
+#button
+S'abonner
 ::
 
 ::section-title

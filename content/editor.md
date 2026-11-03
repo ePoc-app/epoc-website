@@ -44,21 +44,15 @@ L'éditeur ePoc est une application de bureau permettant de concevoir, construir
 <iframe class="shadow-xl outline-none w-full aspect-video" src="https://www.youtube.com/embed/86lbMmM03FU?modestbranding=1&amp;autohide=1&amp;rel=0&amp;showinfo=0" title="YouTube video player" allowfullscreen=""></iframe>
 ::
 
-::card
+::newsletter-box
 #title
 Inscrivez-vous à notre lettre d'information 💌
 
 #description
 Pour recevoir les actualités à propos de l'application, de l'éditeur et des formations ePoc.
 
-#content
-::newsletter-box
----
-placeholder: Entrez votre email
----
 #button
 S'abonner
-::
 ::
 
 ::section-title
