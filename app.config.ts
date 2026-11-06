@@ -143,12 +143,6 @@ export default defineAppConfig({
                             icon: "lucide:braces",
                         },
                         {
-                            title: "Editeur de diagramme mermaid",
-                            to: "/tools/mermaid-editor",
-                            description: "Outil pour générer le code d'un diagramme mermaid",
-                            icon: "lucide:git-fork",
-                        },
-                        {
                             title: "Générateur de QR Code",
                             to: "/tools/qr-code-generator",
                             description: "Outil pour générer des QR Codes pour importer une ePoc à partir d'un lien",
