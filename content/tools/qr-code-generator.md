@@ -11,7 +11,9 @@ main:
 ::qr-code
 ::
 
-Cet outil permet de générer des QR codes pour des liens de téléchargement direct afin de pouvoir être importer dans votre application ePoc mobile.
+Cet outil permet de générer des QR codes pour des liens de téléchargement direct d'un ePoc (fichier `.epoc` ou `.zip`) ou d'une collection d'ePocs (fichier `.json`), afin de pouvoir les importer dans votre application ePoc mobile. Un titre facultatif peut être affiché sous le QR code.
+
+À la génération, l'outil vérifie que le lien est accessible publiquement au téléchargement.
 
 Il ne prend en charge la conversion en QR code des liens de partage des services suivants :
 
